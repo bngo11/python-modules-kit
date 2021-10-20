@@ -7,7 +7,7 @@ inherit bash-completion-r1 distutils-r1
 
 DESCRIPTION="Universal Command Line Environment for AWS"
 HOMEPAGE="https://pypi.org/project/awscli/"
-SRC_URI="https://files.pythonhosted.org/packages/bd/95/3a922ef418169ecc3cbabdbeee30dbeea02ef5917f1036c2d9f330e01541/awscli-1.20.65.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/00/5ba0a29bc210fc161dfd9ce5c199763f2630fb230ee785669e8b7b856efc/awscli-1.21.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
