@@ -13,7 +13,7 @@ SLOT="0"
 IUSE="doc test"
 RESTRICT="!test? ( test )"
 
-SRC_URI="https://files.pythonhosted.org/packages/b9/79/906905dd6f1208b4fb18a48c74c4994fdd6ccfc7c9a49652cbba879a2885/botocore-1.22.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/ac/1f6352fd56c3240f5707a3cbefc67085128f41492eb90239d8739228f594/botocore-1.22.1.tar.gz"
 KEYWORDS="*"
 
 RDEPEND="
