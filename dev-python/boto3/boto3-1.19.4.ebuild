@@ -13,7 +13,7 @@ SLOT="0"
 IUSE="doc test"
 RESTRICT="!test? ( test )"
 
-SRC_URI="https://files.pythonhosted.org/packages/d9/91/1dc0a7d0ac74366d86d1860f7f9ffd9f6f80a01e0c2b798412fafcc548bb/boto3-1.19.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/51/92050eefd9fffbdca57672d9161122721834b0517d05745b3db7e4946714/boto3-1.19.4.tar.gz"
 KEYWORDS="*"
 
 RDEPEND="
