@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python parsing module"
 HOMEPAGE="https://github.com/pyparsing/pyparsing/ https://pypi.org/project/pyparsing/"
-SRC_URI="https://files.pythonhosted.org/packages/31/c9/b29ea153b9bffaae787ecc81873b4b51bd36cc13c37586b41891beae37eb/pyparsing-3.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a0/e4/2bae99e2bbdeb17c7cb9c2f7ef6022383ffcab8461d2ec339ff19ce4a969/pyparsing-3.0.3.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyparsing-3.0.1"
+S="${WORKDIR}/pyparsing-3.0.3"
