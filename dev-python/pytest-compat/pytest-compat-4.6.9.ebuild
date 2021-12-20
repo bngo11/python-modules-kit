@@ -12,12 +12,11 @@ SRC_URI="https://files.pythonhosted.org/packages/ec/2e/1602fca477ab3ccb1952f07db
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="!<dev-python/pytest-6.1.1 
-	>=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/iniconfig[${PYTHON_USEDEP}]
-	>=dev-python/more-itertools-4[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-0.12[${PYTHON_USEDEP}]
-	<dev-python/pluggy-1[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2[${PYTHON_USEDEP}]
 	>=dev-python/py-1.8.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
