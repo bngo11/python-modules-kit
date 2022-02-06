@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python library providing a few tools handling SemVer in Python"
 HOMEPAGE="https://pypi.org/project/semantic_version/"
-SRC_URI="https://files.pythonhosted.org/packages/d4/52/3be868c7ed1f408cb822bc92ce17ffe4e97d11c42caafce0589f05844dd0/semantic_version-2.8.5.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/cb/56/4aa487b46d09646eb1863faa7026551d8309ece2281794bf13b20f28ab94/semantic_version-2.9.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/semantic_version-2.8.5"
+S="${WORKDIR}/semantic_version-2.9.0"
