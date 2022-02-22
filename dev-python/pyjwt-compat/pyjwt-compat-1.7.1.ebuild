@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2_7 )
-inherit distutils-r1
+inherit distutils-r1 eutils
 
 DESCRIPTION="JSON Web Token implementation in Python"
 HOMEPAGE="https://github.com/jpadilla/pyjwt https://pypi.org/project/PyJWT/"
@@ -17,7 +17,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyjwt-1.7.1"
+S="${WORKDIR}/PyJWT-1.7.1"
 
 pkg_postinst() {
 	elog "Available optional features:"
