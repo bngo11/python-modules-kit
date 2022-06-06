@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python3_8+ )
 inherit distutils-r1
 
 DESCRIPTION="Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
