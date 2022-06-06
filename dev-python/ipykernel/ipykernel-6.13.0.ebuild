@@ -21,6 +21,7 @@ RDEPEND="
 	dev-python/jupyter_client[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-4.1.0[${PYTHON_USEDEP}]
 	>=www-servers/tornado-4.0[${PYTHON_USEDEP}]
+	dev-python/stack_data[${PYTHON_USEDEP}]
 "
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
