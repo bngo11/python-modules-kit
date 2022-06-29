@@ -16,9 +16,14 @@ DEPEND="
 	$(python_gen_cond_dep '
 	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	' -3
+	)
+	$(python_gen_cond_dep '
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	' python3_7
 	)"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/setuptools_scm-compat )
+	!<=dev-python/setuptools_scm-7.0.2
 	$(python_gen_cond_dep '
 	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	' -3
