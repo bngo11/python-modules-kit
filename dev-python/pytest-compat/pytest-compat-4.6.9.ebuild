@@ -29,13 +29,12 @@ RDEPEND="!<dev-python/pytest-6.1.1
 	)
 	$(python_gen_cond_dep '
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' -2 python3_6 python3_7 pypy3
+	' pypy3 -2 python3_6 python3_7
 	)"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/pytest-4.6.9"
 
 post_src_install() {

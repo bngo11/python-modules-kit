@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="the blessed package to manage your versions by scm tags"
 HOMEPAGE="https://github.com/pypa/setuptools_scm/ https://pypi.org/project/setuptools-scm/"
-SRC_URI="https://files.pythonhosted.org/packages/43/70/aff5e3c2463b08997e21f5f961d6ebfd32ce56d6026394664d6a10090cbb/setuptools_scm-7.0.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/bc/e6/ac8b0c5076321b9b3e4318c32a8911a260d019be6584556a0b83a47dab4b/setuptools_scm-7.0.3.tar.gz
 "
 
 DEPEND="
@@ -16,14 +16,9 @@ DEPEND="
 	$(python_gen_cond_dep '
 	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	' -3
-	)
-	$(python_gen_cond_dep '
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' python3_7
 	)"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/setuptools_scm-compat )
-	!<=dev-python/setuptools_scm-7.0.2
 	$(python_gen_cond_dep '
 	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	' -3
@@ -32,5 +27,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
-S="${WORKDIR}/setuptools_scm-7.0.2"
+PATCHES=(
+	"$FILESDIR"/setuptools_scm-7.0.2-importlib-metadata.patch
+)
+S="${WORKDIR}/setuptools_scm-7.0.3"
