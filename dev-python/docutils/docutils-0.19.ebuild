@@ -9,7 +9,7 @@ inherit distutils-r1
 DESCRIPTION="Python Documentation Utilities"
 HOMEPAGE="http://docutils.sourceforge.net/ https://pypi.org/project/docutils/"
 #SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
-SRC_URI="https://files.pythonhosted.org/packages/57/b1/b880503681ea1b64df05106fc7e3c4e3801736cf63deffc6fa7fc5404cf5/docutils-0.18.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6b/5c/330ea8d383eb2ce973df34d1239b3b21e91cd8c865d21ff82902d952f91f/docutils-0.19.tar.gz"
 
 LICENSE="BSD-2 GPL-3 public-domain"
 SLOT="0"

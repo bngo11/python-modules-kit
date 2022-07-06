@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Command-line YAML/XML processor - jq wrapper for YAML/XML documents"
 HOMEPAGE="https://yq.readthedocs.io/ https://github.com/kislyuk/yq/ https://pypi.org/project/yq/"
-SRC_URI="https://files.pythonhosted.org/packages/4b/31/6f26d1df7f8694479adeafa1f619dd2cfd9502089eac23bdf7fa342c9aaf/yq-3.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/fc/0b/93a830fe6f75acaf2c052966b2c5f98aa3a18c08ca99b1621b60dd74e453/yq-3.0.2.tar.gz
 "
 
 DEPEND=""
@@ -22,4 +22,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/yq-3.0.1"
+S="${WORKDIR}/yq-3.0.2"
