@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Library for manipulating TrueType, OpenType, AFM and Type1 fonts"
-HOMEPAGE="https://github.com/fonttools/fonttools/"
+DESCRIPTION=""
+HOMEPAGE="http://github.com/fonttools/fonttools https://pypi.org/project/fonttools/"
 SRC_URI="https://files.pythonhosted.org/packages/5a/a4/a97cff4c4af6764a04cc202299e5205b2e101cb1543bcaf9737be29f78ab/fonttools-4.34.4.zip
 "
 
