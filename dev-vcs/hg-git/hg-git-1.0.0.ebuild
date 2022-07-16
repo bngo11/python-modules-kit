@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="http://foss.heptapod.net/mercurial/hg-git https://pypi.org/project/hg-git/"
-SRC_URI="https://files.pythonhosted.org/packages/8c/db/7f7f3482c67e707bb6a34737e91556174a315a48e065223a8ee127bbb4d1/hg-git-1.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/8c/db/7f7f3482c67e707bb6a34737e91556174a315a48e065223a8ee127bbb4d1/hg-git-1.0.0.tar.gz -> hg-git-1.0.0.tar.gz
 "
 
 DEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://qtile.org https://pypi.org/project/qtile/"
-SRC_URI="https://files.pythonhosted.org/packages/a4/7e/4f3921eda7e3912aa7487b0455e1993a638d99cf6075205de3cf8a13f291/qtile-0.21.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a4/7e/4f3921eda7e3912aa7487b0455e1993a638d99cf6075205de3cf8a13f291/qtile-0.21.0.tar.gz -> qtile-0.21.0.tar.gz
 "
 
 DEPEND=""

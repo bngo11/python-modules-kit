@@ -306,7 +306,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/a7/76/d93d9d6d28d97a950b04efe05cc420c551610b2d365d22df757cc8cf52f6/maturin-0.13.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a7/76/d93d9d6d28d97a950b04efe05cc420c551610b2d365d22df757cc8cf52f6/maturin-0.13.0.tar.gz -> maturin-0.13.0.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
