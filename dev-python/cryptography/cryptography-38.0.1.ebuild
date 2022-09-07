@@ -8,8 +8,8 @@ CRATES="
 Inflector-0.11.4
 aliasable-0.1.3
 android_system_properties-0.1.5
-asn1-0.12.1
-asn1_derive-0.12.1
+asn1-0.12.2
+asn1_derive-0.12.2
 autocfg-1.1.0
 base64-0.13.0
 bitflags-1.3.2
@@ -65,7 +65,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyca/cryptography https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/53/e6/9a144127f3a1c1e6d9c4d305390d82a38e9e0fc7e34166c44f59a1576247/cryptography-38.0.0.tar.gz -> cryptography-38.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/6d/0c/5e67831007ba6cd7e52c4095f053cf45c357739b0a7c46a45ddd50049019/cryptography-38.0.1.tar.gz -> cryptography-38.0.1.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -94,7 +94,7 @@ IUSE="cpu_flags_x86_sse2 libressl idna python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-38.0.0"
+S="${WORKDIR}/cryptography-38.0.1"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
