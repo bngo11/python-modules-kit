@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://toolbelt.readthedocs.io/ https://pypi.org/project/requests-toolbelt/"
-SRC_URI="https://files.pythonhosted.org/packages/57/d6/20857446a2b81136dd02eed6d198343ce7a045ce8c06d4cb73fd2fee9001/requests-toolbelt-0.10.0.tar.gz -> requests-toolbelt-0.10.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/0c/4c/07f01c6ac44f7784fa399137fbc8d0cdc1b5d35304e8c0f278ad82105b58/requests-toolbelt-0.10.1.tar.gz -> requests-toolbelt-0.10.1.tar.gz
 "
 
 DEPEND=""
@@ -17,6 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/requests-toolbelt-0.10.0"
+S="${WORKDIR}/requests-toolbelt-0.10.1"
 
 DOCS=( AUTHORS.rst HISTORY.rst README.rst )
