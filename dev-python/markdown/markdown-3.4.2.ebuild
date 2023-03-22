@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="https://Python-Markdown.github.io/ https://pypi.org/project/Markdown/"
-SRC_URI="https://files.pythonhosted.org/packages/85/7e/133e943e97a943d2f1d8bae0c5060f8ac50e6691754eb9dbe036b047a9bb/Markdown-3.4.1.tar.gz -> Markdown-3.4.1.tar.gz
+HOMEPAGE=" https://pypi.org/project/Markdown/"
+SRC_URI="https://files.pythonhosted.org/packages/66/bf/a7c9e8cc23c105633b74e3280c2b06d13273da0df389e59395188d440017/Markdown-3.4.2.tar.gz -> Markdown-3.4.2.tar.gz
 "
 
 DEPEND=""
@@ -21,4 +21,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Markdown-3.4.1"
+S="${WORKDIR}/Markdown-3.4.2"
