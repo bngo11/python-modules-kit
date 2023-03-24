@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/Markdown/"
-SRC_URI="https://files.pythonhosted.org/packages/66/bf/a7c9e8cc23c105633b74e3280c2b06d13273da0df389e59395188d440017/Markdown-3.4.2.tar.gz -> Markdown-3.4.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9d/80/cc67bfb7deb973d5ae662ee6454d2dafaa8f7c106feafd0d1572666ebde5/Markdown-3.4.3.tar.gz -> Markdown-3.4.3.tar.gz
 "
 
 DEPEND=""
@@ -15,10 +15,10 @@ RDEPEND="
 	python_targets_python2_7? ( dev-python/markdown-compat )
 	$(python_gen_cond_dep '
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' pypy3 -3
+	' -3 pypy3
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Markdown-3.4.2"
+S="${WORKDIR}/Markdown-3.4.3"
