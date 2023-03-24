@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope i18nmessageid Architecture"
 HOMEPAGE="https://github.com/zopefoundation/zope.i18nmessageid http://docs.zope.org/zope.i18nmessageid/"
-SRC_URI="https://files.pythonhosted.org/packages/2b/d9/8bb6a5344ddff3c4a31e264ae942bf129964e1c080dc3aefdb6d0c57b49d/zope.i18nmessageid-6.0.0.tar.gz -> zope.i18nmessageid-6.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/0a/2f7ef863b4a19b01c87558edea49d155908f3588d02e3269bbf3b42164b1/zope.i18nmessageid-6.0.1.tar.gz -> zope.i18nmessageid-6.0.1.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

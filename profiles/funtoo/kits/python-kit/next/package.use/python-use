@@ -3,7 +3,7 @@
 =dev-python/Numdifftools-0.9.14 python_single_target_python2_7 python_targets_python2_7
 =dev-python/carbon-0.9.13 python_single_target_python2_7 python_targets_python2_7
 =dev-python/carbon-0.9.13-r1 python_single_target_python2_7 python_targets_python2_7
-=dev-python/cov-core-1.7 python_single_target_pypy3 python_targets_pypy3
+=dev-python/cov-core-1.7 python_single_target_python2_7 python_targets_python2_7
 =dev-python/discogs-client-2.0.2 python_single_target_python2_7 python_targets_python2_7
 =dev-python/django-auth-ldap-1.2.2 python_single_target_python2_7 python_targets_python2_7
 =dev-python/django-auth-ldap-1.2.7 python_single_target_python2_7 python_targets_python2_7
@@ -129,7 +129,7 @@ dev-python/functools32 python_single_target_python2_7 python_targets_python2_7
 dev-python/futures python_single_target_python2_7 python_targets_python2_7
 dev-python/gconf-python python_single_target_python2_7 python_targets_python2_7
 dev-python/gdata python_single_target_python2_7 python_targets_python2_7
-dev-python/gevent python_single_target_pypy3 python_targets_pypy3
+dev-python/gevent python_single_target_python3_8+ python_targets_python3_8+
 dev-python/gnome-python-base python_single_target_python2_7 python_targets_python2_7
 dev-python/gnome-python-desktop-base python_single_target_python2_7 python_targets_python2_7
 dev-python/gnome-python-extras-base python_single_target_python2_7 python_targets_python2_7
@@ -274,5 +274,5 @@ dev-python/zipp-compat python_single_target_python2_7 python_targets_python2_7
 dev-python/zsi python_single_target_python2_7 python_targets_python2_7
 dev-python/zstandard-compat python_single_target_python2_7 python_targets_python2_7
 dev-util/scons-compat python_single_target_python2_7 python_targets_python2_7
-virtual/python-greenlet python_single_target_pypy3 python_targets_pypy3
+virtual/python-greenlet python_single_target_python2_7 python_targets_python2_7
 www-servers/tornado-compat python_single_target_python2_7 python_targets_python2_7
