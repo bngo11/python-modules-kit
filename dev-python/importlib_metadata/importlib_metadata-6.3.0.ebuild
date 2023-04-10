@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/python/importlib_metadata https://pypi.org/project/importlib-metadata/"
-SRC_URI="https://files.pythonhosted.org/packages/3f/24/69442c79335591a2dfe3c9b796ae79348c49bc50c8f2886063d1b0e1e5f3/importlib_metadata-6.2.0.tar.gz -> importlib_metadata-6.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/c2/84/ab374b7e05fbdeecf867294660ac0fdb23aa286aca68a31d587f67d181ad/importlib_metadata-6.3.0.tar.gz -> importlib_metadata-6.3.0.tar.gz
 "
 
 DEPEND=""
@@ -24,6 +24,6 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/importlib_metadata-6.2.0"
+S="${WORKDIR}/importlib_metadata-6.3.0"
 
 distutils_enable_sphinx "${PN}/docs" '>=dev-python/rst-linker-1.9'
