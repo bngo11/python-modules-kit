@@ -26,7 +26,3 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/poetry_core-1.6.1"
-
-post_src_unpack() {
-	mv poetry_core*  "${S}" || die
-}

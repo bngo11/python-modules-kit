@@ -11,11 +11,11 @@ SRC_URI="https://files.pythonhosted.org/packages/a7/8c/55c629849c64e665258d89763
 "
 
 DEPEND=""
-RDEPEND="!<=dev-python/pluggy-1.0.0 dev-python/importlib_metadata[${PYTHON_USEDEP}]"
+RDEPEND="!<=dev-python/pluggy-1.0.0 "
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
-KEYWORDS="*"
+KEYWORDS="next"
 S="${WORKDIR}/pluggy-0.9.0"
 
 post_src_install() {

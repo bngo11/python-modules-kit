@@ -12,6 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/e3/57/87da2c5adc173950ebe9f1acc
 "
 
 DEPEND="
+	$(python_gen_cond_dep '<=dev-python/pluggy-1.2.0[${PYTHON_USEDEP}]' python3_7)
 	dev-python/pathspec[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
@@ -24,5 +25,5 @@ RDEPEND="
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
-KEYWORDS="*"
+KEYWORDS="next"
 S="${WORKDIR}/hatchling-1.18.0"
