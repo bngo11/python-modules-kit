@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="World timezone definitions, modern and historical"
 HOMEPAGE="http://pythonhosted.org/pytz https://pypi.org/project/pytz/"
-SRC_URI="https://files.pythonhosted.org/packages/69/4f/7bf883f12ad496ecc9514cd9e267b29a68b3e9629661a2bbc24f80eff168/pytz-2023.3.post1.tar.gz -> pytz-2023.3.post1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/90/26/9f1f00a5d021fff16dee3de13d43e5e978f3d58928e129c3a62cf7eb9738/pytz-2024.1.tar.gz -> pytz-2024.1.tar.gz"
 
 DEPEND="
 	sys-libs/timezone-data
@@ -19,7 +19,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pytz-2023.3.post1"
+S="${WORKDIR}/pytz-2024.1"
 
 src_prepare() {
 		default
