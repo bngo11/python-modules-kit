@@ -1,0 +1,30 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( {{python_compat}} )
+
+inherit distutils-r1
+
+DESCRIPTION="Extract data from Python tracebacks for informative displays"
+HOMEPAGE="https://github.com/alexmojaki/stack_data"
+SRC_URI="{{artifacts[0].src_uri}}"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="*"
+
+RDEPEND="
+	dev-python/asttokens[${PYTHON_USEDEP}]
+	dev-python/executing[${PYTHON_USEDEP}]
+	dev-python/pure_eval[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/cython[${PYTHON_USEDEP}]
+		dev-python/typeguard[${PYTHON_USEDEP}]
+		dev-python/littleutils[${PYTHON_USEDEP}]
+		dev-python/pygments[${PYTHON_USEDEP}]
+	)"
+
+distutils_enable_tests pytest
