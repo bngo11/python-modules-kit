@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-python/jupyter_core-5.1[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-23.0[${PYTHON_USEDEP}]
-	>=dev-python/tornado-6.0[${PYTHON_USEDEP}]
+	>=www-servers/tornado-6.0[${PYTHON_USEDEP}]
 	dev-python/traitlets[${PYTHON_USEDEP}]
 	>=dev-python/importlib_metadata-4.8.3[${PYTHON_USEDEP}]
 "

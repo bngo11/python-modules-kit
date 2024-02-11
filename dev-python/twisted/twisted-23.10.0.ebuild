@@ -4,7 +4,6 @@ EAPI=7
 
 DISTUTILS_USE_PEP517=hatchling
 PYTHON_COMPAT=( python3+ pypy3 )
-PYTHON_COMPAT=( "${PYTHON_TESTED[@]}" )
 PYTHON_REQ_USE="threads(+)"
 
 inherit distutils-r1 virtualx
@@ -57,23 +56,21 @@ BDEPEND="
 	>=dev-python/incremental-22.10.0[${PYTHON_USEDEP}]
 	test? (
 		${RDEPEND}
-		$(python_gen_cond_dep '
-			>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
-			>=dev-python/bcrypt-3.0.0[${PYTHON_USEDEP}]
-			>=dev-python/constantly-15.1.0[${PYTHON_USEDEP}]
-			<dev-python/cython-test-exception-raiser-2[${PYTHON_USEDEP}]
-			>=dev-python/cython-test-exception-raiser-1.0.2[${PYTHON_USEDEP}]
-			>=dev-python/idna-2.4[${PYTHON_USEDEP}]
-			>=dev-python/hypothesis-6.56[${PYTHON_USEDEP}]
-			dev-python/pyasn1[${PYTHON_USEDEP}]
-			>=dev-python/pyhamcrest-2[${PYTHON_USEDEP}]
-			>=dev-python/pyserial-3.0[${PYTHON_USEDEP}]
-			virtual/openssh
-			ssl? (
-				>=dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
-				>=dev-python/service-identity-18.1.0[${PYTHON_USEDEP}]
-			)
-		' "${PYTHON_TESTED[@]}")
+		>=dev-python/appdirs-1.4.0[${PYTHON_USEDEP}]
+		>=dev-python/bcrypt-3.0.0[${PYTHON_USEDEP}]
+		>=dev-python/constantly-15.1.0[${PYTHON_USEDEP}]
+		<dev-python/cython-test-exception-raiser-2[${PYTHON_USEDEP}]
+		>=dev-python/cython-test-exception-raiser-1.0.2[${PYTHON_USEDEP}]
+		>=dev-python/idna-2.4[${PYTHON_USEDEP}]
+		>=dev-python/hypothesis-6.56[${PYTHON_USEDEP}]
+		dev-python/pyasn1[${PYTHON_USEDEP}]
+		>=dev-python/pyhamcrest-2[${PYTHON_USEDEP}]
+		>=dev-python/pyserial-3.0[${PYTHON_USEDEP}]
+		virtual/openssh
+		ssl? (
+			>=dev-python/pyopenssl-21.0.0[${PYTHON_USEDEP}]
+			>=dev-python/service-identity-18.1.0[${PYTHON_USEDEP}]
+		)
 	)
 "
 
@@ -100,11 +97,6 @@ src_test() {
 }
 
 python_test() {
-	if ! has "${EPYTHON}" "${PYTHON_TESTED[@]/_/.}"; then
-		einfo "Skipping tests on ${EPYTHON} (xfail)"
-		return
-	fi
-
 	"${EPYTHON}" -m twisted.trial twisted ||
 		die "Tests failed with ${EPYTHON}"
 }
