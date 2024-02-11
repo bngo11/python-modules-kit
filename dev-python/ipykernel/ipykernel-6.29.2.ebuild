@@ -27,14 +27,14 @@ RDEPEND="
 		' 'python*')
 	)
 	>=dev-python/ipython-7.23.1[${PYTHON_USEDEP}]
-	>=dev-python/jupyter-client-8[${PYTHON_USEDEP}]
-	>=dev-python/jupyter-core-4.12[${PYTHON_USEDEP}]
+	>=dev-python/jupyter_client-8[${PYTHON_USEDEP}]
+	>=dev-python/jupyter_core-4.12[${PYTHON_USEDEP}]
 	>=dev-python/matplotlib-inline-0.1[${PYTHON_USEDEP}]
-	dev-python/nest-asyncio[${PYTHON_USEDEP}]
+	dev-python/nest_asyncio[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-24[${PYTHON_USEDEP}]
-	>=dev-python/tornado-6.1[${PYTHON_USEDEP}]
+	>=www-servers/tornado-6.1[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-5.4.0[${PYTHON_USEDEP}]
 "
 # RDEPEND seems specifically needed in BDEPEND, at least jupyter

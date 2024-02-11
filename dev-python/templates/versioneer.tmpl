@@ -7,15 +7,12 @@ PYTHON_COMPAT=( {{python_compat}} )
 
 inherit distutils-r1
 
-# XXX: drop .retag on next version
-MY_P=python-versioneer-${PV}
 DESCRIPTION="Easy VCS-based management of project version strings"
 HOMEPAGE="
 	https://pypi.org/project/versioneer/
 	https://github.com/python-versioneer/python-versioneer/
 "
 SRC_URI="{{artifacts[0].src_uri}}"
-S=${WORKDIR}/${MY_P}
 
 SLOT="0"
 LICENSE="Unlicense"

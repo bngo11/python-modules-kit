@@ -7,15 +7,12 @@ PYTHON_COMPAT=( python3+ pypy3 )
 
 inherit distutils-r1
 
-# XXX: drop .retag on next version
-MY_P=python-versioneer-${PV}
 DESCRIPTION="Easy VCS-based management of project version strings"
 HOMEPAGE="
 	https://pypi.org/project/versioneer/
 	https://github.com/python-versioneer/python-versioneer/
 "
 SRC_URI="https://files.pythonhosted.org/packages/32/d7/854e45d2b03e1a8ee2aa6429dd396d002ce71e5d88b77551b2fb249cb382/versioneer-0.29.tar.gz -> versioneer-0.29.tar.gz"
-S=${WORKDIR}/${MY_P}
 
 SLOT="0"
 LICENSE="Unlicense"
