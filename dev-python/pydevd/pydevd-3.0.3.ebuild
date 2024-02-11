@@ -8,15 +8,12 @@ PYTHON_COMPAT=( python3+ pypy3 )
 
 inherit distutils-r1 toolchain-funcs
 
-TAG="pydev_debugger_${PV//./_}"
-MY_P="PyDev.Debugger-${TAG}"
 DESCRIPTION="PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)"
 HOMEPAGE="
 	https://github.com/fabioz/PyDev.Debugger/
 	https://pypi.org/project/pydevd/
 "
 SRC_URI="https://files.pythonhosted.org/packages/41/8b/3f1199e3b6c37fe873c3cce36819616fc30eccee3e80759ab6319536e395/pydevd-3.0.3.tar.gz -> pydevd-3.0.3.tar.gz"
-S=${WORKDIR}/${MY_P}
 
 LICENSE="EPL-1.0"
 SLOT="0"
@@ -46,17 +43,11 @@ python_prepare_all() {
 		-e '/extra_compile_args/d' \
 		setup.py || die
 
-	# Disable tests incompatible with new package versions
-	sed -e '/TEST_\(DJANGO\|FLASK\)/s:True:False:' \
-		-i tests_python/debug_constants.py || die
-
 	# Clean up some prebuilt files
-	rm -r third_party || die
 	cd pydevd_attach_to_process || die
 
 	# Remove these Windows files
 	rm attach_{amd64,x86}.dll || die
-	rm inject_dll_{amd64,x86}.exe || die
 	rm run_code_on_dllmain_{amd64,x86}.dll || die
 	rm -r windows winappdbg || die
 

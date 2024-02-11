@@ -8,15 +8,12 @@ PYTHON_COMPAT=( {{python_compat}} )
 
 inherit distutils-r1 toolchain-funcs
 
-TAG="pydev_debugger_${PV//./_}"
-MY_P="PyDev.Debugger-${TAG}"
 DESCRIPTION="PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)"
 HOMEPAGE="
 	https://github.com/fabioz/PyDev.Debugger/
 	https://pypi.org/project/pydevd/
 "
 SRC_URI="{{artifacts[0].src_uri}}"
-S=${WORKDIR}/${MY_P}
 
 LICENSE="EPL-1.0"
 SLOT="0"
@@ -46,17 +43,11 @@ python_prepare_all() {
 		-e '/extra_compile_args/d' \
 		setup.py || die
 
-	# Disable tests incompatible with new package versions
-	sed -e '/TEST_\(DJANGO\|FLASK\)/s:True:False:' \
-		-i tests_python/debug_constants.py || die
-
 	# Clean up some prebuilt files
-	rm -r third_party || die
 	cd pydevd_attach_to_process || die
 
 	# Remove these Windows files
 	rm attach_{amd64,x86}.dll || die
-	rm inject_dll_{amd64,x86}.exe || die
 	rm run_code_on_dllmain_{amd64,x86}.dll || die
 	rm -r windows winappdbg || die
 

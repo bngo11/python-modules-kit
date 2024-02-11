@@ -15,7 +15,7 @@ index 0bb4f00..abfce1c 100644
  DEBUGBY_ROOT = os.path.dirname(os.path.abspath(debugpy.__file__))
  
  
-@@ -146,8 +144,6 @@ if __name__ == "__main__":
+@@ -146,8 +144,6 @@
          extras["platforms"] = platforms
  
      cmds = versioneer.get_cmdclass()
@@ -28,7 +28,7 @@ diff --git a/src/debugpy/_vendored/force_pydevd.py b/src/debugpy/_vendored/force
 index cfd8927..0cb1bca 100644
 --- a/src/debugpy/_vendored/force_pydevd.py
 +++ b/src/debugpy/_vendored/force_pydevd.py
-@@ -8,15 +8,6 @@ import warnings
+@@ -8,15 +8,6 @@
  
  from . import check_modules, prefix_matcher, preimport, vendored
  

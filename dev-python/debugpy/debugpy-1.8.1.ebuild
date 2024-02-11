@@ -39,11 +39,6 @@ python_prepare_all() {
 		"${FILESDIR}/${PN}-1.8.0-unbundle-pydevd.patch"
 	)
 
-	# Drop unnecessary and unrecognized option
-	# __main__.py: error: unrecognized arguments: -n8
-	# Do not timeout
-	sed -e '/addopts/d' -e '/timeout/d' -i pytest.ini || die
-
 	distutils-r1_python_prepare_all
 }
 
