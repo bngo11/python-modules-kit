@@ -1,0 +1,27 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( {{python_compat}} )
+
+inherit distutils-r1
+
+DESCRIPTION="Jalali implementation of Python's datetime module"
+HOMEPAGE="https://github.com/slashmili/python-jalali"
+SRC_URI="{{artifacts[0].src_uri}}"
+
+LICENSE="PYTHON"
+SLOT="0"
+KEYWORDS="*"
+
+BDEPEND="test? ( dev-python/greenlet[${PYTHON_USEDEP}] )"
+
+DOCS=( README )
+
+distutils_enable_tests pytest
+
+EPYTEST_DESELECT=(
+	# unsupported locale setting
+	tests/test_jdatetime.py::TestJDateTime::test_with_fa_locale
+)
