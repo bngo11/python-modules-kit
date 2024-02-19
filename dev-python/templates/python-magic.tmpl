@@ -27,11 +27,6 @@ BDEPEND="
 	)
 "
 
-PATCHES=(
-	# upstream git backports
-	"${FILESDIR}"/${P}-test.patch
-)
-
 distutils_enable_tests unittest
 
 python_test() {

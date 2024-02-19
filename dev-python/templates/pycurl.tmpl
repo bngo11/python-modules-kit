@@ -47,10 +47,6 @@ BDEPEND="
 	)
 "
 
-PATCHES=(
-	"${FILESDIR}"/${PN}-7.45.2-skip-http3-test.patch
-)
-
 distutils_enable_tests pytest
 
 python_prepare_all() {

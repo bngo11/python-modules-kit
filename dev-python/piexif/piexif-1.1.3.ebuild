@@ -13,7 +13,6 @@ HOMEPAGE="
 	https://pypi.org/project/piexif/
 "
 SRC_URI="https://files.pythonhosted.org/packages/fa/84/a3f25cec7d0922bf60be8000c9739d28d24b6896717f44cc4cfb843b1487/piexif-1.1.3.zip -> piexif-1.1.3.zip"
-S="${WORKDIR}/Piexif-${PV}"
 
 LICENSE="MIT"
 SLOT="0"
