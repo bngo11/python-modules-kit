@@ -1,0 +1,39 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+PYTHON_COMPAT=( {{python_compat}} )
+
+inherit distutils-r1 optfeature
+
+DESCRIPTION="A Python module to bypass Cloudflare's anti-bot page"
+HOMEPAGE="https://github.com/VeNoMouS/cloudscraper"
+SRC_URI="{{artifacts[0].src_uri}}"
+
+LICENSE="AGPL-3"
+SLOT="0"
+KEYWORDS="*"
+
+RDEPEND="
+	dev-python/pyparsing[${PYTHON_USEDEP}]
+	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		dev-python/js2py[${PYTHON_USEDEP}]
+		dev-python/pytest-forked[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
+		dev-python/responses[${PYTHON_USEDEP}]
+		net-libs/nodejs
+	)
+"
+
+distutils_enable_tests pytest
+
+pkg_postinst() {
+	optfeature "brotli decompresssion support" "dev-python/brotlipy"
+
+	optfeature "js2py interpreter support" "dev-python/js2py"
+	optfeature "node.js interpreter support" "net-libs/nodejs"
+}

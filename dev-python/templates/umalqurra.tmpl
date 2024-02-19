@@ -1,0 +1,16 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( {{python_compat}} )
+
+inherit distutils-r1
+
+DESCRIPTION="Date Api that support Hijri Umalqurra calendar"
+HOMEPAGE="https://github.com/tytkal/python-hijiri-ummalqura"
+SRC_URI="{{artifacts[0].src_uri}}"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="*"

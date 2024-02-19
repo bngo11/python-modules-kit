@@ -1,0 +1,21 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( {{python_compat}} )
+
+inherit distutils-r1
+
+DESCRIPTION="Emoji for Python"
+HOMEPAGE="
+	https://github.com/carpedm20/emoji/
+	https://pypi.org/project/emoji/
+"
+SRC_URI="{{artifacts[0].src_uri}}"
+
+LICENSE="BSD"
+SLOT="0"
+KEYWORDS="*"
+
+distutils_enable_tests pytest

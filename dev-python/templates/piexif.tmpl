@@ -1,0 +1,41 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( {{python_compat}} )
+
+inherit edos2unix distutils-r1
+
+DESCRIPTION="Exif manipulation with pure Python"
+HOMEPAGE="
+	https://github.com/hMatoba/Piexif/
+	https://pypi.org/project/piexif/
+"
+SRC_URI="{{artifacts[0].src_uri}}"
+S="${WORKDIR}/Piexif-${PV}"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="*"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+BDEPEND="
+	app-arch/unzip
+	test? ( dev-python/pillow[jpeg,${PYTHON_USEDEP}] )
+"
+
+PATCHES=(
+	# From https://github.com/hMatoba/Piexif/pull/109
+	"${FILESDIR}"/${P}-tests-pillow-7.2.0.patch
+)
+
+src_prepare() {
+	edos2unix tests/s_test.py  # to be able to patch it
+	default
+}
+
+python_test() {
+	esetup.py test
+}
