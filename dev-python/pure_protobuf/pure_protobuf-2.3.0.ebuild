@@ -11,7 +11,7 @@ HOMEPAGE="
 	https://github.com/eigenein/protobuf
 	https://pypi.org/project/pure-protobuf/
 "
-SRC_URI="https://files.pythonhosted.org/packages/b9/ce/d58cc3bc4a3dd156316763309a70788cbbc729ef98e44f1ca8e2775755bf/pure_protobuf-3.0.0.tar.gz -> pure_protobuf-3.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/a5/bbca700d6b9ce4c18715255ef162065fa54b295d5d419571285b2db12931/pure_protobuf-2.3.0.tar.gz -> pure_protobuf-2.3.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
