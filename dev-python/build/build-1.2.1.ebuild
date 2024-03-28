@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="A simple, correct Python build frontend"
-HOMEPAGE=" https://pypi.org/project/build/"
-SRC_URI="https://files.pythonhosted.org/packages/23/fc/e3dd5750d16be3e98ea200d8f6b143221d54567d2f08ea181efb686f9948/build-1.2.0.tar.gz -> build-1.2.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/build/"
+SRC_URI="https://files.pythonhosted.org/packages/ce/9e/2d725d2f7729c6e79ca62aeb926492abbc06e25910dd30139d60a68bcb19/build-1.2.1.tar.gz -> build-1.2.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/build-1.2.0"
+S="${WORKDIR}/build-1.2.1"
