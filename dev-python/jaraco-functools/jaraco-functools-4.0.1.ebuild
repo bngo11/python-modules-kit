@@ -15,6 +15,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/${P/-/.}"
+S="${WORKDIR}/jaraco_functools-4.0.1"
 
 distutils_enable_tests pytest
