@@ -7,13 +7,13 @@ inherit distutils-r1
 
 DESCRIPTION="Protocol Buffers using Python type annotations"
 HOMEPAGE="https://github.com/eigenein/protobuf https://pypi.org/project/pure-protobuf/"
-SRC_URI="https://files.pythonhosted.org/packages/25/17/a46f92bcc7e99a2d6995caacf7449e2e9ca81dc70e7f08ca461f5cf8444e/pure_protobuf-3.0.1.tar.gz -> pure_protobuf-3.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/5f/b557dd76c8f1b3b2e3ce048a359bea56096fcef98fc1958c91daa0076d94/pure_protobuf-3.1.0.tar.gz -> pure_protobuf-3.1.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pure_protobuf-3.0.1"
+S="${WORKDIR}/pure_protobuf-3.1.0"
 
 distutils_enable_tests pytest
