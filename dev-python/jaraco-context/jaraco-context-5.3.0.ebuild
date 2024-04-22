@@ -15,6 +15,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/jaraco-context-5.3.0"
+S="${WORKDIR}/${P/-/.}"
 
 distutils_enable_tests pytest
