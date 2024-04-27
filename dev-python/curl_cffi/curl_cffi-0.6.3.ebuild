@@ -20,7 +20,7 @@ S="${WORKDIR}/curl_cffi-0.6.3"
 
 src_prepare() {
 	default
-	sed -i -e 's/"link_type": "static"/"link_type": "shared"/' libs.json || die
+	sed -i -e 's/tmpdir.name/os.getcwd()/' scripts/build.py || die
 }
 
 distutils_enable_tests pytest
