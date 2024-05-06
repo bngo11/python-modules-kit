@@ -14,15 +14,17 @@ SRC_URI="https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c
 
 DEPEND="
 	libyaml? ( dev-libs/libyaml )
-	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
+	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
 RDEPEND="!<dev-python/pyyaml-6.0 
 	libyaml? ( dev-libs/libyaml )
-	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
+	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
 IUSE="+libyaml examples"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/PyYAML-5.4.1"
+
+PATCHES=( "${FILESDIR}/${PN}-6.0.1-cython3.patch" )
 
 python_configure_all() {
 	mydistutilsargs=( $(use_with libyaml) )
