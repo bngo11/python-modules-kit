@@ -20,7 +20,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Jinja2-3.1.4"
+S="${WORKDIR}/jinja2-3.1.4"
 
 distutils_enable_sphinx docs \
 	dev-python/sphinx-issues \
