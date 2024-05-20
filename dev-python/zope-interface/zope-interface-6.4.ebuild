@@ -6,9 +6,6 @@ PYTHON_COMPAT=( python2+ pypy3 )
 
 inherit distutils-r1 flag-o-matic
 
-MY_PN=${PN/-/.}
-MY_P=${MY_PN}-${PV}
-
 DESCRIPTION="Interfaces for Python"
 HOMEPAGE="https://pypi.org/project/zope.interface/ https://github.com/zopefoundation/zope.interface"
 SRC_URI="https://files.pythonhosted.org/packages/1f/41/d0bdb50947f77341e979241de26f348e538a5d0f3ddb2482bc3907a3d728/zope_interface-6.4.tar.gz -> zope_interface-6.4.tar.gz"
@@ -30,7 +27,7 @@ src_prepare() {
 	sed -i -e '/coverage/d' ${S}/setup.py || die
 }
 
-S="${WORKDIR}/${MY_P}"
+S="${WORKDIR}/${P/-/_}"
 
 distutils_enable_tests setup.py
 

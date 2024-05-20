@@ -6,9 +6,6 @@ PYTHON_COMPAT=( {{python_compat}} )
 
 inherit distutils-r1 flag-o-matic
 
-MY_PN=${PN/-/.}
-MY_P=${MY_PN}-${PV}
-
 DESCRIPTION="Interfaces for Python"
 HOMEPAGE="https://pypi.org/project/zope.interface/ https://github.com/zopefoundation/zope.interface"
 SRC_URI="{{artifacts[0].src_uri}}"
@@ -30,7 +27,7 @@ src_prepare() {
 	sed -i -e '/coverage/d' ${S}/setup.py || die
 }
 
-S="${WORKDIR}/${MY_P}"
+S="${WORKDIR}/${P/-/_}"
 
 distutils_enable_tests setup.py
 
