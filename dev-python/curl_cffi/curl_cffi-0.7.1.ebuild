@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="libcurl ffi bindings for Python, with impersonation support."
 HOMEPAGE="None https://pypi.org/project/curl-cffi/"
-SRC_URI="https://files.pythonhosted.org/packages/f2/dd/66e8c71be5724bdd1e22de74b0c3636bcf828b99e8ac6e7a9ef55648981c/curl_cffi-0.7.0.tar.gz -> curl_cffi-0.7.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/31/00b346537ece64d835fc5d7310f89acee5318fdd9fa72247913274e28817/curl_cffi-0.7.1.tar.gz -> curl_cffi-0.7.1.tar.gz"
 
 DEPEND=""
 IUSE=""
@@ -16,7 +16,7 @@ RESTRICT="network-sandbox"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/curl_cffi-0.7.0"
+S="${WORKDIR}/curl_cffi-0.7.1"
 
 src_prepare() {
 	default
