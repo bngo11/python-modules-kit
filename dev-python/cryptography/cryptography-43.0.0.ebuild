@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_PEP517="setuptools"
+DISTUTILS_USE_PEP517="maturin"
 CARGO_OPTIONAL="yes"
 CRATES="
 asn1-0.16.2
