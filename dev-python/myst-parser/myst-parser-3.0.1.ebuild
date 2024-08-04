@@ -19,8 +19,7 @@ RDEPEND="
 	<dev-python/mdit-py-plugins-0.5[${PYTHON_USEDEP}]
 	>=dev-python/mdit-py-plugins-0.4[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	<dev-python/sphinx-8[${PYTHON_USEDEP}]
-	>=dev-python/sphinx-6[${PYTHON_USEDEP}]"
+	>dev-python/sphinx-7[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
