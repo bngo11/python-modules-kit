@@ -3,7 +3,6 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2_7 )
-DISTUTILS_USE_SETUPTOOLS="no"
 inherit distutils-r1
 
 DESCRIPTION="Collection of extensions to Distutils"
