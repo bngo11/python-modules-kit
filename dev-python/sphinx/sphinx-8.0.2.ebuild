@@ -17,7 +17,7 @@ RDEPEND="
 		dev-texlive/texlive-luatex
 		app-text/dvipng
 	)
-	<dev-python/alabaster-0.8[${PYTHON_USEDEP}]
+	>dev-python/alabaster-0.8[${PYTHON_USEDEP}]
 	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/imagesize[${PYTHON_USEDEP}]

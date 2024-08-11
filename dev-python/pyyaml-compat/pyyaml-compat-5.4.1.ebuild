@@ -22,9 +22,7 @@ IUSE="+libyaml examples"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/PyYAML-5.4.1"
-
-PATCHES=( "${FILESDIR}/${PN}-6.0.1-cython3.patch" )
+S="${WORKDIR}/pyyaml-${PV}"
 
 python_configure_all() {
 	mydistutilsargs=( $(use_with libyaml) )
