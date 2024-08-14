@@ -3,24 +3,23 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
-DISTUTILS_USE_PEP517="setuptools"
+DISTUTILS_USE_PEP517="standalone"
 inherit distutils-r1
 
 DESCRIPTION="Collection of extensions to Distutils"
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
 "
-SRC_URI="https://files.pythonhosted.org/packages/65/d8/10a70e86f6c28ae59f101a9de6d77bf70f147180fbf40c3af0f64080adc3/setuptools-70.3.0.tar.gz -> setuptools-70.3.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/ef/013ded5b0d259f3fa636bf35de186f0061c09fbe124020ce6b8db68c83af/setuptools-72.2.0.tar.gz -> setuptools-72.2.0.tar.gz"
 
 DEPEND="
 	app-arch/unzip"
-RDEPEND="python_targets_python2_7? ( dev-python/setuptools-compat )"
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+IUSE=""
 RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/setuptools-70.3.0"
+S="${WORKDIR}/setuptools-72.2.0"
 
 SETUPTOOLS_USE_DISTUTILS=stdlib
 python_install() {
