@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Implements a XML/HTML/XHTML Markup safe string for Python"

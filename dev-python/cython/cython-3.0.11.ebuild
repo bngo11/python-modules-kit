@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="The Cython compiler for writing C extensions in the Python language."

@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Useful decorators and context managers"
-HOMEPAGE="https://github.com/jaraco/jaraco.context https://pypi.org/project/jaraco.context/"
-SRC_URI="https://files.pythonhosted.org/packages/c9/60/e83781b07f9a66d1d102a0459e5028f3a7816fdd0894cba90bee2bbbda14/jaraco.context-5.3.0.tar.gz -> jaraco.context-5.3.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/jaraco.context/"
+SRC_URI="https://files.pythonhosted.org/packages/df/ad/f3777b81bf0b6e7bc7514a1656d3e637b2e8e15fab2ce3235730b3e7a4e6/jaraco_context-6.0.1.tar.gz -> jaraco_context-6.0.1.tar.gz"
 
 DEPEND="dev-python/backports-tarfile[${PYTHON_USEDEP}]"
 IUSE=""

@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ pypy3 )
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
 DESCRIPTION="A Python module to deal with freedesktop.org specifications"
