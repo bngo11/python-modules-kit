@@ -24,10 +24,6 @@ LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/pyyaml-${PV}"
 
-python_configure_all() {
-	mydistutilsargs=( $(use_with libyaml) )
-}
-
 python_install_all() {
 	distutils-r1_python_install_all
 	if use examples; then

@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_PEP517="setuptools"
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="Sniff out which async library your code is running under"

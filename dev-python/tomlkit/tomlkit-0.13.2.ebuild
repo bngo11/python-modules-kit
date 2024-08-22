@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="poetry"
 inherit distutils-r1
 
 DESCRIPTION="Style preserving TOML library"
