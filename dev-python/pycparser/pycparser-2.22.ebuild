@@ -2,7 +2,8 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2+ pypy{,3} )
+PYTHON_COMPAT=( python3+ pypy{,3} )
+DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1
 
@@ -28,17 +29,6 @@ python_prepare_all() {
 	sed -i -e '/sys\.path/d' tests/*.py || die
 
 	distutils-r1_python_prepare_all
-}
-
-python_compile() {
-	distutils-r1_python_compile
-
-	# note: tables built by py3.5+ are incompatible with older versions
-	# because of 100 group limit of 're' module -- just generate them
-	# separately optimized for each target instead
-	pushd "${BUILD_DIR}"/lib/pycparser > /dev/null || die
-	"${PYTHON}" _build_tables.py || die
-	popd > /dev/null || die
 }
 
 python_test() {

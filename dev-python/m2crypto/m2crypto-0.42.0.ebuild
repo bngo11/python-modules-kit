@@ -20,7 +20,7 @@ IUSE="libressl"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/M2Crypto-0.42.0"
+S="${WORKDIR}/m2crypto-${PV}"
 
 swig_define() {
 	local x

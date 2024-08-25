@@ -2,7 +2,8 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ pypy3 )
+DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1 eutils toolchain-funcs
 
@@ -27,8 +28,6 @@ BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/cssselect[${PYTHON_USEDEP}] )
 	"
-
-DISTUTILS_IN_SOURCE_BUILD=1
 
 python_prepare_all() {
 	# avoid replacing PYTHONPATH in tests.

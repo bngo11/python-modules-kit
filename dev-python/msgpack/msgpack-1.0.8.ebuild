@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="MessagePack serializer"
@@ -14,7 +15,7 @@ RDEPEND="python_targets_python2_7? ( dev-python/msgpack-compat )"
 IUSE="native-extensions python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
-KEYWORDS="next"
+KEYWORDS="*"
 S="${WORKDIR}/msgpack-1.0.8"
 
 python_prepare_all() {
