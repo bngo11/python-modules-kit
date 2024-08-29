@@ -13,7 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/1a/3f/b19e9354c358f5acf322dd1f8
 DEPEND=""
 RDEPEND="
 	dev-util/patchelf
-	dev-python/meson[${PYTHON_USEDEP}]
+	dev-util/meson
 	dev-python/pyproject-metadata[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
 IUSE=""

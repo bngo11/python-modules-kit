@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy )
-DISTUTILS_USE_PEP517="flit"
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Extension to include jQuery on newer Sphinx releases"

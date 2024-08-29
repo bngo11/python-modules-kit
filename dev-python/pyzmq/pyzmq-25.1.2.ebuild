@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy{,3} )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1 flag-o-matic toolchain-funcs
 
 DESCRIPTION="Lightweight and super-fast messaging library built on top of the ZeroMQ library"

@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_SETUPTOOLS="autostub"
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="An implementation of JSON Schema validation for Python"

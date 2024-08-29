@@ -4,6 +4,7 @@ EAPI=6
 
 PYTHON_COMPAT=( python3+ pypy{,3} )
 PYTHON_REQ_USE="threads(+)"
+DISTUTILS_USE_PEP517=setuptools
 
 inherit autotools python-r1
 

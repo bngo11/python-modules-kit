@@ -3,7 +3,6 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2_7 )
-DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit bash-completion-r1 distutils-r1
 
 DESCRIPTION="The PyPA recommended tool for installing Python packages."

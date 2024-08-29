@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1 eutils
 
 DESCRIPTION="A super-fast templating language that borrows the best ideas from the existing templating languages."
