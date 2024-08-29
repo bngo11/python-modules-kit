@@ -8,7 +8,7 @@ inherit distutils-r1 flag-o-matic
 
 DESCRIPTION="Interfaces for Python"
 HOMEPAGE="https://pypi.org/project/zope.interface/ https://github.com/zopefoundation/zope.interface"
-SRC_URI="https://files.pythonhosted.org/packages/ab/45/70929649a48b49a71a470bdd84e078110fb5a91e5d74bfe07d65e02b4f03/zope.interface-7.0.1.tar.gz -> zope.interface-7.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/83/7de03efae7fc9a4ec64301d86e29a324f32fe395022e3a5b1a79e376668e/zope.interface-7.0.3.tar.gz -> zope.interface-7.0.3.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
