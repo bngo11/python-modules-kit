@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy )
-DISTUTILS_USE_PEP517="setuptools"
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp documents"

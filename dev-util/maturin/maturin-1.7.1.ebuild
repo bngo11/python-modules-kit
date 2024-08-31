@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 CRATES="
 adler-1.0.2
 ahash-0.8.11

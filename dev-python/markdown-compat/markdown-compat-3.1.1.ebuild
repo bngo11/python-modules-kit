@@ -18,7 +18,7 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Markdown-3.1.1"
+S="${WORKDIR}/markdown-${PV}"
 
 post_src_install() {
 	rm -rf ${D}/usr/bin
