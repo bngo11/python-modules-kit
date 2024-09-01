@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/alexmojaki/executing/
 	https://pypi.org/project/executing/
 "
-SRC_URI="https://files.pythonhosted.org/packages/08/41/85d2d28466fca93737592b7f3cc456d1cfd6bcd401beceeba17e8e792b50/executing-2.0.1.tar.gz -> executing-2.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/e3/7d45f492c2c4a0e8e0fad57d081a7c8a0286cdd86372b070cca1ec0caa1e/executing-2.1.0.tar.gz -> executing-2.1.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
