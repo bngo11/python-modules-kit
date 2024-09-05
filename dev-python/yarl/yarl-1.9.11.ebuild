@@ -2,12 +2,13 @@
 
 EAPI=7
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517=standalone
 
 inherit distutils-r1
 
 DESCRIPTION="Yet another URL library"
 HOMEPAGE="https://github.com/aio-libs/yarl/"
-SRC_URI="https://files.pythonhosted.org/packages/0c/af/2166e47a5b185e7d6b2c9da196803e10feb9cf6994e21527bc0adcd98692/yarl-1.9.8.tar.gz -> yarl-1.9.8.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1e/87/6d71456eabebf614e0cac4387c27116a0bff9decf00a70c362fe7db9394e/yarl-1.9.11.tar.gz -> yarl-1.9.11.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

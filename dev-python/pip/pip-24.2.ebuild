@@ -29,22 +29,23 @@ python_prepare_all() {
 	fi
 	distutils-r1_python_prepare_all
 }
+
+python_compile_all() {
+	# 'pip completion' command embeds full $0 into completion script, which confuses
+	# 'complete' and causes QA warning when running as "${PYTHON} -m pip".
+	# This trick sets correct $0 while still calling just installed pip.
+	local pipcmd='import sys; sys.argv[0] = "pip"; __file__ = ""; from pip._internal.cli.main import main; sys.exit(main())'
+	${EPYTHON} -c "${pipcmd}" completion --bash > completion.bash || die
+	${EPYTHON} -c "${pipcmd}" completion --zsh > completion.zsh || die
+}
+
 python_install_all() {
 	# Prevent dbus auto-launch
 	# https://bugs.gentoo.org/692178
 	export DBUS_SESSION_BUS_ADDRESS="disabled:"
 	local DOCS=( AUTHORS.txt docs/html/**/*.rst )
 	distutils-r1_python_install_all
-	if [ "$PN" == "pip" ]; then
-		COMPLETION="${T}"/completion.tmp
-		# 'pip completion' command embeds full $0 into completion script, which confuses
-		# 'complete' and causes QA warning when running as "${PYTHON} -m pip".
-		# This trick sets correct $0 while still calling just installed pip.
-		local pipcmd='import sys; sys.argv[0] = "pip"; __file__ = ""; from pip._internal.cli.main import main; sys.exit(main())'
-		${EPYTHON} -c "${pipcmd}" completion --bash > "${COMPLETION}" || die
-		newbashcomp "${COMPLETION}" ${PN}
-		${EPYTHON} -c "${pipcmd}" completion --zsh > "${COMPLETION}" || die
-		insinto /usr/share/zsh/site-functions
-		newins "${COMPLETION}" _pip
-	fi
+	newbashcomp completion.bash ${PN}
+	insinto /usr/share/zsh/site-functions
+	newins completion.zsh _pip
 }

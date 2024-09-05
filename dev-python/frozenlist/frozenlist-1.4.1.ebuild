@@ -3,13 +3,17 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
+DISTUTILS_USE_PEP517="standalone"
 inherit distutils-r1
 
 DESCRIPTION="A list-like structure which implements collections.abc.MutableSequence"
 HOMEPAGE="https://github.com/aio-libs/frozenlist https://pypi.org/project/frozenlist/"
 SRC_URI="https://files.pythonhosted.org/packages/cf/3d/2102257e7acad73efc4a0c306ad3953f68c504c16982bbdfee3ad75d8085/frozenlist-1.4.1.tar.gz -> frozenlist-1.4.1.tar.gz"
 
-DEPEND=""
+DEPEND="
+	dev-python/expandvars[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/cython[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
