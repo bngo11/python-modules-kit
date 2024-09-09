@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
 DESCRIPTION="Extensions to the Python standard library unit testing framework"
@@ -11,6 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/6a/05/a543317ac62cf72e98dc40de5
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/testtools-compat )

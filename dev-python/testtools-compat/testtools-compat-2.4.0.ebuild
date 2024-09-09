@@ -11,6 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/11/9a/26b2f192024c4abcf702750ce
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
 	dev-python/pbr[${PYTHON_USEDEP}]"
 RDEPEND="!<dev-python/testtools-2.5.0-r1 dev-python/pbr[${PYTHON_USEDEP}]"
 IUSE=""

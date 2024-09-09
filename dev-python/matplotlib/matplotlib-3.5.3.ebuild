@@ -4,6 +4,7 @@ EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
 PYTHON_REQ_USE='tk?,threads(+)'
+DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1 flag-o-matic virtualx toolchain-funcs prefix
 
@@ -87,10 +88,6 @@ BDEPEND="
 "
 
 RESTRICT="test"
-
-# A few C++ source files are written to srcdir.
-# Other than that, the ebuild shall be fit for out-of-source build.
-DISTUTILS_IN_SOURCE_BUILD=1
 
 pkg_setup() {
 	unset DISPLAY # bug #278524

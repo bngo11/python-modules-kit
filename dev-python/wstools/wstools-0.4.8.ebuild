@@ -4,6 +4,7 @@ EAPI=7
 
 PYTHON_COMPAT=( python3+ )
 PYTHON_REQ_USE="xml(+)"
+DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1
 

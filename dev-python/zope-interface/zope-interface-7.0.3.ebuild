@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
+DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1 flag-o-matic
 
@@ -27,7 +28,7 @@ src_prepare() {
 	sed -i -e '/coverage/d' ${S}/setup.py || die
 }
 
-S="${WORKDIR}/${P/-/_}"
+S="${WORKDIR}/${P/-/.}"
 
 distutils_enable_tests setup.py
 

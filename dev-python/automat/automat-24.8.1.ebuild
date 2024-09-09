@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Self-service finite-state machines for the programmer on the go"
@@ -21,16 +22,6 @@ LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/automat-24.8.1"
 
-src_unpack() {
-	default
-	mv ${WORKDIR}/A* ${S} || die
-}
-python_prepare_all() {
-	# avoid a setuptools_scm dependency
-	sed -r -i "s:use_scm_version=True:version='${PV}': ;
-		s:[\"']setuptools[_-]scm[\"'](,|)::" setup.py || die
-	distutils-r1_python_prepare_all
-}
 pkg_postinst() {
 	einfo "For additional visualization functionality install these optional dependencies"
 	einfo "    >=dev-python/twisted-16.1.1"
