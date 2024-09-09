@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
+DISTUTILS_USE_PEP517="pbr"
 inherit distutils-r1
 
 DESCRIPTION="Fixtures, reusable state for writing clean tests and more."
