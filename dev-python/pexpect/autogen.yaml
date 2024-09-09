@@ -1,3 +1,15 @@
+pexpect:
+  generator: python-github-1
+  packages:
+    - pexpect:
+        github:
+          query: releases
+        python_compat: python3+
+        du_pep517: setuptools
+        pydeps:
+          py:all:
+            - ptyprocess >= 0.5.0
+
 ptyprocess:
   generator: pypi-simple-1
   packages:
