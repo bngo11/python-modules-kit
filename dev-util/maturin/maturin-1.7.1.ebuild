@@ -670,7 +670,9 @@ https://crates.io/api/v1/crates/zip/1.1.4/download -> zip-1.1.4.crate
 https://files.pythonhosted.org/packages/1d/ec/1f688d6ad82a568fd7c239f1c7a130d3fc2634977df4ef662ee0ac58a153/maturin-1.7.1.tar.gz -> maturin-1.7.1.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
-DEPEND="dev-python/setuptools-rust[${PYTHON_USEDEP}]"
+DEPEND="
+	dev-python/setuptools-rust[${PYTHON_USEDEP}]
+	dev-python/semantic_version[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/tomli[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
