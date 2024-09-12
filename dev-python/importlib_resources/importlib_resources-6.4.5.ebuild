@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( pypy3 python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Read resources from Python packages"

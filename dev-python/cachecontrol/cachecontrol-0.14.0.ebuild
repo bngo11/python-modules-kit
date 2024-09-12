@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="The httplib2 caching algorithms packaged up for use with requests."
