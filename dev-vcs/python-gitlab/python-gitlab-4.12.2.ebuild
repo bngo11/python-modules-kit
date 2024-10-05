@@ -1,0 +1,22 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
+inherit distutils-r1
+
+DESCRIPTION="A python wrapper for the GitLab API"
+HOMEPAGE="None https://pypi.org/project/python-gitlab/"
+SRC_URI="https://files.pythonhosted.org/packages/7d/b7/dd45501fb727582295ec217d0058891762e19b7998426d6c70de7bb942d0/python_gitlab-4.12.2.tar.gz -> python_gitlab-4.12.2.tar.gz"
+
+DEPEND=""
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep 'dev-python/typing-extensions[${PYTHON_USEDEP}]' python3_7)"
+IUSE=""
+SLOT="0"
+LICENSE=""
+KEYWORDS="*"
+S="${WORKDIR}/python_gitlab-4.12.2"
