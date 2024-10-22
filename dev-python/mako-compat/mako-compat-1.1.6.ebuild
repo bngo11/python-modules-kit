@@ -17,7 +17,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/Mako-1.1.6"
+S="${WORKDIR}/mako-${PV}"
 
 pkg_postinst() {
 	elog "Optional dependencies:"

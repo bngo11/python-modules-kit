@@ -27,14 +27,14 @@ proc-macro2-1.0.88
 quote-1.0.37
 rustversion-1.0.18
 ryu-1.0.18
-serde-1.0.210
-serde_derive-1.0.210
-serde_json-1.0.131
+serde-1.0.211
+serde_derive-1.0.211
+serde_json-1.0.132
 shlex-1.3.0
 simdutf8-0.1.5
 smallvec-1.13.2
 static_assertions-1.1.0
-syn-2.0.79
+syn-2.0.82
 target-lexicon-0.12.16
 unicode-ident-1.0.13
 unwinding-0.2.2
@@ -68,20 +68,20 @@ https://crates.io/api/v1/crates/proc-macro2/1.0.88/download -> proc-macro2-1.0.8
 https://crates.io/api/v1/crates/quote/1.0.37/download -> quote-1.0.37.crate
 https://crates.io/api/v1/crates/rustversion/1.0.18/download -> rustversion-1.0.18.crate
 https://crates.io/api/v1/crates/ryu/1.0.18/download -> ryu-1.0.18.crate
-https://crates.io/api/v1/crates/serde/1.0.210/download -> serde-1.0.210.crate
-https://crates.io/api/v1/crates/serde_derive/1.0.210/download -> serde_derive-1.0.210.crate
-https://crates.io/api/v1/crates/serde_json/1.0.131/download -> serde_json-1.0.131.crate
+https://crates.io/api/v1/crates/serde/1.0.211/download -> serde-1.0.211.crate
+https://crates.io/api/v1/crates/serde_derive/1.0.211/download -> serde_derive-1.0.211.crate
+https://crates.io/api/v1/crates/serde_json/1.0.132/download -> serde_json-1.0.132.crate
 https://crates.io/api/v1/crates/shlex/1.3.0/download -> shlex-1.3.0.crate
 https://crates.io/api/v1/crates/simdutf8/0.1.5/download -> simdutf8-0.1.5.crate
 https://crates.io/api/v1/crates/smallvec/1.13.2/download -> smallvec-1.13.2.crate
 https://crates.io/api/v1/crates/static_assertions/1.1.0/download -> static_assertions-1.1.0.crate
-https://crates.io/api/v1/crates/syn/2.0.79/download -> syn-2.0.79.crate
+https://crates.io/api/v1/crates/syn/2.0.82/download -> syn-2.0.82.crate
 https://crates.io/api/v1/crates/target-lexicon/0.12.16/download -> target-lexicon-0.12.16.crate
 https://crates.io/api/v1/crates/unicode-ident/1.0.13/download -> unicode-ident-1.0.13.crate
 https://crates.io/api/v1/crates/unwinding/0.2.2/download -> unwinding-0.2.2.crate
 https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.9.5.crate
 https://crates.io/api/v1/crates/xxhash-rust/0.8.12/download -> xxhash-rust-0.8.12.crate
-https://files.pythonhosted.org/packages/ae/9f/645b533f73bd49adaa4cab46921276c8ad8b3aff44959f2e717ac7533e92/orjson-3.10.9.tar.gz -> orjson-3.10.9.tar.gz
+https://files.pythonhosted.org/packages/80/44/d36e86b33fc84f224b5f2cdf525adf3b8f9f475753e721c402b1ddef731e/orjson-3.10.10.tar.gz -> orjson-3.10.10.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND=""
@@ -97,7 +97,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 MIT"
 KEYWORDS="*"
-S="${WORKDIR}/orjson-3.10.9"
+S="${WORKDIR}/orjson-3.10.10"
 
 QA_FLAGS_IGNORED=".*"
 
