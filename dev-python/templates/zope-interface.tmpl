@@ -28,7 +28,7 @@ src_prepare() {
 	sed -i -e '/coverage/d' ${S}/setup.py || die
 }
 
-S="${WORKDIR}/${P/-/_}"
+S="${WORKDIR}/${P/-/.}"
 
 distutils_enable_tests setup.py
 
