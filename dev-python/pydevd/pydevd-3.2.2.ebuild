@@ -13,7 +13,7 @@ HOMEPAGE="
 	https://github.com/fabioz/PyDev.Debugger/
 	https://pypi.org/project/pydevd/
 "
-SRC_URI="https://files.pythonhosted.org/packages/03/74/8bb3c274704a3e61162d3b55003e414ba870af7db05ccae5bbf68a0cd0b1/pydevd-3.2.1.tar.gz -> pydevd-3.2.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/11/4e645dda0fa6ab240b1afa8bd1457430057d1723aefa2f60c33bb8cc9855/pydevd-3.2.2.tar.gz -> pydevd-3.2.2.tar.gz"
 
 LICENSE="EPL-1.0"
 SLOT="0"
