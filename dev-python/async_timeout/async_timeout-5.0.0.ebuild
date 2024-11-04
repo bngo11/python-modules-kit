@@ -6,7 +6,7 @@ DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1
 
-MY_P=${PN/_/-}-${PV}
+MY_P=${PN}-${PV}
 DESCRIPTION="Timeout context manager for asyncio programs"
 HOMEPAGE="https://github.com/aio-libs/async-timeout"
 SRC_URI="https://files.pythonhosted.org/packages/61/1f/44d9efc904bbe4d9967433522b691a9c4f1e81c2c64fbe44bad63d5de646/async_timeout-5.0.0.tar.gz -> async_timeout-5.0.0.tar.gz"
