@@ -19,6 +19,7 @@ SRC_URI="https://files.pythonhosted.org/packages/b6/8a/797ccdfa99340b378f6591662
 LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="*"
+S="${WORKDIR}/python_dbusmock-${PV}"
 
 RDEPEND="
 	dev-python/dbus-python[${PYTHON_USEDEP}]
