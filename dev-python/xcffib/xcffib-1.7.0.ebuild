@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="xcffib is the XCB binding for python"
 HOMEPAGE="https://github.com/tych0/xcffib"
-SRC_URI="https://files.pythonhosted.org/packages/71/c0/bf20b371ceed0569a1d59647af56b1898425ddf711fa72e535adcb2f08d3/xcffib-1.6.2.tar.gz -> xcffib-1.6.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/23/4b/d5c03da37bad09fd33f1392bba33ed1117e2b38693cbb55067da16755ad1/xcffib-1.7.0.tar.gz -> xcffib-1.7.0.tar.gz"
 
 DEPEND="
 	x11-libs/libxcb"
@@ -17,4 +17,4 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/xcffib-1.6.2"
+S="${WORKDIR}/xcffib-1.7.0"
