@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Jalali implementation of Python's datetime module"
 HOMEPAGE="https://github.com/slashmili/python-jalali"
-SRC_URI="https://files.pythonhosted.org/packages/1f/6e/bed5a262bf9a80b4e45507757ae65fb141377eb3800b522eedeed782d865/jdatetime-5.0.0.tar.gz -> jdatetime-5.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/93/45b8d8eabf0601af8200cb259b5fdd305c7a8c38b6bf2a5af3a1684ef46a/jdatetime-5.1.0.tar.gz -> jdatetime-5.1.0.tar.gz"
 
 LICENSE="PYTHON"
 SLOT="0"
