@@ -32,6 +32,9 @@ swig_define() {
 	done
 }
 python_compile() {
+	export CC=/usr/bin/gcc-12.3.0
+	export CXX=/usr/bin/g++-12.3.0
+
 	# setup.py looks at platform.machine() to determine swig options.
 	# For exotic ABIs, we need to give swig a hint.
 	local -x SWIG_FEATURES=
