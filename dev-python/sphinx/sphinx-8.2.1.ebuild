@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python documentation generator"
 HOMEPAGE="None https://pypi.org/project/Sphinx/"
-SRC_URI="https://files.pythonhosted.org/packages/81/46/08fe30fc7a6b0e8ff1f502e44133d3a1bd9453d7ab884c2ac7f0ef280920/sphinx-8.2.0.tar.gz -> sphinx-8.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/4b/95bdb36eaee30698f2d244d52e1b9e58642af56525d4b02fcd0f7312c27c/sphinx-8.2.1.tar.gz -> sphinx-8.2.1.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -27,6 +27,7 @@ RDEPEND="
 	dev-python/snowballstemmer[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/importlib_metadata-4.4[${PYTHON_USEDEP}]
+	>=dev-python/roman_numerals_py-1.0[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}]
@@ -35,9 +36,9 @@ RDEPEND="
 	dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}]"
 IUSE="doc latex"
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/sphinx-8.2.0"
+S="${WORKDIR}/sphinx-8.2.1"
 
 python_compile_all() {
 	if use doc; then
