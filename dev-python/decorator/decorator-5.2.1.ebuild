@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/micheles/decorator/
 	https://pypi.org/project/decorator/
 "
-SRC_URI="https://files.pythonhosted.org/packages/6e/e2/33c72e8409b39389b9a69e807e40d3466a63996ba4c65caaea1d31dfde16/decorator-5.2.0.tar.gz -> decorator-5.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/43/fa/6d96a0978d19e17b68d634497769987b16c8f4cd0a7a05048bec693caa6b/decorator-5.2.1.tar.gz -> decorator-5.2.1.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
