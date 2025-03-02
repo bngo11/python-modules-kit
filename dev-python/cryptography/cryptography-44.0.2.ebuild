@@ -28,11 +28,11 @@ pem-3.0.4
 pkg-config-0.3.31
 portable-atomic-1.10.0
 proc-macro2-1.0.92
-pyo3-0.23.4
-pyo3-build-config-0.23.4
-pyo3-ffi-0.23.4
-pyo3-macros-0.23.4
-pyo3-macros-backend-0.23.4
+pyo3-0.23.5
+pyo3-build-config-0.23.5
+pyo3-ffi-0.23.5
+pyo3-macros-0.23.5
+pyo3-macros-backend-0.23.5
 quote-1.0.37
 self_cell-1.0.4
 shlex-1.3.0
@@ -69,11 +69,11 @@ https://crates.io/api/v1/crates/pem/3.0.4/download -> pem-3.0.4.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.31/download -> pkg-config-0.3.31.crate
 https://crates.io/api/v1/crates/portable-atomic/1.10.0/download -> portable-atomic-1.10.0.crate
 https://crates.io/api/v1/crates/proc-macro2/1.0.92/download -> proc-macro2-1.0.92.crate
-https://crates.io/api/v1/crates/pyo3/0.23.4/download -> pyo3-0.23.4.crate
-https://crates.io/api/v1/crates/pyo3-build-config/0.23.4/download -> pyo3-build-config-0.23.4.crate
-https://crates.io/api/v1/crates/pyo3-ffi/0.23.4/download -> pyo3-ffi-0.23.4.crate
-https://crates.io/api/v1/crates/pyo3-macros/0.23.4/download -> pyo3-macros-0.23.4.crate
-https://crates.io/api/v1/crates/pyo3-macros-backend/0.23.4/download -> pyo3-macros-backend-0.23.4.crate
+https://crates.io/api/v1/crates/pyo3/0.23.5/download -> pyo3-0.23.5.crate
+https://crates.io/api/v1/crates/pyo3-build-config/0.23.5/download -> pyo3-build-config-0.23.5.crate
+https://crates.io/api/v1/crates/pyo3-ffi/0.23.5/download -> pyo3-ffi-0.23.5.crate
+https://crates.io/api/v1/crates/pyo3-macros/0.23.5/download -> pyo3-macros-0.23.5.crate
+https://crates.io/api/v1/crates/pyo3-macros-backend/0.23.5/download -> pyo3-macros-backend-0.23.5.crate
 https://crates.io/api/v1/crates/quote/1.0.37/download -> quote-1.0.37.crate
 https://crates.io/api/v1/crates/self_cell/1.0.4/download -> self_cell-1.0.4.crate
 https://crates.io/api/v1/crates/shlex/1.3.0/download -> shlex-1.3.0.crate
@@ -82,7 +82,7 @@ https://crates.io/api/v1/crates/target-lexicon/0.12.16/download -> target-lexico
 https://crates.io/api/v1/crates/unicode-ident/1.0.14/download -> unicode-ident-1.0.14.crate
 https://crates.io/api/v1/crates/unindent/0.2.3/download -> unindent-0.2.3.crate
 https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
-https://files.pythonhosted.org/packages/c7/67/545c79fe50f7af51dbad56d16b23fe33f63ee6a5d956b3cb68ea110cbe64/cryptography-44.0.1.tar.gz -> cryptography-44.0.1.tar.gz
+https://files.pythonhosted.org/packages/cd/25/4ce80c78963834b8a9fd1cc1266be5ed8d1840785c0f2e1b73b8d128d505/cryptography-44.0.2.tar.gz -> cryptography-44.0.2.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -106,7 +106,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-44.0.1"
+S="${WORKDIR}/cryptography-44.0.2"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
