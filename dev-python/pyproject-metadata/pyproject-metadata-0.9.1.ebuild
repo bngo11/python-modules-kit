@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="PEP 621 metadata parsing"
 HOMEPAGE="None https://pypi.org/project/pyproject-metadata/"
-SRC_URI="https://files.pythonhosted.org/packages/c0/79/406a9f56c435caaaca4a1c66397e4f63ecd48a72a6c4fc1d9ecdaac66acb/pyproject_metadata-0.9.0.tar.gz -> pyproject_metadata-0.9.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/ae/5fa065b049e97f96880de0611dbba513f0ee313b6edd0a64664c7b46a8e8/pyproject_metadata-0.9.1.tar.gz -> pyproject_metadata-0.9.1.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/packaging[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pyproject_metadata-0.9.0"
+S="${WORKDIR}/pyproject_metadata-0.9.1"
