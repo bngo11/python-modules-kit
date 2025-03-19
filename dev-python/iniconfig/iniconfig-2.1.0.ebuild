@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
 DESCRIPTION="brain-dead simple config-ini parsing"
-HOMEPAGE=" https://pypi.org/project/iniconfig/"
-SRC_URI="https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz -> iniconfig-2.0.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/iniconfig/"
+SRC_URI="https://files.pythonhosted.org/packages/f2/97/ebf4da567aa6827c909642694d71c9fcf53e5b504f2d96afea02718862f3/iniconfig-2.1.0.tar.gz -> iniconfig-2.1.0.tar.gz"
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
@@ -18,7 +18,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/iniconfig-2.0.0"
+S="${WORKDIR}/iniconfig-2.1.0"
 
 src_prepare() {
 	# fix license in pyproject.toml
