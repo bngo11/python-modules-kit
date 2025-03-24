@@ -7,14 +7,14 @@ DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
 DESCRIPTION="Expand system variables Unix style"
-HOMEPAGE=" https://pypi.org/project/expandvars/"
-SRC_URI="https://files.pythonhosted.org/packages/2b/a5/46d1f58edcae1d632fafdfee313e378240e002ae45d26502bac938bd8751/expandvars-0.12.0.tar.gz -> expandvars-0.12.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/expandvars/"
+SRC_URI="https://files.pythonhosted.org/packages/93/a7/997a548c9ed679d7b93c87e091eba591e7cd9fd82ca727136b4b5b9e24cd/expandvars-1.0.0.tar.gz -> expandvars-1.0.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/expandvars-0.12.0"
+S="${WORKDIR}/expandvars-1.0.0"
 
 distutils_enable_tests pytest
