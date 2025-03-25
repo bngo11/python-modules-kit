@@ -8,14 +8,14 @@ inherit distutils-r1
 
 DESCRIPTION="Read key-value pairs from a .env file and set them as environment variables"
 HOMEPAGE="https://github.com/theskumar/python-dotenv https://pypi.org/project/python-dotenv/"
-SRC_URI="https://files.pythonhosted.org/packages/bc/57/e84d88dfe0aec03b7a2d4327012c1627ab5f03652216c63d49846d7a6c58/python-dotenv-1.0.1.tar.gz -> python-dotenv-1.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/88/2c/7bb1416c5620485aa793f2de31d3df393d3686aa8a8506d11e10e13c5baf/python_dotenv-1.1.0.tar.gz -> python_dotenv-1.1.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/python-dotenv-1.0.1"
+S="${WORKDIR}/python_dotenv-1.1.0"
 
 DOCS=( CHANGELOG.md README.md )
 python_install() {
