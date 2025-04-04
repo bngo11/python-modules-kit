@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Bash tab completion for argparse"
 HOMEPAGE="None https://pypi.org/project/argcomplete/"
-SRC_URI="https://files.pythonhosted.org/packages/0a/35/aacd2207c79d95e4ace44292feedff8fccfd8b48135f42d84893c24cc39b/argcomplete-3.6.1.tar.gz -> argcomplete-3.6.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/0f/861e168fc813c56a78b35f3c30d91c6757d1fd185af1110f1aec784b35d0/argcomplete-3.6.2.tar.gz -> argcomplete-3.6.2.tar.gz"
 
 DEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/argcomplete-3.6.1"
+S="${WORKDIR}/argcomplete-3.6.2"

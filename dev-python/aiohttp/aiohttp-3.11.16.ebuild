@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Async http client/server framework (asyncio)"
 HOMEPAGE="https://github.com/aio-libs/aiohttp https://pypi.org/project/aiohttp/"
-SRC_URI="https://files.pythonhosted.org/packages/19/18/31398875dc7b9815767370f60f44284155f2e1c1b87ec721c1b0ee61d1e5/aiohttp-3.11.15.tar.gz -> aiohttp-3.11.15.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/d9/1c4721d143e14af753f2bf5e3b681883e1f24b592c0482df6fa6e33597fa/aiohttp-3.11.16.tar.gz -> aiohttp-3.11.16.tar.gz"
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -28,7 +28,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/aiohttp-3.11.15"
+S="${WORKDIR}/aiohttp-3.11.16"
 
 src_prepare() {
 	default

@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Protocol Buffers using Python type annotations"
 HOMEPAGE="https://github.com/eigenein/protobuf https://pypi.org/project/pure-protobuf/"
-SRC_URI="https://files.pythonhosted.org/packages/76/95/1ccc83c6e64d78da96899611043799b221918f3c30e3086dabc78dffc58a/pure_protobuf-3.1.3.tar.gz -> pure_protobuf-3.1.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/2f/701496d8de8b315d0f297a64032caa7b75b6aaf6c7b97d8c45d22bd06293/pure_protobuf-3.1.4.tar.gz -> pure_protobuf-3.1.4.tar.gz"
 
 DEPEND="
 	>=dev-python/poetry_dynamic_versioning-1.4.0[${PYTHON_USEDEP}]
@@ -19,6 +19,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pure_protobuf-3.1.3"
+S="${WORKDIR}/pure_protobuf-3.1.4"
 
 distutils_enable_tests pytest
