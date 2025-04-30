@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="The httplib2 caching algorithms packaged up for use with requests."
 HOMEPAGE="https://github.com/ionrock/cachecontrol/ https://pypi.org/project/CacheControl/"
-SRC_URI="https://files.pythonhosted.org/packages/b7/a4/3390ac4dfa1773f661c8780368018230e8207ec4fd3800d2c0c3adee4456/cachecontrol-0.14.2.tar.gz -> cachecontrol-0.14.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/58/3a/0cbeb04ea57d2493f3ec5a069a117ab467f85e4a10017c6d854ddcbff104/cachecontrol-0.14.3.tar.gz -> cachecontrol-0.14.3.tar.gz"
 
 DEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -18,7 +18,7 @@ IUSE="test"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/cachecontrol-0.14.2"
+S="${WORKDIR}/cachecontrol-0.14.3"
 
 post_src_unpack() {
 	rm "${S}"/tests/__init__.py || die
