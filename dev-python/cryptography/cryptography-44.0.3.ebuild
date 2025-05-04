@@ -23,7 +23,7 @@ memoffset-0.9.1
 once_cell-1.20.2
 openssl-0.10.68
 openssl-macros-0.1.1
-openssl-sys-0.9.104
+openssl-sys-0.9.108
 pem-3.0.4
 pkg-config-0.3.31
 portable-atomic-1.10.0
@@ -64,7 +64,7 @@ https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crat
 https://crates.io/api/v1/crates/once_cell/1.20.2/download -> once_cell-1.20.2.crate
 https://crates.io/api/v1/crates/openssl/0.10.68/download -> openssl-0.10.68.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.104/download -> openssl-sys-0.9.104.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.108/download -> openssl-sys-0.9.108.crate
 https://crates.io/api/v1/crates/pem/3.0.4/download -> pem-3.0.4.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.31/download -> pkg-config-0.3.31.crate
 https://crates.io/api/v1/crates/portable-atomic/1.10.0/download -> portable-atomic-1.10.0.crate
@@ -82,7 +82,7 @@ https://crates.io/api/v1/crates/target-lexicon/0.12.16/download -> target-lexico
 https://crates.io/api/v1/crates/unicode-ident/1.0.14/download -> unicode-ident-1.0.14.crate
 https://crates.io/api/v1/crates/unindent/0.2.3/download -> unindent-0.2.3.crate
 https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
-https://files.pythonhosted.org/packages/cd/25/4ce80c78963834b8a9fd1cc1266be5ed8d1840785c0f2e1b73b8d128d505/cryptography-44.0.2.tar.gz -> cryptography-44.0.2.tar.gz
+https://files.pythonhosted.org/packages/53/d6/1411ab4d6108ab167d06254c5be517681f1e331f90edf1379895bcb87020/cryptography-44.0.3.tar.gz -> cryptography-44.0.3.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -106,7 +106,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-44.0.2"
+S="${WORKDIR}/cryptography-44.0.3"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
