@@ -13,7 +13,7 @@ DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
 RDEPEND="!<dev-python/sqlalchemy-2.0.20 dev-python/typing-extensions[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/SQLAlchemy-1.4.7"
 
