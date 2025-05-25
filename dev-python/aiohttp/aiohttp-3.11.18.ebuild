@@ -26,7 +26,7 @@ RDEPEND="
 	dev-python/frozenlist[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="Apache-2.0"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/aiohttp-3.11.18"
 
