@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="dev-python/twisted[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="Apache-2.0"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/prometheus_client-0.12.0"
 
