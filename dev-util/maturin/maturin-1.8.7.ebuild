@@ -36,10 +36,10 @@ camino-1.1.9
 cargo-config2-0.1.26
 cargo-options-0.7.4
 cargo-platform-0.1.8
-cargo-xwin-0.18.4
+cargo-xwin-0.18.6
 cargo-zigbuild-0.20.0
 cargo_metadata-0.19.0
-cbindgen-0.28.0
+cbindgen-0.29.0
 cc-1.2.16
 cfb-0.10.0
 cfg-if-1.0.0
@@ -108,12 +108,12 @@ futures-timer-3.0.3
 futures-util-0.3.31
 generic-array-0.14.7
 getrandom-0.2.15
+getrandom-0.3.3
 glob-0.3.1
 globset-0.4.15
 goblin-0.9.2
 hashbrown-0.14.5
 hashbrown-0.15.2
-heck-0.4.1
 heck-0.5.0
 home-0.5.9
 humantime-2.1.0
@@ -138,11 +138,12 @@ is_terminal_polyfill-1.70.0
 itertools-0.12.1
 itertools-0.13.0
 itoa-1.0.11
+jobserver-0.1.33
 js-sys-0.3.73
 keyring-2.3.3
 lazy_static-1.4.0
 lddtree-0.3.7
-libc-0.2.167
+libc-0.2.172
 libmimalloc-sys-0.1.39
 libredox-0.1.3
 linux-keyutils-0.2.4
@@ -151,6 +152,7 @@ litemap-0.7.3
 lock_api-0.4.12
 lockfree-object-pool-0.1.6
 log-0.4.22
+lzma-rs-0.3.0
 lzma-sys-0.1.20
 lzxd-0.2.5
 mailparse-0.15.0
@@ -202,6 +204,7 @@ pyproject-toml-0.13.4
 python-pkginfo-0.6.5
 quote-1.0.37
 quoted_printable-0.5.0
+r-efi-5.2.0
 rand-0.8.5
 rand_chacha-0.3.1
 rand_core-0.6.4
@@ -315,6 +318,7 @@ versions-6.2.0
 wait-timeout-0.2.0
 walkdir-2.5.0
 wasi-0.11.0+wasi-snapshot-preview1
+wasi-0.14.2+wasi-0.2.4
 wasm-bindgen-0.2.96
 wasm-bindgen-backend-0.2.96
 wasm-bindgen-macro-0.2.96
@@ -350,6 +354,7 @@ windows_x86_64_msvc-0.52.5
 winnow-0.5.40
 winnow-0.6.20
 winsafe-0.0.19
+wit-bindgen-rt-0.39.0
 write16-1.0.0
 writeable-0.5.5
 xattr-1.3.1
@@ -367,6 +372,9 @@ zerovec-0.10.4
 zerovec-derive-0.10.3
 zip-2.3.0
 zopfli-0.8.1
+zstd-0.13.3
+zstd-safe-7.2.4
+zstd-sys-2.0.15+zstd.1.5.7
 "
 
 inherit cargo distutils-r1
@@ -404,10 +412,10 @@ https://crates.io/api/v1/crates/camino/1.1.9/download -> camino-1.1.9.crate
 https://crates.io/api/v1/crates/cargo-config2/0.1.26/download -> cargo-config2-0.1.26.crate
 https://crates.io/api/v1/crates/cargo-options/0.7.4/download -> cargo-options-0.7.4.crate
 https://crates.io/api/v1/crates/cargo-platform/0.1.8/download -> cargo-platform-0.1.8.crate
-https://crates.io/api/v1/crates/cargo-xwin/0.18.4/download -> cargo-xwin-0.18.4.crate
+https://crates.io/api/v1/crates/cargo-xwin/0.18.6/download -> cargo-xwin-0.18.6.crate
 https://crates.io/api/v1/crates/cargo-zigbuild/0.20.0/download -> cargo-zigbuild-0.20.0.crate
 https://crates.io/api/v1/crates/cargo_metadata/0.19.0/download -> cargo_metadata-0.19.0.crate
-https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
+https://crates.io/api/v1/crates/cbindgen/0.29.0/download -> cbindgen-0.29.0.crate
 https://crates.io/api/v1/crates/cc/1.2.16/download -> cc-1.2.16.crate
 https://crates.io/api/v1/crates/cfb/0.10.0/download -> cfb-0.10.0.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
@@ -476,12 +484,12 @@ https://crates.io/api/v1/crates/futures-timer/3.0.3/download -> futures-timer-3.
 https://crates.io/api/v1/crates/futures-util/0.3.31/download -> futures-util-0.3.31.crate
 https://crates.io/api/v1/crates/generic-array/0.14.7/download -> generic-array-0.14.7.crate
 https://crates.io/api/v1/crates/getrandom/0.2.15/download -> getrandom-0.2.15.crate
+https://crates.io/api/v1/crates/getrandom/0.3.3/download -> getrandom-0.3.3.crate
 https://crates.io/api/v1/crates/glob/0.3.1/download -> glob-0.3.1.crate
 https://crates.io/api/v1/crates/globset/0.4.15/download -> globset-0.4.15.crate
 https://crates.io/api/v1/crates/goblin/0.9.2/download -> goblin-0.9.2.crate
 https://crates.io/api/v1/crates/hashbrown/0.14.5/download -> hashbrown-0.14.5.crate
 https://crates.io/api/v1/crates/hashbrown/0.15.2/download -> hashbrown-0.15.2.crate
-https://crates.io/api/v1/crates/heck/0.4.1/download -> heck-0.4.1.crate
 https://crates.io/api/v1/crates/heck/0.5.0/download -> heck-0.5.0.crate
 https://crates.io/api/v1/crates/home/0.5.9/download -> home-0.5.9.crate
 https://crates.io/api/v1/crates/humantime/2.1.0/download -> humantime-2.1.0.crate
@@ -506,11 +514,12 @@ https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.0/download -> is_termi
 https://crates.io/api/v1/crates/itertools/0.12.1/download -> itertools-0.12.1.crate
 https://crates.io/api/v1/crates/itertools/0.13.0/download -> itertools-0.13.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.11/download -> itoa-1.0.11.crate
+https://crates.io/api/v1/crates/jobserver/0.1.33/download -> jobserver-0.1.33.crate
 https://crates.io/api/v1/crates/js-sys/0.3.73/download -> js-sys-0.3.73.crate
 https://crates.io/api/v1/crates/keyring/2.3.3/download -> keyring-2.3.3.crate
 https://crates.io/api/v1/crates/lazy_static/1.4.0/download -> lazy_static-1.4.0.crate
 https://crates.io/api/v1/crates/lddtree/0.3.7/download -> lddtree-0.3.7.crate
-https://crates.io/api/v1/crates/libc/0.2.167/download -> libc-0.2.167.crate
+https://crates.io/api/v1/crates/libc/0.2.172/download -> libc-0.2.172.crate
 https://crates.io/api/v1/crates/libmimalloc-sys/0.1.39/download -> libmimalloc-sys-0.1.39.crate
 https://crates.io/api/v1/crates/libredox/0.1.3/download -> libredox-0.1.3.crate
 https://crates.io/api/v1/crates/linux-keyutils/0.2.4/download -> linux-keyutils-0.2.4.crate
@@ -519,6 +528,7 @@ https://crates.io/api/v1/crates/litemap/0.7.3/download -> litemap-0.7.3.crate
 https://crates.io/api/v1/crates/lock_api/0.4.12/download -> lock_api-0.4.12.crate
 https://crates.io/api/v1/crates/lockfree-object-pool/0.1.6/download -> lockfree-object-pool-0.1.6.crate
 https://crates.io/api/v1/crates/log/0.4.22/download -> log-0.4.22.crate
+https://crates.io/api/v1/crates/lzma-rs/0.3.0/download -> lzma-rs-0.3.0.crate
 https://crates.io/api/v1/crates/lzma-sys/0.1.20/download -> lzma-sys-0.1.20.crate
 https://crates.io/api/v1/crates/lzxd/0.2.5/download -> lzxd-0.2.5.crate
 https://crates.io/api/v1/crates/mailparse/0.15.0/download -> mailparse-0.15.0.crate
@@ -570,6 +580,7 @@ https://crates.io/api/v1/crates/pyproject-toml/0.13.4/download -> pyproject-toml
 https://crates.io/api/v1/crates/python-pkginfo/0.6.5/download -> python-pkginfo-0.6.5.crate
 https://crates.io/api/v1/crates/quote/1.0.37/download -> quote-1.0.37.crate
 https://crates.io/api/v1/crates/quoted_printable/0.5.0/download -> quoted_printable-0.5.0.crate
+https://crates.io/api/v1/crates/r-efi/5.2.0/download -> r-efi-5.2.0.crate
 https://crates.io/api/v1/crates/rand/0.8.5/download -> rand-0.8.5.crate
 https://crates.io/api/v1/crates/rand_chacha/0.3.1/download -> rand_chacha-0.3.1.crate
 https://crates.io/api/v1/crates/rand_core/0.6.4/download -> rand_core-0.6.4.crate
@@ -683,6 +694,7 @@ https://crates.io/api/v1/crates/versions/6.2.0/download -> versions-6.2.0.crate
 https://crates.io/api/v1/crates/wait-timeout/0.2.0/download -> wait-timeout-0.2.0.crate
 https://crates.io/api/v1/crates/walkdir/2.5.0/download -> walkdir-2.5.0.crate
 https://crates.io/api/v1/crates/wasi/0.11.0+wasi-snapshot-preview1/download -> wasi-0.11.0+wasi-snapshot-preview1.crate
+https://crates.io/api/v1/crates/wasi/0.14.2+wasi-0.2.4/download -> wasi-0.14.2+wasi-0.2.4.crate
 https://crates.io/api/v1/crates/wasm-bindgen/0.2.96/download -> wasm-bindgen-0.2.96.crate
 https://crates.io/api/v1/crates/wasm-bindgen-backend/0.2.96/download -> wasm-bindgen-backend-0.2.96.crate
 https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.96/download -> wasm-bindgen-macro-0.2.96.crate
@@ -718,6 +730,7 @@ https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.5/download -> windows_x
 https://crates.io/api/v1/crates/winnow/0.5.40/download -> winnow-0.5.40.crate
 https://crates.io/api/v1/crates/winnow/0.6.20/download -> winnow-0.6.20.crate
 https://crates.io/api/v1/crates/winsafe/0.0.19/download -> winsafe-0.0.19.crate
+https://crates.io/api/v1/crates/wit-bindgen-rt/0.39.0/download -> wit-bindgen-rt-0.39.0.crate
 https://crates.io/api/v1/crates/write16/1.0.0/download -> write16-1.0.0.crate
 https://crates.io/api/v1/crates/writeable/0.5.5/download -> writeable-0.5.5.crate
 https://crates.io/api/v1/crates/xattr/1.3.1/download -> xattr-1.3.1.crate
@@ -735,7 +748,10 @@ https://crates.io/api/v1/crates/zerovec/0.10.4/download -> zerovec-0.10.4.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.10.3/download -> zerovec-derive-0.10.3.crate
 https://crates.io/api/v1/crates/zip/2.3.0/download -> zip-2.3.0.crate
 https://crates.io/api/v1/crates/zopfli/0.8.1/download -> zopfli-0.8.1.crate
-https://files.pythonhosted.org/packages/34/bc/c7df50a359c3a31490785c77d1ddd5fc83cc8cc07a4eddd289dbae53545a/maturin-1.8.6.tar.gz -> maturin-1.8.6.tar.gz
+https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
+https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
+https://crates.io/api/v1/crates/zstd-sys/2.0.15+zstd.1.5.7/download -> zstd-sys-2.0.15+zstd.1.5.7.crate
+https://files.pythonhosted.org/packages/5d/67/71098eb8cac6dacfc71b6b81645017811ad377c22c959cff524505cbc8d4/maturin-1.8.7.tar.gz -> maturin-1.8.7.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -746,4 +762,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.8.6"
+S="${WORKDIR}/maturin-1.8.7"
