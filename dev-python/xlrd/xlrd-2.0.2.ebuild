@@ -8,11 +8,11 @@ inherit distutils-r1
 DESCRIPTION="Extract data from Excel spreadsheets"
 HOMEPAGE="http://www.python-excel.org/
 "
-SRC_URI="https://files.pythonhosted.org/packages/a6/b3/19a2540d21dea5f908304375bd43f5ed7a4c28a370dc9122c565423e6b44/xlrd-2.0.1.tar.gz -> xlrd-2.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/5a/377161c2d3538d1990d7af382c79f3b2372e880b65de21b01b1a2b78691e/xlrd-2.0.2.tar.gz -> xlrd-2.0.2.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/xlrd-2.0.1"
+S="${WORKDIR}/xlrd-2.0.2"
