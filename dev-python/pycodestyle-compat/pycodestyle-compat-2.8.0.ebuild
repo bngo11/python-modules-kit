@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="!<dev-python/pycodestyle-2.11.0-r1 "
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/pycodestyle-2.8.0"
 
