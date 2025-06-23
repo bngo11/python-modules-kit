@@ -110,7 +110,7 @@ generic-array-0.14.7
 getrandom-0.2.15
 getrandom-0.3.3
 glob-0.3.1
-globset-0.4.15
+globset-0.4.16
 goblin-0.9.2
 hashbrown-0.14.5
 hashbrown-0.15.2
@@ -134,6 +134,7 @@ ignore-0.4.23
 indexmap-2.6.0
 indicatif-0.17.9
 indoc-2.0.5
+insta-1.43.1
 is_terminal_polyfill-1.70.0
 itertools-0.12.1
 itertools-0.13.0
@@ -192,7 +193,7 @@ pin-project-lite-0.2.15
 pin-utils-0.1.0
 pkg-config-0.3.30
 plain-0.2.3
-platform-info-2.0.3
+platform-info-2.0.5
 portable-atomic-1.6.0
 powerfmt-0.2.0
 ppv-lite86-0.2.17
@@ -200,7 +201,7 @@ pretty_assertions-1.4.1
 proc-macro-crate-3.1.0
 proc-macro2-1.0.92
 psm-0.1.21
-pyproject-toml-0.13.4
+pyproject-toml-0.13.5
 python-pkginfo-0.6.5
 quote-1.0.37
 quoted_printable-0.5.0
@@ -274,9 +275,9 @@ termcolor-1.4.1
 terminal_size-0.3.0
 textwrap-0.16.1
 thiserror-1.0.69
-thiserror-2.0.3
+thiserror-2.0.12
 thiserror-impl-1.0.69
-thiserror-impl-2.0.3
+thiserror-impl-2.0.12
 thread_local-1.1.8
 time-0.3.36
 time-core-0.1.2
@@ -486,7 +487,7 @@ https://crates.io/api/v1/crates/generic-array/0.14.7/download -> generic-array-0
 https://crates.io/api/v1/crates/getrandom/0.2.15/download -> getrandom-0.2.15.crate
 https://crates.io/api/v1/crates/getrandom/0.3.3/download -> getrandom-0.3.3.crate
 https://crates.io/api/v1/crates/glob/0.3.1/download -> glob-0.3.1.crate
-https://crates.io/api/v1/crates/globset/0.4.15/download -> globset-0.4.15.crate
+https://crates.io/api/v1/crates/globset/0.4.16/download -> globset-0.4.16.crate
 https://crates.io/api/v1/crates/goblin/0.9.2/download -> goblin-0.9.2.crate
 https://crates.io/api/v1/crates/hashbrown/0.14.5/download -> hashbrown-0.14.5.crate
 https://crates.io/api/v1/crates/hashbrown/0.15.2/download -> hashbrown-0.15.2.crate
@@ -510,6 +511,7 @@ https://crates.io/api/v1/crates/ignore/0.4.23/download -> ignore-0.4.23.crate
 https://crates.io/api/v1/crates/indexmap/2.6.0/download -> indexmap-2.6.0.crate
 https://crates.io/api/v1/crates/indicatif/0.17.9/download -> indicatif-0.17.9.crate
 https://crates.io/api/v1/crates/indoc/2.0.5/download -> indoc-2.0.5.crate
+https://crates.io/api/v1/crates/insta/1.43.1/download -> insta-1.43.1.crate
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.0/download -> is_terminal_polyfill-1.70.0.crate
 https://crates.io/api/v1/crates/itertools/0.12.1/download -> itertools-0.12.1.crate
 https://crates.io/api/v1/crates/itertools/0.13.0/download -> itertools-0.13.0.crate
@@ -568,7 +570,7 @@ https://crates.io/api/v1/crates/pin-project-lite/0.2.15/download -> pin-project-
 https://crates.io/api/v1/crates/pin-utils/0.1.0/download -> pin-utils-0.1.0.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.30/download -> pkg-config-0.3.30.crate
 https://crates.io/api/v1/crates/plain/0.2.3/download -> plain-0.2.3.crate
-https://crates.io/api/v1/crates/platform-info/2.0.3/download -> platform-info-2.0.3.crate
+https://crates.io/api/v1/crates/platform-info/2.0.5/download -> platform-info-2.0.5.crate
 https://crates.io/api/v1/crates/portable-atomic/1.6.0/download -> portable-atomic-1.6.0.crate
 https://crates.io/api/v1/crates/powerfmt/0.2.0/download -> powerfmt-0.2.0.crate
 https://crates.io/api/v1/crates/ppv-lite86/0.2.17/download -> ppv-lite86-0.2.17.crate
@@ -576,7 +578,7 @@ https://crates.io/api/v1/crates/pretty_assertions/1.4.1/download -> pretty_asser
 https://crates.io/api/v1/crates/proc-macro-crate/3.1.0/download -> proc-macro-crate-3.1.0.crate
 https://crates.io/api/v1/crates/proc-macro2/1.0.92/download -> proc-macro2-1.0.92.crate
 https://crates.io/api/v1/crates/psm/0.1.21/download -> psm-0.1.21.crate
-https://crates.io/api/v1/crates/pyproject-toml/0.13.4/download -> pyproject-toml-0.13.4.crate
+https://crates.io/api/v1/crates/pyproject-toml/0.13.5/download -> pyproject-toml-0.13.5.crate
 https://crates.io/api/v1/crates/python-pkginfo/0.6.5/download -> python-pkginfo-0.6.5.crate
 https://crates.io/api/v1/crates/quote/1.0.37/download -> quote-1.0.37.crate
 https://crates.io/api/v1/crates/quoted_printable/0.5.0/download -> quoted_printable-0.5.0.crate
@@ -650,9 +652,9 @@ https://crates.io/api/v1/crates/termcolor/1.4.1/download -> termcolor-1.4.1.crat
 https://crates.io/api/v1/crates/terminal_size/0.3.0/download -> terminal_size-0.3.0.crate
 https://crates.io/api/v1/crates/textwrap/0.16.1/download -> textwrap-0.16.1.crate
 https://crates.io/api/v1/crates/thiserror/1.0.69/download -> thiserror-1.0.69.crate
-https://crates.io/api/v1/crates/thiserror/2.0.3/download -> thiserror-2.0.3.crate
+https://crates.io/api/v1/crates/thiserror/2.0.12/download -> thiserror-2.0.12.crate
 https://crates.io/api/v1/crates/thiserror-impl/1.0.69/download -> thiserror-impl-1.0.69.crate
-https://crates.io/api/v1/crates/thiserror-impl/2.0.3/download -> thiserror-impl-2.0.3.crate
+https://crates.io/api/v1/crates/thiserror-impl/2.0.12/download -> thiserror-impl-2.0.12.crate
 https://crates.io/api/v1/crates/thread_local/1.1.8/download -> thread_local-1.1.8.crate
 https://crates.io/api/v1/crates/time/0.3.36/download -> time-0.3.36.crate
 https://crates.io/api/v1/crates/time-core/0.1.2/download -> time-core-0.1.2.crate
@@ -751,7 +753,7 @@ https://crates.io/api/v1/crates/zopfli/0.8.1/download -> zopfli-0.8.1.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.15+zstd.1.5.7/download -> zstd-sys-2.0.15+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/5d/67/71098eb8cac6dacfc71b6b81645017811ad377c22c959cff524505cbc8d4/maturin-1.8.7.tar.gz -> maturin-1.8.7.tar.gz
+https://files.pythonhosted.org/packages/2a/3a/117a238e055c7d9de5a27619e09f2762830f3ea227f69e110d86e2ec5bd9/maturin-1.9.0.tar.gz -> maturin-1.9.0.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -762,4 +764,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.8.7"
+S="${WORKDIR}/maturin-1.9.0"
