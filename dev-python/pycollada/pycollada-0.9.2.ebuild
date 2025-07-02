@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="python library for reading and writing collada documents"
 HOMEPAGE="None https://pypi.org/project/pycollada/"
-SRC_URI="https://files.pythonhosted.org/packages/da/6b/caadd3d65fde5a6a5a33e608183d5a52525a41e2c44f479a99620413a661/pycollada-0.9.tar.gz -> pycollada-0.9.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/25/13/21debba42c0c255acba29f42af8785ecad656948d30fde5302d5e4494d1c/pycollada-0.9.2.tar.gz -> pycollada-0.9.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pycollada-0.9"
+S="${WORKDIR}/pycollada-0.9.2"

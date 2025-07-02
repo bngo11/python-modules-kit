@@ -82,7 +82,7 @@ https://crates.io/api/v1/crates/target-lexicon/0.13.2/download -> target-lexicon
 https://crates.io/api/v1/crates/unicode-ident/1.0.18/download -> unicode-ident-1.0.18.crate
 https://crates.io/api/v1/crates/unindent/0.2.4/download -> unindent-0.2.4.crate
 https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
-https://files.pythonhosted.org/packages/fe/c8/a2a376a8711c1e11708b9c9972e0c3223f5fc682552c82d8db844393d6ce/cryptography-45.0.4.tar.gz -> cryptography-45.0.4.tar.gz
+https://files.pythonhosted.org/packages/95/1e/49527ac611af559665f71cbb8f92b332b5ec9c6fbc4e88b0f8e92f5e85df/cryptography-45.0.5.tar.gz -> cryptography-45.0.5.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -106,7 +106,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-45.0.4"
+S="${WORKDIR}/cryptography-45.0.5"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
