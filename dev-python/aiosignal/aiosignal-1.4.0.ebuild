@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="aiosignal: a list of registered asynchronous callbacks"
 HOMEPAGE="https://github.com/aio-libs/aiosignal https://pypi.org/project/aiosignal/"
-SRC_URI="https://files.pythonhosted.org/packages/ba/b5/6d55e80f6d8a08ce22b982eafa278d823b541c925f11ee774b0b9c43473d/aiosignal-1.3.2.tar.gz -> aiosignal-1.3.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/62/06741b579156360248d1ec624842ad0edf697050bbaf7c3e46394e106ad1/aiosignal-1.4.0.tar.gz -> aiosignal-1.4.0.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/frozenlist[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/aiosignal-1.3.2"
+S="${WORKDIR}/aiosignal-1.4.0"
