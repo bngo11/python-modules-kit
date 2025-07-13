@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Abstract Syntax Tree for logilab packages"
 HOMEPAGE="None https://pypi.org/project/astroid/"
-SRC_URI="https://files.pythonhosted.org/packages/00/c2/9b2de9ed027f9fe5734a6c0c0a601289d796b3caaf1e372e23fa88a73047/astroid-3.3.10.tar.gz -> astroid-3.3.10.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/18/74/dfb75f9ccd592bbedb175d4a32fc643cf569d7c218508bfbd6ea7ef9c091/astroid-3.3.11.tar.gz -> astroid-3.3.11.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,4 +20,4 @@ IUSE="test"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-S="${WORKDIR}/astroid-3.3.10"
+S="${WORKDIR}/astroid-3.3.11"
