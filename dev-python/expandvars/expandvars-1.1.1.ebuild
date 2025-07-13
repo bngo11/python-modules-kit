@@ -8,13 +8,13 @@ inherit distutils-r1
 
 DESCRIPTION="Expand system variables Unix style"
 HOMEPAGE="None https://pypi.org/project/expandvars/"
-SRC_URI="https://files.pythonhosted.org/packages/93/a7/997a548c9ed679d7b93c87e091eba591e7cd9fd82ca727136b4b5b9e24cd/expandvars-1.0.0.tar.gz -> expandvars-1.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/c9/c0a46f462058446aafe953bf76a957c17f78550216a95fbded2270f83117/expandvars-1.1.1.tar.gz -> expandvars-1.1.1.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/expandvars-1.0.0"
+S="${WORKDIR}/expandvars-1.1.1"
 
 distutils_enable_tests pytest
