@@ -7,6 +7,7 @@ DISTUTILS_USE_PEP517="maturin"
 CRATES="
 associative-cache-2.0.0
 bytecount-0.6.9
+bytes-1.10.1
 cc-1.2.29
 cfg-if-1.0.1
 crunchy-0.2.4
@@ -48,6 +49,7 @@ DESCRIPTION="Fast, correct Python JSON library supporting dataclasses, datetimes
 HOMEPAGE="None https://pypi.org/project/orjson/"
 SRC_URI="https://crates.io/api/v1/crates/associative-cache/2.0.0/download -> associative-cache-2.0.0.crate
 https://crates.io/api/v1/crates/bytecount/0.6.9/download -> bytecount-0.6.9.crate
+https://crates.io/api/v1/crates/bytes/1.10.1/download -> bytes-1.10.1.crate
 https://crates.io/api/v1/crates/cc/1.2.29/download -> cc-1.2.29.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.1/download -> cfg-if-1.0.1.crate
 https://crates.io/api/v1/crates/crunchy/0.2.4/download -> crunchy-0.2.4.crate
@@ -81,7 +83,7 @@ https://crates.io/api/v1/crates/unwinding/0.2.5/download -> unwinding-0.2.5.crat
 https://crates.io/api/v1/crates/uuid/1.17.0/download -> uuid-1.17.0.crate
 https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.9.5.crate
 https://crates.io/api/v1/crates/xxhash-rust/0.8.15/download -> xxhash-rust-0.8.15.crate
-https://files.pythonhosted.org/packages/29/87/03ababa86d984952304ac8ce9fbd3a317afb4a225b9a81f9b606ac60c873/orjson-3.11.0.tar.gz -> orjson-3.11.0.tar.gz
+https://files.pythonhosted.org/packages/19/3b/fd9ff8ff64ae3900f11554d5cfc835fb73e501e043c420ad32ec574fe27f/orjson-3.11.1.tar.gz -> orjson-3.11.1.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND=""
@@ -97,7 +99,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 MIT"
 KEYWORDS="*"
-S="${WORKDIR}/orjson-3.11.0"
+S="${WORKDIR}/orjson-3.11.1"
 
 QA_FLAGS_IGNORED=".*"
 

@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Event publishing / dispatch, used by Zope Component Architecture"
 HOMEPAGE="https://github.com/zopefoundation/zope.event http://docs.zope.org/zope.event/"
-SRC_URI="https://files.pythonhosted.org/packages/8b/c7/31e6f40282a2c548602c177826df281177caf79efaa101dd14314fb4ee73/zope_event-5.1.tar.gz -> zope_event-5.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/9f/c443569a68d3844c044d9fa9711e08adb33649b527b4d432433f4c2a6a02/zope_event-5.1.1.tar.gz -> zope_event-5.1.1.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

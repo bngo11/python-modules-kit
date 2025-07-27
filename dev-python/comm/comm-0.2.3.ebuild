@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/ipython/comm/
 	https://pypi.org/project/comm/
 "
-SRC_URI="https://files.pythonhosted.org/packages/e9/a8/fb783cb0abe2b5fded9f55e5703015cdf1c9c85b3669087c538dd15a6a86/comm-0.2.2.tar.gz -> comm-0.2.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/13/7d740c5849255756bc17888787313b61fd38a0a8304fc4f073dfc46122aa/comm-0.2.3.tar.gz -> comm-0.2.3.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

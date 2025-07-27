@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Accurate Hijri-Gregorian date converter based on the Umm al-Qura calendar"
 HOMEPAGE="https://github.com/dralshehri/hijri-converter"
-SRC_URI="https://files.pythonhosted.org/packages/8e/ca/f26e91818264caca15ba9ef71d99dea51c8391bf2818aabde278d9642441/hijri-converter-2.3.1.tar.gz -> hijri-converter-2.3.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a8/9e/2d06c74cb8588cee7006b5a3caeee2eb3e4573b4dfdf583a1efe2bad3257/hijri_converter-2.3.2.tar.gz -> hijri_converter-2.3.2.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
