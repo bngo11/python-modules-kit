@@ -2,21 +2,22 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit bash-completion-r1 distutils-r1
 
 DESCRIPTION="The PyPA recommended tool for installing Python packages."
 HOMEPAGE="None https://pypi.org/project/pip/"
-SRC_URI="https://files.pythonhosted.org/packages/53/7f/55721ad0501a9076dbc354cc8c63ffc2d6f1ef360f49ad0fbcce19d68538/pip-20.3.4.tar.gz -> pip-20.3.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/20/16/650289cd3f43d5a2fadfd98c68bd1e1e7f2550a1a5326768cddfbcedb2c5/pip-25.2.tar.gz -> pip-25.2.tar.gz"
 
 DEPEND=""
-RDEPEND="!<dev-python/pip-21.0 "
-IUSE="vanilla"
+RDEPEND="python_targets_python2_7? ( dev-python/pip-compat )"
+IUSE="python_targets_python2_7 vanilla"
 RESTRICT="test"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pip-20.3.4"
+S="${WORKDIR}/pip-25.2"
 
 python_prepare_all() {
 	if ! use vanilla; then
@@ -47,9 +48,4 @@ python_install_all() {
 	newbashcomp completion.bash ${PN}
 	insinto /usr/share/zsh/site-functions
 	newins completion.zsh _pip
-}
-
-
-post_src_install() {
-	rm -rf ${D}/usr/bin
 }
