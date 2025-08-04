@@ -6,9 +6,9 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
-DESCRIPTION="High level compatibility layer for multiple asynchronous event loop implementations"
+DESCRIPTION="High-level concurrency and networking framework on top of asyncio or Trio"
 HOMEPAGE="None https://pypi.org/project/anyio/"
-SRC_URI="https://files.pythonhosted.org/packages/95/7d/4c1bd541d4dffa1b52bd83fb8527089e097a106fc90b467a7313b105f840/anyio-4.9.0.tar.gz -> anyio-4.9.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f1/b4/636b3b65173d3ce9a38ef5f0522789614e590dab6a8d505340a4efe4c567/anyio-4.10.0.tar.gz -> anyio-4.10.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,6 +19,6 @@ RDEPEND="
 	>=dev-python/trio-0.16[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/anyio-4.9.0"
+S="${WORKDIR}/anyio-4.10.0"
