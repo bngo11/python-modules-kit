@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="SSH2 protocol library"
-HOMEPAGE="https://paramiko.org https://pypi.org/project/paramiko/"
-SRC_URI="https://files.pythonhosted.org/packages/7d/15/ad6ce226e8138315f2451c2aeea985bf35ee910afb477bae7477dc3a8f3b/paramiko-3.5.1.tar.gz -> paramiko-3.5.1.tar.gz"
+HOMEPAGE="None https://pypi.org/project/paramiko/"
+SRC_URI="https://files.pythonhosted.org/packages/1f/e7/81fdcbc7f190cdb058cffc9431587eb289833bdd633e2002455ca9bb13d4/paramiko-4.0.0.tar.gz -> paramiko-4.0.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -22,4 +22,4 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-S="${WORKDIR}/paramiko-3.5.1"
+S="${WORKDIR}/paramiko-4.0.0"

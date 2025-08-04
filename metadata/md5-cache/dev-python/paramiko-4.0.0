@@ -2,7 +2,7 @@ BDEPEND=python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_pytho
 DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=SSH2 protocol library
 EAPI=7
-HOMEPAGE=https://paramiko.org https://pypi.org/project/paramiko/
+HOMEPAGE=None https://pypi.org/project/paramiko/
 IUSE=python_targets_python2_7 python_targets_python3_12 python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
 KEYWORDS=*
 LICENSE=LGPL-2.1
@@ -10,6 +10,6 @@ RDEPEND=python_targets_python2_7? ( dev-python/paramiko-compat ) >=dev-python/bc
 REQUIRED_USE=|| ( python_targets_python3_12 python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/7d/15/ad6ce226e8138315f2451c2aeea985bf35ee910afb477bae7477dc3a8f3b/paramiko-3.5.1.tar.gz -> paramiko-3.5.1.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/1f/e7/81fdcbc7f190cdb058cffc9431587eb289833bdd633e2002455ca9bb13d4/paramiko-4.0.0.tar.gz -> paramiko-4.0.0.tar.gz
 _eclasses_=distutils-r1	4584ea80879f6091f6e5455689dcc61b	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	c57a84554d3dca7c828e40d877b2dd7d	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=7fd3ba81b7456b92052a8d8c5b1e411c
+_md5_=61df7e4705a07f7a14771fc4e08d61d0
