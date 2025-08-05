@@ -14,6 +14,7 @@ SRC_URI="https://files.pythonhosted.org/packages/a8/9e/2d06c74cb8588cee7006b5a3c
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="*"
+S="${WORKDIR}/hijri_converter-${PV}"
 
 distutils_enable_tests pytest
 
