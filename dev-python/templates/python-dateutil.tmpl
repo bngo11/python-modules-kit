@@ -40,6 +40,7 @@ PATCHES=(
 python_prepare_all() {
 	# don't install zoneinfo tarball
 	sed -i '/package_data=/d' setup.py || die
+	echo '[tool.setuptools_scm]' >> pyproject.toml || die
 
 	distutils-r1_python_prepare_all
 }

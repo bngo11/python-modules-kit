@@ -9,7 +9,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope Deferred Impport"
 HOMEPAGE="https://docs.zope.org/zope.deferredimport/"
-SRC_URI="https://files.pythonhosted.org/packages/a1/b7/9b0c93edb4c6745ac8784c265d244f5b3bc4082d92f7aefe952aaa5be5f3/zope.deferredimport-5.0.tar.gz -> zope.deferredimport-5.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/da/a6/fa5574227475b4ede22b813f208876af19b29a55c76a0accad09a966869b/zope_deferredimport-5.1.tar.gz -> zope_deferredimport-5.1.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
