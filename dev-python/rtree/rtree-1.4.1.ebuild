@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="R-Tree spatial index for Python GIS"
 HOMEPAGE="None https://pypi.org/project/rtree/"
-SRC_URI="https://files.pythonhosted.org/packages/18/b8/0091f020acafcb034daa5b062f0626f6a73c7e0d64826af23861390a9585/rtree-1.4.0.tar.gz -> rtree-1.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/09/7302695875a019514de9a5dd17b8320e7a19d6e7bc8f85dcfb79a4ce2da3/rtree-1.4.1.tar.gz -> rtree-1.4.1.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/Rtree-1.4.0"
+S="${WORKDIR}/Rtree-1.4.1"

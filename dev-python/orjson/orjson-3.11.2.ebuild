@@ -8,82 +8,82 @@ CRATES="
 associative-cache-2.0.0
 bytecount-0.6.9
 bytes-1.10.1
-cc-1.2.29
+cc-1.2.32
 cfg-if-1.0.1
 crunchy-0.2.4
 encoding_rs-0.8.35
-gimli-0.31.1
+gimli-0.32.0
 half-2.6.0
 itoa-1.0.15
 itoap-1.0.1
 jiff-0.2.15
 jiff-static-0.2.15
-libc-0.2.174
+libc-0.2.175
 memchr-2.7.5
 once_cell-1.21.3
 portable-atomic-1.11.1
 portable-atomic-util-0.2.4
-proc-macro2-1.0.95
+proc-macro2-1.0.96
 pyo3-build-config-0.25.1
 pyo3-ffi-0.25.1
 quote-1.0.40
 ryu-1.0.20
 serde-1.0.219
 serde_derive-1.0.219
-serde_json-1.0.140
+serde_json-1.0.142
 shlex-1.3.0
 simdutf8-0.1.5
 smallvec-1.15.1
 syn-2.0.104
 target-lexicon-0.13.2
 unicode-ident-1.0.18
-unwinding-0.2.5
-uuid-1.17.0
+unwinding-0.2.8
+uuid-1.18.0
 version_check-0.9.5
 xxhash-rust-0.8.15
 "
 
 inherit cargo distutils-r1
 
-DESCRIPTION="Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+DESCRIPTION=""
 HOMEPAGE="None https://pypi.org/project/orjson/"
 SRC_URI="https://crates.io/api/v1/crates/associative-cache/2.0.0/download -> associative-cache-2.0.0.crate
 https://crates.io/api/v1/crates/bytecount/0.6.9/download -> bytecount-0.6.9.crate
 https://crates.io/api/v1/crates/bytes/1.10.1/download -> bytes-1.10.1.crate
-https://crates.io/api/v1/crates/cc/1.2.29/download -> cc-1.2.29.crate
+https://crates.io/api/v1/crates/cc/1.2.32/download -> cc-1.2.32.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.1/download -> cfg-if-1.0.1.crate
 https://crates.io/api/v1/crates/crunchy/0.2.4/download -> crunchy-0.2.4.crate
 https://crates.io/api/v1/crates/encoding_rs/0.8.35/download -> encoding_rs-0.8.35.crate
-https://crates.io/api/v1/crates/gimli/0.31.1/download -> gimli-0.31.1.crate
+https://crates.io/api/v1/crates/gimli/0.32.0/download -> gimli-0.32.0.crate
 https://crates.io/api/v1/crates/half/2.6.0/download -> half-2.6.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
 https://crates.io/api/v1/crates/itoap/1.0.1/download -> itoap-1.0.1.crate
 https://crates.io/api/v1/crates/jiff/0.2.15/download -> jiff-0.2.15.crate
 https://crates.io/api/v1/crates/jiff-static/0.2.15/download -> jiff-static-0.2.15.crate
-https://crates.io/api/v1/crates/libc/0.2.174/download -> libc-0.2.174.crate
+https://crates.io/api/v1/crates/libc/0.2.175/download -> libc-0.2.175.crate
 https://crates.io/api/v1/crates/memchr/2.7.5/download -> memchr-2.7.5.crate
 https://crates.io/api/v1/crates/once_cell/1.21.3/download -> once_cell-1.21.3.crate
 https://crates.io/api/v1/crates/portable-atomic/1.11.1/download -> portable-atomic-1.11.1.crate
 https://crates.io/api/v1/crates/portable-atomic-util/0.2.4/download -> portable-atomic-util-0.2.4.crate
-https://crates.io/api/v1/crates/proc-macro2/1.0.95/download -> proc-macro2-1.0.95.crate
+https://crates.io/api/v1/crates/proc-macro2/1.0.96/download -> proc-macro2-1.0.96.crate
 https://crates.io/api/v1/crates/pyo3-build-config/0.25.1/download -> pyo3-build-config-0.25.1.crate
 https://crates.io/api/v1/crates/pyo3-ffi/0.25.1/download -> pyo3-ffi-0.25.1.crate
 https://crates.io/api/v1/crates/quote/1.0.40/download -> quote-1.0.40.crate
 https://crates.io/api/v1/crates/ryu/1.0.20/download -> ryu-1.0.20.crate
 https://crates.io/api/v1/crates/serde/1.0.219/download -> serde-1.0.219.crate
 https://crates.io/api/v1/crates/serde_derive/1.0.219/download -> serde_derive-1.0.219.crate
-https://crates.io/api/v1/crates/serde_json/1.0.140/download -> serde_json-1.0.140.crate
+https://crates.io/api/v1/crates/serde_json/1.0.142/download -> serde_json-1.0.142.crate
 https://crates.io/api/v1/crates/shlex/1.3.0/download -> shlex-1.3.0.crate
 https://crates.io/api/v1/crates/simdutf8/0.1.5/download -> simdutf8-0.1.5.crate
 https://crates.io/api/v1/crates/smallvec/1.15.1/download -> smallvec-1.15.1.crate
 https://crates.io/api/v1/crates/syn/2.0.104/download -> syn-2.0.104.crate
 https://crates.io/api/v1/crates/target-lexicon/0.13.2/download -> target-lexicon-0.13.2.crate
 https://crates.io/api/v1/crates/unicode-ident/1.0.18/download -> unicode-ident-1.0.18.crate
-https://crates.io/api/v1/crates/unwinding/0.2.5/download -> unwinding-0.2.5.crate
-https://crates.io/api/v1/crates/uuid/1.17.0/download -> uuid-1.17.0.crate
+https://crates.io/api/v1/crates/unwinding/0.2.8/download -> unwinding-0.2.8.crate
+https://crates.io/api/v1/crates/uuid/1.18.0/download -> uuid-1.18.0.crate
 https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.9.5.crate
 https://crates.io/api/v1/crates/xxhash-rust/0.8.15/download -> xxhash-rust-0.8.15.crate
-https://files.pythonhosted.org/packages/19/3b/fd9ff8ff64ae3900f11554d5cfc835fb73e501e043c420ad32ec574fe27f/orjson-3.11.1.tar.gz -> orjson-3.11.1.tar.gz
+https://files.pythonhosted.org/packages/df/1d/5e0ae38788bdf0721326695e65fdf41405ed535f633eb0df0f06f57552fa/orjson-3.11.2.tar.gz -> orjson-3.11.2.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND=""
@@ -99,7 +99,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 MIT"
 KEYWORDS="*"
-S="${WORKDIR}/orjson-3.11.1"
+S="${WORKDIR}/orjson-3.11.2"
 
 QA_FLAGS_IGNORED=".*"
 
