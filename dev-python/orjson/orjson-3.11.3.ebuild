@@ -45,7 +45,7 @@ xxhash-rust-0.8.15
 
 inherit cargo distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
 HOMEPAGE="None https://pypi.org/project/orjson/"
 SRC_URI="https://crates.io/api/v1/crates/associative-cache/2.0.0/download -> associative-cache-2.0.0.crate
 https://crates.io/api/v1/crates/bytecount/0.6.9/download -> bytecount-0.6.9.crate
@@ -83,7 +83,7 @@ https://crates.io/api/v1/crates/unwinding/0.2.8/download -> unwinding-0.2.8.crat
 https://crates.io/api/v1/crates/uuid/1.18.0/download -> uuid-1.18.0.crate
 https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.9.5.crate
 https://crates.io/api/v1/crates/xxhash-rust/0.8.15/download -> xxhash-rust-0.8.15.crate
-https://files.pythonhosted.org/packages/df/1d/5e0ae38788bdf0721326695e65fdf41405ed535f633eb0df0f06f57552fa/orjson-3.11.2.tar.gz -> orjson-3.11.2.tar.gz
+https://files.pythonhosted.org/packages/be/4d/8df5f83256a809c22c4d6792ce8d43bb503be0fb7a8e4da9025754b09658/orjson-3.11.3.tar.gz -> orjson-3.11.3.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND=""
@@ -99,7 +99,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 MIT"
 KEYWORDS="*"
-S="${WORKDIR}/orjson-3.11.2"
+S="${WORKDIR}/orjson-3.11.3"
 
 QA_FLAGS_IGNORED=".*"
 
