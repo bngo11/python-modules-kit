@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Synchronize calendars and contacts"
 HOMEPAGE="https://github.com/pimutils/vdirsyncer"
-SRC_URI="https://files.pythonhosted.org/packages/ee/c2/50eb6b430f447c062ae3cd07d1a354d768bdb1443580bd4ae16ec8c8296d/vdirsyncer-0.19.3.tar.gz -> vdirsyncer-0.19.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2e/f6/94ed82de371cc80784ffe90e0dac8ce9f5d272c01d614415a5e800ffb303/vdirsyncer-0.20.0.tar.gz -> vdirsyncer-0.20.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -21,6 +21,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/vdirsyncer-0.19.3"
+S="${WORKDIR}/vdirsyncer-0.20.0"
 
 DOCS=( AUTHORS.rst CHANGELOG.rst CONTRIBUTING.rst README.rst config.example )

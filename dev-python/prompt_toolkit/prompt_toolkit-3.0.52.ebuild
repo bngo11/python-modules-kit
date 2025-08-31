@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://pypi.org/project/prompt-toolkit/
 	https://github.com/prompt-toolkit/python-prompt-toolkit/
 "
-SRC_URI="https://files.pythonhosted.org/packages/bb/6e/9d084c929dfe9e3bfe0c6a47e31f78a25c54627d64a66e884a8bf5474f1c/prompt_toolkit-3.0.51.tar.gz -> prompt_toolkit-3.0.51.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/96/06e01a7b38dce6fe1db213e061a4602dd6032a8a97ef6c1a862537732421/prompt_toolkit-3.0.52.tar.gz -> prompt_toolkit-3.0.52.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
