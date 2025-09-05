@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="!<dev-python/more-itertools-8 "
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/more-itertools-4.3.0"
 
