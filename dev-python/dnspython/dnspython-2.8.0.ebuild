@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="DNS toolkit"
 HOMEPAGE="None https://pypi.org/project/dnspython/"
-SRC_URI="https://files.pythonhosted.org/packages/b5/4a/263763cb2ba3816dd94b08ad3a33d5fdae34ecb856678773cc40a3605829/dnspython-2.7.0.tar.gz -> dnspython-2.7.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/8b/57666417c0f90f08bcafa776861060426765fdb422eb10212086fb811d26/dnspython-2.8.0.tar.gz -> dnspython-2.8.0.tar.gz"
 
 DEPEND="
 	dev-python/idna[${PYTHON_USEDEP}]
@@ -20,7 +20,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="ISC"
 KEYWORDS="*"
-S="${WORKDIR}/dnspython-2.7.0"
+S="${WORKDIR}/dnspython-2.8.0"
 
 src_prepare() {
 	sed -i -e 's|^license =.*|license = {text = "ISC"}|g' pyproject.toml
