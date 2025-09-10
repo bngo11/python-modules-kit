@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="C parser and AST generator written in Python"
 HOMEPAGE="https://github.com/eliben/pycparser"
-SRC_URI="https://files.pythonhosted.org/packages/1d/b2/31537cf4b1ca988837256c910a668b553fceb8f069bedc4b1c826024b52c/pycparser-2.22.tar.gz -> pycparser-2.22.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/cf/d2d3b9f5699fb1e4615c8e32ff220203e43b248e1dfcc6736ad9057731ca/pycparser-2.23.tar.gz -> pycparser-2.23.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
