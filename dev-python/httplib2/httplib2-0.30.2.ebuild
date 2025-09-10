@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A comprehensive HTTP client library."
 HOMEPAGE="https://github.com/httplib2/httplib2 https://pypi.org/project/httplib2/"
-SRC_URI="https://files.pythonhosted.org/packages/5b/75/1d10a90b3411f707c10c226fa918cf4f5e0578113caa223369130f702b6b/httplib2-0.30.0.tar.gz -> httplib2-0.30.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/3f/9885ad4999af31bc19baf6f998264c2bda94dd8729bc13f0759fdf20ab8b/httplib2-0.30.2.tar.gz -> httplib2-0.30.2.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/pyparsing[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/httplib2-0.30.0"
+S="${WORKDIR}/httplib2-0.30.2"

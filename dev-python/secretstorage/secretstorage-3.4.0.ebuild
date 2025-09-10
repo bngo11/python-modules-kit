@@ -12,7 +12,7 @@ MY_PN="SecretStorage"
 DESCRIPTION="Python bindings to FreeDesktop.org Secret Service API."
 HOMEPAGE="https://github.com/mitya57/secretstorage https://pypi.org/project/SecretStorage/"
 SRC_URI="https://files.pythonhosted.org/packages/31/9f/11ef35cf1027c1339552ea7bfe6aaa74a8516d8b5caf6e7d338daf54fd80/secretstorage-3.4.0.tar.gz -> secretstorage-3.4.0.tar.gz"
-S="${WORKDIR}/${MY_PN}-${PV}"
+S="${WORKDIR}/secretstorage-${PV}"
 
 LICENSE="BSD"
 SLOT="0"
