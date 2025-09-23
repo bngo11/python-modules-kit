@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/carpedm20/emoji/
 	https://pypi.org/project/emoji/
 "
-SRC_URI="https://files.pythonhosted.org/packages/cb/7d/01cddcbb6f5cc0ba72e00ddf9b1fa206c802d557fd0a20b18e130edf1336/emoji-2.14.1.tar.gz -> emoji-2.14.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a2/78/0d2db9382c92a163d7095fc08efff7800880f830a152cfced40161e7638d/emoji-2.15.0.tar.gz -> emoji-2.15.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
