@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree"
 HOMEPAGE="https://www.crummy.com/software/BeautifulSoup/bs4/"
-SRC_URI="https://files.pythonhosted.org/packages/85/2e/3e5079847e653b1f6dc647aa24549d68c6addb4c595cc0d902d1b19308ad/beautifulsoup4-4.13.5.tar.gz -> beautifulsoup4-4.13.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8a/bb/3387a5bf72121e1e2cd9223d20598c2fb599ef63517ff3e6ec526d8c4928/beautifulsoup4-4.14.0.tar.gz -> beautifulsoup4-4.14.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/beautifulsoup4-4.13.5"
+S="${WORKDIR}/beautifulsoup4-4.14.0"
