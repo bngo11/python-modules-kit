@@ -12,7 +12,7 @@ inherit distutils-r1 eutils flag-o-matic multiprocessing virtualx
 
 DESCRIPTION="Powerful data structures for data analysis and statistics"
 HOMEPAGE="https://pandas.pydata.org/"
-SRC_URI="https://files.pythonhosted.org/packages/79/8e/0e90233ac205ad182bd6b422532695d2b9414944a280488105d598c70023/pandas-2.3.2.tar.gz -> pandas-2.3.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/01/d40b85317f86cf08d853a4f495195c73815fdf205eef3993821720274518/pandas-2.3.3.tar.gz -> pandas-2.3.3.tar.gz"
 
 S="${WORKDIR}/${P/_/}"
 
