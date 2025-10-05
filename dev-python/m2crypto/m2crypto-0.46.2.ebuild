@@ -8,7 +8,7 @@ inherit distutils-r1 toolchain-funcs
 
 DESCRIPTION="A Python crypto and SSL toolkit"
 HOMEPAGE="https://gitlab.com/m2crypto/m2crypto https://pypi.org/project/M2Crypto/"
-SRC_URI="https://files.pythonhosted.org/packages/b6/e7/9b7c2f9474479f1efa7d16878419dcd744513cadadc796ebf7320de3010f/m2crypto-0.46.0.tar.gz -> m2crypto-0.46.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/af/7efbc96ac4fd6ae8bc5a749d4dccfdfa81f59850d0fad53bc532e462f8d8/m2crypto-0.46.2.tar.gz -> m2crypto-0.46.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
