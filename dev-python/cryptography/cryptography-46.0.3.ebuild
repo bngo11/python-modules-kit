@@ -22,9 +22,9 @@ itoa-1.0.15
 libc-0.2.175
 memoffset-0.9.1
 once_cell-1.21.3
-openssl-0.10.73
+openssl-0.10.74
 openssl-macros-0.1.1
-openssl-sys-0.9.109
+openssl-sys-0.9.110
 pem-3.0.5
 pkg-config-0.3.32
 portable-atomic-1.11.1
@@ -64,9 +64,9 @@ https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
 https://crates.io/api/v1/crates/libc/0.2.175/download -> libc-0.2.175.crate
 https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crate
 https://crates.io/api/v1/crates/once_cell/1.21.3/download -> once_cell-1.21.3.crate
-https://crates.io/api/v1/crates/openssl/0.10.73/download -> openssl-0.10.73.crate
+https://crates.io/api/v1/crates/openssl/0.10.74/download -> openssl-0.10.74.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.109/download -> openssl-sys-0.9.109.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.110/download -> openssl-sys-0.9.110.crate
 https://crates.io/api/v1/crates/pem/3.0.5/download -> pem-3.0.5.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.32/download -> pkg-config-0.3.32.crate
 https://crates.io/api/v1/crates/portable-atomic/1.11.1/download -> portable-atomic-1.11.1.crate
@@ -84,7 +84,7 @@ https://crates.io/api/v1/crates/target-lexicon/0.13.3/download -> target-lexicon
 https://crates.io/api/v1/crates/unicode-ident/1.0.19/download -> unicode-ident-1.0.19.crate
 https://crates.io/api/v1/crates/unindent/0.2.4/download -> unindent-0.2.4.crate
 https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
-https://files.pythonhosted.org/packages/4a/9b/e301418629f7bfdf72db9e80ad6ed9d1b83c487c471803eaa6464c511a01/cryptography-46.0.2.tar.gz -> cryptography-46.0.2.tar.gz
+https://files.pythonhosted.org/packages/9f/33/c00162f49c0e2fe8064a62cb92b93e50c74a72bc370ab92f86112b33ff62/cryptography-46.0.3.tar.gz -> cryptography-46.0.3.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -108,7 +108,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-46.0.2"
+S="${WORKDIR}/cryptography-46.0.3"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
