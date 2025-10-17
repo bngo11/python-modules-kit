@@ -20,7 +20,9 @@ DEPEND="
 	webp? ( media-libs/libwebp )
 	xcb? ( x11-libs/libxcb )
 	zlib? ( sys-libs/zlib )"
-RDEPEND="dev-python/olefile[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/olefile[${PYTHON_USEDEP}]
+	dev-python/pybind11[${PYTHON_USEDEP}]"
 IUSE="+jpeg examples imagequant jpeg2k lcms test tiff tk truetype webp xcb zlib"
 SLOT="0"
 LICENSE="HPND"

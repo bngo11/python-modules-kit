@@ -6,6 +6,7 @@ DISTUTILS_USE_PEP517=meson-python
 PYTHON_COMPAT=( {{python_compat}} )
 PYTHON_REQ_USE="threads(+)"
 FORTRAN_NEEDED=lapack
+MESON_EXE="vendored-meson/meson/meson.py"
 
 inherit distutils-r1 flag-o-matic fortran-2
 
@@ -22,7 +23,21 @@ SLOT="0"
 KEYWORDS="*"
 # +lapack because the internal fallbacks are pretty slow. Building without blas
 # is barely supported anyway, see bug #914358.
-IUSE="+lapack"
+IUSE="+cpudetection index64 +lapack"
+
+# upstream-flag[:gentoo-flag]
+ARM_FLAGS=( neon{,-fp16} vfpv4 asimd{,hp,dp,fhm} sve )
+PPC_FLAGS=( vsx vsx2 vsx3 vsx4 )
+X86_FLAGS=(
+	sse{,2,3,4_1,4_2} ssse3 popcnt avx{,2} xop fma{3,4}
+	f16c avx512{f,cd,pf,er,dq,bw,vl,ifma,vbmi}
+	avx512_{vpopcntdq,4vnniw,4fmaps,vbmi2,bitalg,fp16,vnni}
+)
+IUSE+="
+	${ARM_FLAGS[*]/#/cpu_flags_arm_}
+	${PPC_FLAGS[*]/#/cpu_flags_ppc_}
+	${X86_FLAGS[*]/#/cpu_flags_x86_}
+"
 
 RDEPEND="
 	lapack? (
@@ -62,10 +77,18 @@ python_prepare_all() {
 python_configure_all() {
 	DISTUTILS_ARGS=(
 		-Dallow-noblas=$(usex !lapack true false)
-		-Dblas=$(usev lapack cblas)
-		-Dlapack=$(usev lapack lapack)
-		# TODO: cpu-* options
+		-Duse-ilp64=$(usex index64 true false)
+		-Dblas=$(usex lapack $(usex index64 cblas64 cblas))
+		-Dlapack=$(usex lapack $(usex index64 lapack64 lapack))
+		-Dcpu-baseline="${cpu_baseline[*]}"
+		# '-XOP -FMA4' is upstream default, since these are deprecated
+		-Dcpu-dispatch="$(usex cpudetection 'MAX -XOP -FMA4' '')"
 	)
+
+	# bug #922457
+	filter-lto
+	# https://github.com/numpy/numpy/issues/25004
+	append-flags -fno-strict-aliasing
 }
 
 python_test() {

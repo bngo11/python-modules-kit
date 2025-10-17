@@ -13,7 +13,7 @@ HOMEPAGE="
 	https://github.com/jupyter/jupyter_core/
 	https://pypi.org/project/jupyter-core/
 "
-SRC_URI="https://files.pythonhosted.org/packages/99/1b/72906d554acfeb588332eaaa6f61577705e9ec752ddb486f302dafa292d9/jupyter_core-5.8.1.tar.gz -> jupyter_core-5.8.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/49/9d1284d0dc65e2c757b74c6687b6d319b02f822ad039e5c512df9194d9dd/jupyter_core-5.9.1.tar.gz -> jupyter_core-5.9.1.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

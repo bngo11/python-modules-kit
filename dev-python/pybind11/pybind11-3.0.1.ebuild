@@ -3,8 +3,8 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_SETUPTOOLS="rdepend"
-inherit distutils-r1
+DISTUTILS_USE_PEP517="standalone"
+inherit cmake distutils-r1
 
 DESCRIPTION="Seamless operability between C++11 and Python"
 HOMEPAGE="None https://pypi.org/project/pybind11/"
@@ -21,7 +21,5 @@ S="${WORKDIR}/pybind11-3.0.1"
 
 python_install() {
 	distutils-r1_python_install
-	doheader -r "${S}"/pybind11/include/*
-	insinto /usr/share/cmake
-	doins -r "${S}"/pybind11/share/cmake/*
+	cmake_src_install
 }
