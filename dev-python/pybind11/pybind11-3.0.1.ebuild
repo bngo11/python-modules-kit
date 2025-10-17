@@ -12,6 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/2f/7b/a6d8dcb83c457e24a9df1e4d8
 
 DEPEND=""
 RDEPEND="dev-cpp/eigen:3"
+BDEPEND="dev-python/scikit-build-core"
 IUSE=""
 RESTRICT="test"
 SLOT="0"
