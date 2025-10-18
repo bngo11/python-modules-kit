@@ -51,8 +51,8 @@ BDEPEND="
 	>=dev-python/cython-3.0.6[${PYTHON_USEDEP}]
 	lapack? (
 		virtual/pkgconfig
-		sci-lib/cblas-reference
-		sci-lib/lapack-reference
+		sci-libs/cblas-reference
+		sci-libs/lapack-reference
 	)
 	test? (
 		$(python_gen_cond_dep '
