@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
-DISTUTILS_USE_PEP517="hatchling"
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="brain-dead simple config-ini parsing"
@@ -12,7 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/72/34/14ca021ce8e5dfedc35312d08
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
-	dev-python/hatch-vcs[${PYTHON_USEDEP}]"
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="python_targets_python2_7? ( dev-python/iniconfig-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
@@ -21,8 +21,5 @@ KEYWORDS="*"
 S="${WORKDIR}/iniconfig-2.3.0"
 
 src_prepare() {
-	# fix license in pyproject.toml
-	sed -i -e 's/license = "MIT"/license = { text = "MIT" }/g' pyproject.toml || die
-
 	distutils-r1_src_prepare
 }
