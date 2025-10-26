@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order"
 HOMEPAGE="None https://pypi.org/project/ruamel.yaml/"
-SRC_URI="https://files.pythonhosted.org/packages/3e/db/f3950f5e5031b618aae9f423a39bf81a55c148aecd15a34527898e752cf4/ruamel.yaml-0.18.15.tar.gz -> ruamel.yaml-0.18.15.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/c7/ee630b29e04a672ecfc9b63227c87fd7a37eb67c1bf30fe95376437f897c/ruamel.yaml-0.18.16.tar.gz -> ruamel.yaml-0.18.16.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="test? ( dev-python/flake8[${PYTHON_USEDEP}] dev-python/pytest[${PYTHON_USEDEP}] dev-python/ruamel-std-pathlib[${PYTHON_USEDEP}] )"
@@ -15,7 +15,7 @@ IUSE="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/ruamel.yaml-0.18.15"
+S="${WORKDIR}/ruamel.yaml-0.18.16"
 
 python_install() {
 	distutils-r1_python_install --single-version-externally-managed

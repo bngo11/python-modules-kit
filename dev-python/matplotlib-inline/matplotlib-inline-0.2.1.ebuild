@@ -8,12 +8,12 @@ inherit distutils-r1
 
 DESCRIPTION="Inline Matplotlib backend for Jupyter"
 HOMEPAGE="None https://pypi.org/project/matplotlib-inline/"
-SRC_URI="https://files.pythonhosted.org/packages/99/5b/a36a337438a14116b16480db471ad061c36c3694df7c2084a0da7ba538b7/matplotlib_inline-0.1.7.tar.gz -> matplotlib_inline-0.1.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c7/74/97e72a36efd4ae2bccb3463284300f8953f199b5ffbc04cbbb0ec78f74b1/matplotlib_inline-0.2.1.tar.gz -> matplotlib_inline-0.2.1.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/traitlets[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/matplotlib_inline-0.1.7"
+S="${WORKDIR}/matplotlib_inline-0.2.1"

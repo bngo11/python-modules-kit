@@ -8,7 +8,7 @@ inherit bash-completion-r1 distutils-r1
 
 DESCRIPTION="The PyPA recommended tool for installing Python packages."
 HOMEPAGE="None https://pypi.org/project/pip/"
-SRC_URI="https://files.pythonhosted.org/packages/20/16/650289cd3f43d5a2fadfd98c68bd1e1e7f2550a1a5326768cddfbcedb2c5/pip-25.2.tar.gz -> pip-25.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/6e/74a3f0179a4a73a53d66ce57fdb4de0080a8baa1de0063de206d6167acc2/pip-25.3.tar.gz -> pip-25.3.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/pip-compat )"
@@ -17,7 +17,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pip-25.2"
+S="${WORKDIR}/pip-25.3"
 
 python_prepare_all() {
 	if ! use vanilla; then
