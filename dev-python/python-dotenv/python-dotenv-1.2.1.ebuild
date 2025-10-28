@@ -7,15 +7,15 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Read key-value pairs from a .env file and set them as environment variables"
-HOMEPAGE="https://github.com/theskumar/python-dotenv https://pypi.org/project/python-dotenv/"
-SRC_URI="https://files.pythonhosted.org/packages/f6/b0/4bc07ccd3572a2f9df7e6782f52b0c6c90dcbb803ac4a167702d7d0dfe1e/python_dotenv-1.1.1.tar.gz -> python_dotenv-1.1.1.tar.gz"
+HOMEPAGE="None https://pypi.org/project/python-dotenv/"
+SRC_URI="https://files.pythonhosted.org/packages/f0/26/19cadc79a718c5edbec86fd4919a6b6d3f681039a2f6d66d14be94e75fb9/python_dotenv-1.2.1.tar.gz -> python_dotenv-1.2.1.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/python_dotenv-1.1.1"
+S="${WORKDIR}/python_dotenv-1.2.1"
 
 DOCS=( CHANGELOG.md README.md )
 python_install() {
