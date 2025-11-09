@@ -21,7 +21,7 @@ RDEPEND="!<dev-python/pytest-6.1.1
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/pytest-4.6.9"
 

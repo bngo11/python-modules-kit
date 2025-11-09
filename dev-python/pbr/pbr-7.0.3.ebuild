@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Python Build Reasonableness"
 HOMEPAGE="https://docs.openstack.org/pbr/latest/ https://pypi.org/project/pbr/"
-SRC_URI="https://files.pythonhosted.org/packages/7f/92/fb5cde14e8141bde5f4bc1eb5ff6aa0590ce9780ce29aaff2ad569cfa85b/pbr-7.0.2.tar.gz -> pbr-7.0.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5e/ab/1de9a4f730edde1bdbbc2b8d19f8fa326f036b4f18b2f72cfbea7dc53c26/pbr-7.0.3.tar.gz -> pbr-7.0.3.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pbr-7.0.2"
+S="${WORKDIR}/pbr-7.0.3"

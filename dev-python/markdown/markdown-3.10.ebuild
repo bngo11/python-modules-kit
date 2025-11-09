@@ -11,7 +11,7 @@ HOMEPAGE="https://python-markdown.github.io/
 https://pypi.org/project/Markdown/
 https://github.com/Python-Markdown/markdown
 "
-SRC_URI="https://files.pythonhosted.org/packages/8d/37/02347f6d6d8279247a5837082ebc26fc0d5aaeaf75aa013fcbb433c777ab/markdown-3.9.tar.gz -> markdown-3.9.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7d/ab/7dd27d9d863b3376fcf23a5a13cb5d024aed1db46f963f1b5735ae43b3be/markdown-3.10.tar.gz -> markdown-3.10.tar.gz"
 
 DEPEND=""
 RDEPEND="
