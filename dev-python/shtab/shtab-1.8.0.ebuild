@@ -8,14 +8,14 @@ inherit distutils-r1
 
 DESCRIPTION="Automagic shell tab completion for Python CLI applications"
 HOMEPAGE="None https://pypi.org/project/shtab/"
-SRC_URI="https://files.pythonhosted.org/packages/5a/3e/837067b970c1d2ffa936c72f384a63fdec4e186b74da781e921354a94024/shtab-1.7.2.tar.gz -> shtab-1.7.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/7a/7f131b6082d8b592c32e4312d0a6da3d0b28b8f0d305ddd93e49c9d89929/shtab-1.8.0.tar.gz -> shtab-1.8.0.tar.gz"
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="Apache-2.0"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/shtab-1.7.2"
+S="${WORKDIR}/shtab-1.8.0"
 
 distutils_enable_tests pytest
 

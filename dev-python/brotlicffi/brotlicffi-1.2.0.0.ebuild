@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python CFFI bindings to the Brotli library"
 HOMEPAGE="https://github.com/python-hyper/brotlicffi https://pypi.org/project/brotlicffi/"
-SRC_URI="https://files.pythonhosted.org/packages/95/9d/70caa61192f570fcf0352766331b735afa931b4c6bc9a348a0925cc13288/brotlicffi-1.1.0.0.tar.gz -> brotlicffi-1.1.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/85/57c314a6b35336efbbdc13e5fc9ae13f6b60a0647cfa7c1221178ac6d8ae/brotlicffi-1.2.0.0.tar.gz -> brotlicffi-1.2.0.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,7 +17,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/brotlicffi-1.1.0.0"
+S="${WORKDIR}/brotlicffi-1.2.0.0"
 
 src_configure() {
 	export USE_SHARED_BROTLI=1

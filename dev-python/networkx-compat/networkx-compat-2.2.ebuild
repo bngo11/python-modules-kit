@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="!<=dev-python/networkx-2.2 "
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/networkx-2.2"
 
