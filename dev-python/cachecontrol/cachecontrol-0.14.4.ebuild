@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
-DISTUTILS_USE_PEP517="flit"
+DISTUTILS_USE_PEP517="uv_build"
 inherit distutils-r1
 
 DESCRIPTION="The httplib2 caching algorithms packaged up for use with requests."
@@ -12,14 +12,11 @@ SRC_URI="https://files.pythonhosted.org/packages/2d/f6/c972b32d80760fb79d6b9eeb0
 
 DEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+	dev-python/msgpack[${PYTHON_USEDEP}]
+	dev-python/uv_build[${PYTHON_USEDEP}]"
 RDEPEND="test? ( dev-python/cherrypy[${PYTHON_USEDEP}] dev-python/lockfile[${PYTHON_USEDEP}] dev-python/mock[${PYTHON_USEDEP}] )"
 IUSE="test"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 S="${WORKDIR}/cachecontrol-0.14.4"
-
-post_src_unpack() {
-	rm "${S}"/tests/__init__.py || die
-}

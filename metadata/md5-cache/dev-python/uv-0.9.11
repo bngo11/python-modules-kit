@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lang/python:3.9 dev-lang/python:3.10 dev-lang/python:3.11 dev-lang/python:3.12 dev-lang/python:3.13 !!~dev-python/uv-0.5.0 ) >=virtual/rust-1.37.0
+DEFINED_PHASES=compile configure install prepare pretend setup test unpack
+DEPEND=app-arch/bzip2:= app-arch/xz-utils:= app-arch/zstd:=
+DESCRIPTION=A Python package installer and resolver, written in Rust
+EAPI=7
+HOMEPAGE=https://github.com/astral-sh/uv/ https://pypi.org/project/uv/
+IUSE=test debug
+KEYWORDS=~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~x86
+LICENSE=|| ( Apache-2.0 MIT ) 0BSD Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD-2 BSD CC0-1.0 CDLA-Permissive-2.0 ISC MIT MPL-2.0 Unicode-3.0 Unicode-DFS-2016 ZLIB openssl
+PROPERTIES=test_network
+RDEPEND=app-arch/bzip2:= app-arch/xz-utils:= app-arch/zstd:=
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/astral-sh/uv/archive/0.9.11.tar.gz -> uv-0.9.11.gh.tar.gz https://github.com/gentoo-crate-dist/uv/releases/download/0.9.11/uv-0.9.11-crates.tar.xz
+_eclasses_=cargo	a3e90d3e6ca8541d967cff212149cffc	check-reqs	2c6f909675083dce8430b648bf737cb0	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=987a1e51d72bec58575593fc9a40bc0b
