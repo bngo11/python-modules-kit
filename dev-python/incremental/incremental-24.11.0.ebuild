@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Incremental is a small library that versions your Python projects"
 HOMEPAGE="https://github.com/twisted/incremental https://pypi.org/project/incremental/"
-SRC_URI="https://files.pythonhosted.org/packages/27/87/156b374ff6578062965afe30cc57627d35234369b3336cf244b240c8d8e6/incremental-24.7.2.tar.gz -> incremental-24.7.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ef/3c/82e84109e02c492f382c711c58a3dd91badda6d746def81a1465f74dc9f5/incremental-24.11.0.tar.gz -> incremental-24.11.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
