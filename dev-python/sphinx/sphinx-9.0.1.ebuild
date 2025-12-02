@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python documentation generator"
 HOMEPAGE="None https://pypi.org/project/Sphinx/"
-SRC_URI="https://files.pythonhosted.org/packages/be/43/448b5fe3c1dd02b1d5c8081ef9c47d166b34bcea1cbb83b608080f052397/sphinx-9.0.0.tar.gz -> sphinx-9.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bb/f5/7aedfbc7833b7e40c9c921c4f813e22c0abc1d8ee5f778c479c102001d7f/sphinx-9.0.1.tar.gz -> sphinx-9.0.1.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -38,7 +38,7 @@ IUSE="doc latex"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/sphinx-9.0.0"
+S="${WORKDIR}/sphinx-9.0.1"
 
 python_compile_all() {
 	if use doc; then
