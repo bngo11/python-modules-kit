@@ -21,6 +21,11 @@ RESTRICT="test"
 RDEPEND="virtual/python-cffi[${PYTHON_USEDEP}]"
 BDEPEND=${RDEPEND}
 
+src_prepare() {
+	default
+	sed -i '/ADD_SUBDIRECTORY (docs)/d' deps/c-ares/CMakeLists.txt || die
+}
+
 python_test() {
 	"${EPYTHON}" tests/tests.py -v || die
 }
