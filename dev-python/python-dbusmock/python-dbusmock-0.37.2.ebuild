@@ -14,7 +14,7 @@ HOMEPAGE="
 	https://github.com/martinpitt/python-dbusmock/
 	https://pypi.org/project/python-dbusmock/
 "
-SRC_URI="https://files.pythonhosted.org/packages/e0/60/7dfea8e5f3b42a796b0ddcca99e4ee718d20ac5bcc11af97546b0932a23b/python_dbusmock-0.37.1.tar.gz -> python_dbusmock-0.37.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/d4/1d9268a3cabb6d74880a7935f7446c558b818d6e242e5828d72a58f91351/python_dbusmock-0.37.2.tar.gz -> python_dbusmock-0.37.2.tar.gz"
 
 LICENSE="LGPL-3+"
 SLOT="0"

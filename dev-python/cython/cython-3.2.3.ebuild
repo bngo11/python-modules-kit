@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="The Cython compiler for writing C extensions in the Python language."
 HOMEPAGE="https://cython.org/ https://pypi.org/project/Cython/"
-SRC_URI="https://files.pythonhosted.org/packages/29/17/55fc687ba986f2210298fa2f60fec265fa3004c3f9a1e958ea1fe2d4e061/cython-3.2.2.tar.gz -> cython-3.2.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/e1/c0d92b1258722e1bc62a12e630c33f1f842fdab53fd8cd5de2f75c6449a9/cython-3.2.3.tar.gz -> cython-3.2.3.tar.gz"
 
 DEPEND=""
 IUSE=""
