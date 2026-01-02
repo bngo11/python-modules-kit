@@ -27,7 +27,7 @@ RDEPEND="
 	dev-python/snowballstemmer[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/importlib_metadata-4.4[${PYTHON_USEDEP}]
-	>=dev-python/roman_numerals_py-1.0[${PYTHON_USEDEP}]
+	>=dev-python/roman-numerals-1.0[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}]
