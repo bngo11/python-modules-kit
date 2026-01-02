@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python binding to the Networking and Cryptography (NaCl) library"
 HOMEPAGE="https://github.com/pyca/pynacl/ https://pypi.org/project/PyNaCl/"
-SRC_URI="https://files.pythonhosted.org/packages/b2/46/aeca065d227e2265125aea590c9c47fbf5786128c9400ee0eb7c88931f06/pynacl-1.6.1.tar.gz -> pynacl-1.6.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/9a/4019b524b03a13438637b11538c82781a5eda427394380381af8f04f467a/pynacl-1.6.2.tar.gz -> pynacl-1.6.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,6 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/pynacl-1.6.1"
+S="${WORKDIR}/pynacl-1.6.2"
 
 S="${WORKDIR}/PyNaCl-${PV}"
