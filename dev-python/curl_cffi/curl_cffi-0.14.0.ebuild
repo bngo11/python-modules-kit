@@ -21,9 +21,6 @@ S="${WORKDIR}/curl_cffi-0.14.0"
 src_prepare() {
 	default
 	sed -i -e 's/tmpdir.name/os.getcwd()/' scripts/build.py || die
-
-	export CC=/usr/bin/gcc-12.3.0
-	export CXX=/usr/bin/g++-12.3.0
 }
 
 distutils_enable_tests pytest

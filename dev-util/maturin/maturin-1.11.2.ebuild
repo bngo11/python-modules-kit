@@ -43,6 +43,7 @@ cbindgen-0.29.2
 cc-1.2.46
 cfb-0.10.0
 cfg-if-1.0.4
+cfg_aliases-0.2.1
 charset-0.1.5
 chumsky-0.9.3
 clap-4.5.52
@@ -165,6 +166,7 @@ miniz_oxide-0.8.9
 msi-0.8.0
 multipart-0.18.0
 native-tls-0.2.14
+nix-0.30.1
 nom-7.1.3
 normalize-line-endings-0.3.0
 normpath-1.5.0
@@ -446,6 +448,7 @@ https://crates.io/api/v1/crates/cbindgen/0.29.2/download -> cbindgen-0.29.2.crat
 https://crates.io/api/v1/crates/cc/1.2.46/download -> cc-1.2.46.crate
 https://crates.io/api/v1/crates/cfb/0.10.0/download -> cfb-0.10.0.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
+https://crates.io/api/v1/crates/cfg_aliases/0.2.1/download -> cfg_aliases-0.2.1.crate
 https://crates.io/api/v1/crates/charset/0.1.5/download -> charset-0.1.5.crate
 https://crates.io/api/v1/crates/chumsky/0.9.3/download -> chumsky-0.9.3.crate
 https://crates.io/api/v1/crates/clap/4.5.52/download -> clap-4.5.52.crate
@@ -568,6 +571,7 @@ https://crates.io/api/v1/crates/miniz_oxide/0.8.9/download -> miniz_oxide-0.8.9.
 https://crates.io/api/v1/crates/msi/0.8.0/download -> msi-0.8.0.crate
 https://crates.io/api/v1/crates/multipart/0.18.0/download -> multipart-0.18.0.crate
 https://crates.io/api/v1/crates/native-tls/0.2.14/download -> native-tls-0.2.14.crate
+https://crates.io/api/v1/crates/nix/0.30.1/download -> nix-0.30.1.crate
 https://crates.io/api/v1/crates/nom/7.1.3/download -> nom-7.1.3.crate
 https://crates.io/api/v1/crates/normalize-line-endings/0.3.0/download -> normalize-line-endings-0.3.0.crate
 https://crates.io/api/v1/crates/normpath/1.5.0/download -> normpath-1.5.0.crate
@@ -805,7 +809,7 @@ https://crates.io/api/v1/crates/zopfli/0.8.3/download -> zopfli-0.8.3.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.16+zstd.1.5.7/download -> zstd-sys-2.0.16+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/ec/8c/71b76291be77bf7ff7002a73537680d55bdbda327fb36cbef6a29852a76d/maturin-1.11.0.tar.gz -> maturin-1.11.0.tar.gz
+https://files.pythonhosted.org/packages/2f/1c/00b48c6b93a5b3795ec96165a60dbafd3c5094aae281ba56812a8cad4fc7/maturin-1.11.2.tar.gz -> maturin-1.11.2.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -816,4 +820,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.11.0"
+S="${WORKDIR}/maturin-1.11.2"
