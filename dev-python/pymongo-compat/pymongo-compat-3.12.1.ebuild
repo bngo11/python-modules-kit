@@ -15,7 +15,7 @@ RDEPEND="!<dev-python/pymongo-4.0
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )"
 IUSE="kerberos"
 SLOT="0"
-LICENSE="Apache-2.0"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/pymongo-3.12.1"
 

@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="PyMongo - the Official MongoDB Python driver"
 HOMEPAGE="None https://pypi.org/project/pymongo/"
-SRC_URI="https://files.pythonhosted.org/packages/24/a0/5c324fe6735b2bc189779ff46e981a59d495a74594f45542159125d77256/pymongo-4.15.5.tar.gz -> pymongo-4.15.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/65/9c/a4895c4b785fc9865a84a56e14b5bd21ca75aadc3dab79c14187cdca189b/pymongo-4.16.0.tar.gz -> pymongo-4.16.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,6 +17,6 @@ RDEPEND="
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )"
 IUSE="kerberos python_targets_python2_7"
 SLOT="0"
-LICENSE="Apache-2.0"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pymongo-4.15.5"
+S="${WORKDIR}/pymongo-4.16.0"

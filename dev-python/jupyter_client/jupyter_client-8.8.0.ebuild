@@ -14,7 +14,7 @@ HOMEPAGE="
 	https://github.com/jupyter/jupyter_client/
 	https://pypi.org/project/jupyter-client/
 "
-SRC_URI="https://files.pythonhosted.org/packages/a6/27/d10de45e8ad4ce872372c4a3a37b7b35b6b064f6f023a5c14ffcced4d59d/jupyter_client-8.7.0.tar.gz -> jupyter_client-8.7.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/e4/ba649102a3bc3fbca54e7239fb924fd434c766f855693d86de0b1f2bec81/jupyter_client-8.8.0.tar.gz -> jupyter_client-8.8.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
