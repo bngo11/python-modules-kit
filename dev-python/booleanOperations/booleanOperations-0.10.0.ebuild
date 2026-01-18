@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Boolean operations on paths"
 HOMEPAGE="https://github.com/typemytype/booleanOperations"
-SRC_URI="https://files.pythonhosted.org/packages/57/d9/9eae7bc4ba3a38ab7426522fb08e12df54aec27595d7bcd1bc0670aec873/booleanOperations-0.9.0.zip -> booleanOperations-0.9.0.zip"
+SRC_URI="https://files.pythonhosted.org/packages/b4/6e/63c0dba783d3811cdfe675883cafa4dec03fdd9d77b5743c58da01890dfe/booleanoperations-0.10.0.tar.gz -> booleanoperations-0.10.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/booleanOperations-0.9.0"
+S="${WORKDIR}/booleanOperations-0.10.0"

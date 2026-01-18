@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Meson Python build backend (PEP 517)"
 HOMEPAGE="None https://pypi.org/project/meson-python/"
-SRC_URI="https://files.pythonhosted.org/packages/26/bd/fdb26366443620f1a8a4d4ec7bfa37d1fbbe7bf737b257c205bbcf95ba95/meson_python-0.18.0.tar.gz -> meson_python-0.18.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/98/7fe5d1bf741c03c6eea04b6245737dbd79657d4f9200e82fcbb4cc12637b/meson_python-0.19.0.tar.gz -> meson_python-0.19.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,4 +20,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/meson_python-0.18.0"
+S="${WORKDIR}/meson_python-0.19.0"

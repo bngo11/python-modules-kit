@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python client for the Prometheus monitoring system."
 HOMEPAGE="None https://pypi.org/project/prometheus-client/"
-SRC_URI="https://files.pythonhosted.org/packages/23/53/3edb5d68ecf6b38fcbcc1ad28391117d2a322d9a1a3eff04bfdb184d8c3b/prometheus_client-0.23.1.tar.gz -> prometheus_client-0.23.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f0/58/a794d23feb6b00fc0c72787d7e87d872a6730dd9ed7c7b3e954637d8f280/prometheus_client-0.24.1.tar.gz -> prometheus_client-0.24.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/prometheus_client-0.23.1"
+S="${WORKDIR}/prometheus_client-0.24.1"

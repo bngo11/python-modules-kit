@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="ASN.1 library for Python"
-HOMEPAGE="https://github.com/pyasn1/pyasn1 https://pypi.org/project/pyasn1/"
-SRC_URI="https://files.pythonhosted.org/packages/ba/e9/01f1a64245b89f039897cb0130016d79f77d52669aae6ee7b159a6c4c018/pyasn1-0.6.1.tar.gz -> pyasn1-0.6.1.tar.gz"
+HOMEPAGE="None https://pypi.org/project/pyasn1/"
+SRC_URI="https://files.pythonhosted.org/packages/fe/b6/6e630dff89739fcd427e3f72b3d905ce0acb85a45d4ec3e2678718a3487f/pyasn1-0.6.2.tar.gz -> pyasn1-0.6.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,7 +18,7 @@ IUSE="doc"
 SLOT="0"
 LICENSE="BSD-2"
 KEYWORDS="*"
-S="${WORKDIR}/pyasn1-0.6.1"
+S="${WORKDIR}/pyasn1-0.6.2"
 
 python_test() {
 	esetup.py test

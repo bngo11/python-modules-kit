@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="An extended [CommonMark](https://spec.commonmark.org/) compliant parser,"
 HOMEPAGE="None https://pypi.org/project/myst-parser/"
-SRC_URI="https://files.pythonhosted.org/packages/66/a5/9626ba4f73555b3735ad86247a8077d4603aa8628537687c839ab08bfe44/myst_parser-4.0.1.tar.gz -> myst_parser-4.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/fa/7b45eef11b7971f0beb29d27b7bfe0d747d063aa29e170d9edd004733c8a/myst_parser-5.0.0.tar.gz -> myst_parser-5.0.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -24,7 +24,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/myst_parser-4.0.1"
+S="${WORKDIR}/myst_parser-5.0.0"
 
 distutils_enable_tests pytest
 
