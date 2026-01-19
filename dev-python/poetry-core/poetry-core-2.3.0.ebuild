@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Poetry PEP 517 Build Backend"
 HOMEPAGE="None https://pypi.org/project/poetry-core/"
-SRC_URI="https://files.pythonhosted.org/packages/54/ef/a16c11de95b638341961765e072dfdd4c9a0be51d6b22d594c5f3255e4bb/poetry_core-2.2.1.tar.gz -> poetry_core-2.2.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e9/2a/457e29bd71c4fdce5dbd032ad02cb80300db355d084cd3fa81a367d22f0c/poetry_core-2.3.0.tar.gz -> poetry_core-2.3.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -24,4 +24,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="next"
-S="${WORKDIR}/poetry_core-2.2.1"
+S="${WORKDIR}/poetry_core-2.3.0"
