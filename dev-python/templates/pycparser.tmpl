@@ -23,7 +23,7 @@ DEPEND="${RDEPEND}
 
 python_prepare_all() {
 	# remove the original files to guarantee their regen
-	rm pycparser/{c_ast,lextab,yacctab}.py || die
+	rm pycparser/c_ast.py || die
 
 	# kill sys.path manipulations to force the tests to use built files
 	sed -i -e '/sys\.path/d' tests/*.py || die
