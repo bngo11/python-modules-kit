@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python extension wrapping the ICU C++ API"
 HOMEPAGE="https://gitlab.pyicu.org/main/pyicu https://pypi.org/project/pyicu/"
-SRC_URI="https://files.pythonhosted.org/packages/11/c3/8d558b30deb33eb583c0bcae3e64d6db8316b69461a04bb9db5ff63d3f6e/pyicu-2.16.tar.gz -> pyicu-2.16.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/51/a9/b68d8fad5b830146c42f08b444c716ec50f576cbc8f01e26f4da6e89fc7a/pyicu-2.16.1.tar.gz -> pyicu-2.16.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,6 +19,6 @@ KEYWORDS="*"
 PATCHES=(
 	"$FILESDIR"/pyicu-2.10-fix_displayoptions.patch
 )
-S="${WORKDIR}/PyICU-2.16"
+S="${WORKDIR}/PyICU-2.16.1"
 
 DOCS=( CHANGES CREDITS README.md )
