@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Utils for converting between date formats and calculating holidays"
 HOMEPAGE="https://github.com/fitnr/convertdate"
-SRC_URI="https://files.pythonhosted.org/packages/04/3d/04148ceb732dfb6f10e9b89fa5915080a91e27fe28fd982c259bc4d29ced/convertdate-2.4.0.tar.gz -> convertdate-2.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3a/8d/540bf9cdbcd59352ecf7a1925197881465a6c24fd6171765dc11bbeed19e/convertdate-2.4.1.tar.gz -> convertdate-2.4.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
