@@ -14,10 +14,8 @@ DEPEND=""
 RDEPEND="
 	>=dev-python/docutils-0.18[${PYTHON_USEDEP}]
 	dev-python/jinja[${PYTHON_USEDEP}]
-	<dev-python/markdown-it-py-4[${PYTHON_USEDEP}]
-	>=dev-python/markdown-it-py-3.0[${PYTHON_USEDEP}]
-	<dev-python/mdit-py-plugins-0.5[${PYTHON_USEDEP}]
-	>=dev-python/mdit-py-plugins-0.4[${PYTHON_USEDEP}]
+	>=dev-python/markdown-it-py-4.0[${PYTHON_USEDEP}]
+	>=dev-python/mdit-py-plugins-0.5[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>dev-python/sphinx-7[${PYTHON_USEDEP}]"
 IUSE=""
