@@ -6,7 +6,8 @@ virtualenv_and_deps:
     - distlib
     - filelock:
         version: 3.18.0
-    - platformdirs
+    - platformdirs:
+        du_pep517: hatchling
     - virtualenv:
         pydeps:
           - distlib < 1
