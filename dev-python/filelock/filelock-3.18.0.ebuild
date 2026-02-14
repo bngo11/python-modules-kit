@@ -13,6 +13,6 @@ SRC_URI="https://files.pythonhosted.org/packages/0a/10/c23352565a6544bdc5353e0b1
 DEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/filelock-3.18.0"
