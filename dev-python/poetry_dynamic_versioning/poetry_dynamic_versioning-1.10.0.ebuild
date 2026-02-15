@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Plugin for Poetry to enable dynamic versioning based on VCS tags"
 HOMEPAGE="https://github.com/mtkennerly/poetry-dynamic-versioning https://pypi.org/project/poetry-dynamic-versioning/"
-SRC_URI="https://files.pythonhosted.org/packages/d6/14/a9109e67fde1b464a9a468c68b106b26480eb04e66ca70408ed51635ae7d/poetry_dynamic_versioning-1.9.1.tar.gz -> poetry_dynamic_versioning-1.9.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/95/467ab3657dc83faa759d5127178f71e3f2b53be3b29764c32690739d68c6/poetry_dynamic_versioning-1.10.0.tar.gz -> poetry_dynamic_versioning-1.10.0.tar.gz"
 
 DEPEND="
 	>=dev-python/dunamai-1.21.0[${PYTHON_USEDEP}]
@@ -18,6 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/poetry_dynamic_versioning-1.9.1"
+S="${WORKDIR}/poetry_dynamic_versioning-1.10.0"
 
 distutils_enable_tests pytest
