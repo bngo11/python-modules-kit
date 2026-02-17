@@ -9,6 +9,7 @@ virtualenv_and_deps:
     - platformdirs:
         du_pep517: hatchling
     - virtualenv:
+        du_pep517: hatchling
         pydeps:
           - distlib < 1
           - filelock < 4

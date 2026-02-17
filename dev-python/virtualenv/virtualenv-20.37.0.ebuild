@@ -8,9 +8,9 @@ inherit distutils-r1
 
 DESCRIPTION="Virtual Python Environment builder"
 HOMEPAGE="None https://pypi.org/project/virtualenv/"
-SRC_URI="https://files.pythonhosted.org/packages/aa/a3/4d310fa5f00863544e1d0f4de93bddec248499ccf97d4791bc3122c9d4f3/virtualenv-20.36.1.tar.gz -> virtualenv-20.36.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c1/ef/d9d4ce633df789bf3430bd81fb0d8b9d9465dfc1d1f0deb3fb62cd80f5c2/virtualenv-20.37.0.tar.gz -> virtualenv-20.37.0.tar.gz"
 
-DEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]"
+DEPEND=""
 RDEPEND="
 	<dev-python/distlib-1[${PYTHON_USEDEP}]
 	<dev-python/filelock-4[${PYTHON_USEDEP}]
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/virtualenv-20.36.1"
+S="${WORKDIR}/virtualenv-20.37.0"

@@ -903,7 +903,7 @@ https://crates.io/api/v1/crates/zopfli/0.8.3/download -> zopfli-0.8.3.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.16+zstd.1.5.7/download -> zstd-sys-2.0.16+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/a6/21/85e8189ca40f97885abc5154950490b821e590fd2aebea0c9bfb92b1c353/maturin-1.12.0.tar.gz -> maturin-1.12.0.tar.gz
+https://files.pythonhosted.org/packages/ae/13/aeff8a21835ed0e40c329c286750fcdcdcbf231f1a5cb327378666c5def6/maturin-1.12.2.tar.gz -> maturin-1.12.2.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -914,4 +914,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.12.0"
+S="${WORKDIR}/maturin-1.12.2"
