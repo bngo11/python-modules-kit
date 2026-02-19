@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A simple framework for building complex web applications."
 HOMEPAGE="None https://pypi.org/project/Flask/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/6d/cfe3c0fcc5e477df242b98bfe186a4c34357b4847e87ecaef04507332dab/flask-3.1.2.tar.gz -> flask-3.1.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/00/35d85dcce6c57fdc871f3867d465d780f302a175ea360f62533f12b27e2b/flask-3.1.3.tar.gz -> flask-3.1.3.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -23,4 +23,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/flask-3.1.2"
+S="${WORKDIR}/flask-3.1.3"

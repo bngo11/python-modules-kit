@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="poetry"
 inherit distutils-r1
 
 DESCRIPTION="Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
-HOMEPAGE="https://github.com/Textualize/rich https://pypi.org/project/rich/"
-SRC_URI="https://files.pythonhosted.org/packages/74/99/a4cab2acbb884f80e558b0771e97e21e939c5dfb460f488d19df485e8298/rich-14.3.2.tar.gz -> rich-14.3.2.tar.gz"
+HOMEPAGE="None https://pypi.org/project/rich/"
+SRC_URI="https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz -> rich-14.3.3.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/rich-14.3.2"
+S="${WORKDIR}/rich-14.3.3"
