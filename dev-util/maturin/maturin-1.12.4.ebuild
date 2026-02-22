@@ -179,7 +179,7 @@ lzxd-0.2.6
 mailparse-0.16.1
 matchers-0.2.0
 memchr-2.8.0
-memmap2-0.9.9
+memmap2-0.9.10
 mimalloc-0.1.48
 mime-0.3.17
 mime_guess-2.0.5
@@ -631,7 +631,7 @@ https://crates.io/api/v1/crates/lzxd/0.2.6/download -> lzxd-0.2.6.crate
 https://crates.io/api/v1/crates/mailparse/0.16.1/download -> mailparse-0.16.1.crate
 https://crates.io/api/v1/crates/matchers/0.2.0/download -> matchers-0.2.0.crate
 https://crates.io/api/v1/crates/memchr/2.8.0/download -> memchr-2.8.0.crate
-https://crates.io/api/v1/crates/memmap2/0.9.9/download -> memmap2-0.9.9.crate
+https://crates.io/api/v1/crates/memmap2/0.9.10/download -> memmap2-0.9.10.crate
 https://crates.io/api/v1/crates/mimalloc/0.1.48/download -> mimalloc-0.1.48.crate
 https://crates.io/api/v1/crates/mime/0.3.17/download -> mime-0.3.17.crate
 https://crates.io/api/v1/crates/mime_guess/2.0.5/download -> mime_guess-2.0.5.crate
@@ -903,7 +903,7 @@ https://crates.io/api/v1/crates/zopfli/0.8.3/download -> zopfli-0.8.3.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.16+zstd.1.5.7/download -> zstd-sys-2.0.16+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/91/a8/dd85d167a12d3fb65e80fb95172ddd1e8ac9cbb57b1c84a13bfba965e3dd/maturin-1.12.3.tar.gz -> maturin-1.12.3.tar.gz
+https://files.pythonhosted.org/packages/2f/a6/54e73f0ec0224488ae25196ce8b4df298cae613b099ad0c4f39dd7e3a8d2/maturin-1.12.4.tar.gz -> maturin-1.12.4.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -914,4 +914,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.12.3"
+S="${WORKDIR}/maturin-1.12.4"
