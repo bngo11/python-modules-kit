@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Alternative regular expression module, to replace re."
 HOMEPAGE="None https://pypi.org/project/regex/"
-SRC_URI="https://files.pythonhosted.org/packages/ff/c0/d8079d4f6342e4cec5c3e7d7415b5cd3e633d5f4124f7a4626908dbe84c7/regex-2026.2.19.tar.gz -> regex-2026.2.19.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/71/41455aa99a5a5ac1eaf311f5d8efd9ce6433c03ac1e0962de163350d0d97/regex-2026.2.28.tar.gz -> regex-2026.2.28.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/regex-compat )"
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/regex-2026.2.19"
+S="${WORKDIR}/regex-2026.2.28"

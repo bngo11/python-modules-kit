@@ -173,7 +173,7 @@ litemap-0.8.1
 litrs-1.0.0
 lock_api-0.4.14
 log-0.4.29
-lzma-rust2-0.13.0
+lzma-rust2-0.16.2
 lzma-sys-0.1.20
 lzxd-0.2.6
 mailparse-0.16.1
@@ -234,7 +234,7 @@ proc-macro2-1.0.106
 psm-0.1.30
 purl-0.1.6
 pyproject-toml-0.13.7
-python-pkginfo-0.6.6
+python-pkginfo-0.6.8
 quote-1.0.44
 quoted_printable-0.5.1
 r-efi-5.3.0
@@ -350,6 +350,7 @@ tracing-serde-0.2.0
 tracing-subscriber-0.3.22
 trycmd-0.15.11
 twox-hash-2.1.2
+typed-path-0.12.3
 typenum-1.19.0
 unicase-2.9.0
 unicode-bidi-0.3.18
@@ -444,7 +445,7 @@ zerotrie-0.2.3
 zerovec-0.11.5
 zerovec-derive-0.11.2
 zip-4.6.1
-zip-6.0.0
+zip-8.1.0
 zlib-rs-0.6.0
 zmij-1.0.19
 zopfli-0.8.3
@@ -625,7 +626,7 @@ https://crates.io/api/v1/crates/litemap/0.8.1/download -> litemap-0.8.1.crate
 https://crates.io/api/v1/crates/litrs/1.0.0/download -> litrs-1.0.0.crate
 https://crates.io/api/v1/crates/lock_api/0.4.14/download -> lock_api-0.4.14.crate
 https://crates.io/api/v1/crates/log/0.4.29/download -> log-0.4.29.crate
-https://crates.io/api/v1/crates/lzma-rust2/0.13.0/download -> lzma-rust2-0.13.0.crate
+https://crates.io/api/v1/crates/lzma-rust2/0.16.2/download -> lzma-rust2-0.16.2.crate
 https://crates.io/api/v1/crates/lzma-sys/0.1.20/download -> lzma-sys-0.1.20.crate
 https://crates.io/api/v1/crates/lzxd/0.2.6/download -> lzxd-0.2.6.crate
 https://crates.io/api/v1/crates/mailparse/0.16.1/download -> mailparse-0.16.1.crate
@@ -686,7 +687,7 @@ https://crates.io/api/v1/crates/proc-macro2/1.0.106/download -> proc-macro2-1.0.
 https://crates.io/api/v1/crates/psm/0.1.30/download -> psm-0.1.30.crate
 https://crates.io/api/v1/crates/purl/0.1.6/download -> purl-0.1.6.crate
 https://crates.io/api/v1/crates/pyproject-toml/0.13.7/download -> pyproject-toml-0.13.7.crate
-https://crates.io/api/v1/crates/python-pkginfo/0.6.6/download -> python-pkginfo-0.6.6.crate
+https://crates.io/api/v1/crates/python-pkginfo/0.6.8/download -> python-pkginfo-0.6.8.crate
 https://crates.io/api/v1/crates/quote/1.0.44/download -> quote-1.0.44.crate
 https://crates.io/api/v1/crates/quoted_printable/0.5.1/download -> quoted_printable-0.5.1.crate
 https://crates.io/api/v1/crates/r-efi/5.3.0/download -> r-efi-5.3.0.crate
@@ -802,6 +803,7 @@ https://crates.io/api/v1/crates/tracing-serde/0.2.0/download -> tracing-serde-0.
 https://crates.io/api/v1/crates/tracing-subscriber/0.3.22/download -> tracing-subscriber-0.3.22.crate
 https://crates.io/api/v1/crates/trycmd/0.15.11/download -> trycmd-0.15.11.crate
 https://crates.io/api/v1/crates/twox-hash/2.1.2/download -> twox-hash-2.1.2.crate
+https://crates.io/api/v1/crates/typed-path/0.12.3/download -> typed-path-0.12.3.crate
 https://crates.io/api/v1/crates/typenum/1.19.0/download -> typenum-1.19.0.crate
 https://crates.io/api/v1/crates/unicase/2.9.0/download -> unicase-2.9.0.crate
 https://crates.io/api/v1/crates/unicode-bidi/0.3.18/download -> unicode-bidi-0.3.18.crate
@@ -896,14 +898,14 @@ https://crates.io/api/v1/crates/zerotrie/0.2.3/download -> zerotrie-0.2.3.crate
 https://crates.io/api/v1/crates/zerovec/0.11.5/download -> zerovec-0.11.5.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.11.2/download -> zerovec-derive-0.11.2.crate
 https://crates.io/api/v1/crates/zip/4.6.1/download -> zip-4.6.1.crate
-https://crates.io/api/v1/crates/zip/6.0.0/download -> zip-6.0.0.crate
+https://crates.io/api/v1/crates/zip/8.1.0/download -> zip-8.1.0.crate
 https://crates.io/api/v1/crates/zlib-rs/0.6.0/download -> zlib-rs-0.6.0.crate
 https://crates.io/api/v1/crates/zmij/1.0.19/download -> zmij-1.0.19.crate
 https://crates.io/api/v1/crates/zopfli/0.8.3/download -> zopfli-0.8.3.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.16+zstd.1.5.7/download -> zstd-sys-2.0.16+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/2f/a6/54e73f0ec0224488ae25196ce8b4df298cae613b099ad0c4f39dd7e3a8d2/maturin-1.12.4.tar.gz -> maturin-1.12.4.tar.gz
+https://files.pythonhosted.org/packages/a4/15/4c41c4c951718f8c17ed1621b7999afb8d72d69c731c987b47e3c138d4ad/maturin-1.12.5.tar.gz -> maturin-1.12.5.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -914,4 +916,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.12.4"
+S="${WORKDIR}/maturin-1.12.5"
