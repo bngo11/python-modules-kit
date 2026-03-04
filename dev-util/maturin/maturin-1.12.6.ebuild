@@ -250,6 +250,7 @@ redox_syscall-0.7.0
 redox_users-0.5.2
 ref-cast-1.0.25
 ref-cast-impl-1.0.25
+reflink-copy-0.1.28
 regex-1.12.3
 regex-automata-0.3.9
 regex-automata-0.4.14
@@ -393,7 +394,16 @@ winapi-0.3.9
 winapi-i686-pc-windows-gnu-0.4.0
 winapi-util-0.1.11
 winapi-x86_64-pc-windows-gnu-0.4.0
+windows-0.62.2
+windows-collections-0.3.2
+windows-core-0.62.2
+windows-future-0.3.2
+windows-implement-0.60.2
+windows-interface-0.59.3
 windows-link-0.2.1
+windows-numerics-0.3.1
+windows-result-0.4.1
+windows-strings-0.5.1
 windows-sys-0.45.0
 windows-sys-0.52.0
 windows-sys-0.59.0
@@ -402,6 +412,7 @@ windows-sys-0.61.2
 windows-targets-0.42.2
 windows-targets-0.52.6
 windows-targets-0.53.5
+windows-threading-0.2.1
 windows_aarch64_gnullvm-0.42.2
 windows_aarch64_gnullvm-0.52.6
 windows_aarch64_gnullvm-0.53.1
@@ -703,6 +714,7 @@ https://crates.io/api/v1/crates/redox_syscall/0.7.0/download -> redox_syscall-0.
 https://crates.io/api/v1/crates/redox_users/0.5.2/download -> redox_users-0.5.2.crate
 https://crates.io/api/v1/crates/ref-cast/1.0.25/download -> ref-cast-1.0.25.crate
 https://crates.io/api/v1/crates/ref-cast-impl/1.0.25/download -> ref-cast-impl-1.0.25.crate
+https://crates.io/api/v1/crates/reflink-copy/0.1.28/download -> reflink-copy-0.1.28.crate
 https://crates.io/api/v1/crates/regex/1.12.3/download -> regex-1.12.3.crate
 https://crates.io/api/v1/crates/regex-automata/0.3.9/download -> regex-automata-0.3.9.crate
 https://crates.io/api/v1/crates/regex-automata/0.4.14/download -> regex-automata-0.4.14.crate
@@ -846,7 +858,16 @@ https://crates.io/api/v1/crates/winapi/0.3.9/download -> winapi-0.3.9.crate
 https://crates.io/api/v1/crates/winapi-i686-pc-windows-gnu/0.4.0/download -> winapi-i686-pc-windows-gnu-0.4.0.crate
 https://crates.io/api/v1/crates/winapi-util/0.1.11/download -> winapi-util-0.1.11.crate
 https://crates.io/api/v1/crates/winapi-x86_64-pc-windows-gnu/0.4.0/download -> winapi-x86_64-pc-windows-gnu-0.4.0.crate
+https://crates.io/api/v1/crates/windows/0.62.2/download -> windows-0.62.2.crate
+https://crates.io/api/v1/crates/windows-collections/0.3.2/download -> windows-collections-0.3.2.crate
+https://crates.io/api/v1/crates/windows-core/0.62.2/download -> windows-core-0.62.2.crate
+https://crates.io/api/v1/crates/windows-future/0.3.2/download -> windows-future-0.3.2.crate
+https://crates.io/api/v1/crates/windows-implement/0.60.2/download -> windows-implement-0.60.2.crate
+https://crates.io/api/v1/crates/windows-interface/0.59.3/download -> windows-interface-0.59.3.crate
 https://crates.io/api/v1/crates/windows-link/0.2.1/download -> windows-link-0.2.1.crate
+https://crates.io/api/v1/crates/windows-numerics/0.3.1/download -> windows-numerics-0.3.1.crate
+https://crates.io/api/v1/crates/windows-result/0.4.1/download -> windows-result-0.4.1.crate
+https://crates.io/api/v1/crates/windows-strings/0.5.1/download -> windows-strings-0.5.1.crate
 https://crates.io/api/v1/crates/windows-sys/0.45.0/download -> windows-sys-0.45.0.crate
 https://crates.io/api/v1/crates/windows-sys/0.52.0/download -> windows-sys-0.52.0.crate
 https://crates.io/api/v1/crates/windows-sys/0.59.0/download -> windows-sys-0.59.0.crate
@@ -855,6 +876,7 @@ https://crates.io/api/v1/crates/windows-sys/0.61.2/download -> windows-sys-0.61.
 https://crates.io/api/v1/crates/windows-targets/0.42.2/download -> windows-targets-0.42.2.crate
 https://crates.io/api/v1/crates/windows-targets/0.52.6/download -> windows-targets-0.52.6.crate
 https://crates.io/api/v1/crates/windows-targets/0.53.5/download -> windows-targets-0.53.5.crate
+https://crates.io/api/v1/crates/windows-threading/0.2.1/download -> windows-threading-0.2.1.crate
 https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.42.2/download -> windows_aarch64_gnullvm-0.42.2.crate
 https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.52.6/download -> windows_aarch64_gnullvm-0.52.6.crate
 https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.53.1/download -> windows_aarch64_gnullvm-0.53.1.crate
@@ -905,7 +927,7 @@ https://crates.io/api/v1/crates/zopfli/0.8.3/download -> zopfli-0.8.3.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.16+zstd.1.5.7/download -> zstd-sys-2.0.16+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/a4/15/4c41c4c951718f8c17ed1621b7999afb8d72d69c731c987b47e3c138d4ad/maturin-1.12.5.tar.gz -> maturin-1.12.5.tar.gz
+https://files.pythonhosted.org/packages/0c/18/8b2eebd3ea086a5ec73d7081f95ec64918ceda1900075902fc296ea3ad55/maturin-1.12.6.tar.gz -> maturin-1.12.6.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -916,4 +938,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.12.5"
+S="${WORKDIR}/maturin-1.12.6"

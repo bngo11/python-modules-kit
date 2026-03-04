@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Extensible memoizing collections and decorators"
 HOMEPAGE="None https://pypi.org/project/cachetools/"
-SRC_URI="https://files.pythonhosted.org/packages/d4/07/56595285564e90777d758ebd383d6b0b971b87729bbe2184a849932a3736/cachetools-7.0.1.tar.gz -> cachetools-7.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/c7/342b33cc6877eebc6c9bb45cb9f78e170e575839699f6f3cc96050176431/cachetools-7.0.2.tar.gz -> cachetools-7.0.2.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/cachetools-7.0.1"
+S="${WORKDIR}/cachetools-7.0.2"

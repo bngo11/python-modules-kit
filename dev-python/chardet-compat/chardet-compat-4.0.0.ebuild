@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
-DESCRIPTION="Universal encoding detector for Python 3"
+DESCRIPTION="Universal character encoding detector"
 HOMEPAGE="None https://pypi.org/project/chardet/"
 SRC_URI="https://files.pythonhosted.org/packages/ee/2d/9cdc2b527e127b4c9db64b86647d567985940ac3698eeabc7ffaccb4ea61/chardet-4.0.0.tar.gz -> chardet-4.0.0.tar.gz"
 
@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="!<dev-python/chardet-5.0.0-r1 "
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/chardet-4.0.0"
 
