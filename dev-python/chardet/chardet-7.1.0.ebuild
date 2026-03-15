@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Universal character encoding detector"
 HOMEPAGE="None https://pypi.org/project/chardet/"
-SRC_URI="https://files.pythonhosted.org/packages/6c/80/4684035f1a2a3096506bc377276a815ccf0be3c3316eab35d589e82d9f3c/chardet-7.0.1.tar.gz -> chardet-7.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/84/e72ea5c06e687db591283474b8442ab95665fc6bae7b06043b2a6f0eaf6c/chardet-7.1.0.tar.gz -> chardet-7.1.0.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/chardet-compat )"
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/chardet-7.0.1"
+S="${WORKDIR}/chardet-7.1.0"
