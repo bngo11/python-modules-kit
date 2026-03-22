@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python crossword puzzle library"
 HOMEPAGE="https://github.com/alexdej/puzpy"
-SRC_URI="https://files.pythonhosted.org/packages/06/30/b57c5519e2ff3ec26606922158cf1dc2aafe992292a4bae0fb1756dffa27/puzpy-0.3.2.tar.gz -> puzpy-0.3.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/01/d7/da2e19abc9805efd19dcba367c5d267a4934ec878d0b5a491e8c39444575/puzpy-0.5.0.tar.gz -> puzpy-0.5.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

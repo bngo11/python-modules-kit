@@ -8,13 +8,13 @@ inherit distutils-r1
 
 DESCRIPTION="Useful decorators and context managers"
 HOMEPAGE="None https://pypi.org/project/jaraco.context/"
-SRC_URI="https://files.pythonhosted.org/packages/27/7b/c3081ff1af947915503121c649f26a778e1a2101fd525f74aef997d75b7e/jaraco_context-6.1.1.tar.gz -> jaraco_context-6.1.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/50/4763cd07e722bb6285316d390a164bc7e479db9d90daa769f22578f698b4/jaraco_context-6.1.2.tar.gz -> jaraco_context-6.1.2.tar.gz"
 
 DEPEND="dev-python/backports-tarfile[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/jaraco_context-6.1.1"
+S="${WORKDIR}/jaraco_context-6.1.2"
 
 distutils_enable_tests pytest
