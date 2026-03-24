@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="!<dev-python/chardet-5.0.0-r1 "
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/chardet-4.0.0"
 

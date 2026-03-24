@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A CalDAV based calendar"
 HOMEPAGE="http://lostpackets.de/khal/"
-SRC_URI="https://files.pythonhosted.org/packages/5b/e4/c0a322d4d7880c518a0db84e5e5c57c7a8c3633e142e037921a57814d95a/khal-0.13.0.tar.gz -> khal-0.13.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/30/04072c5adc3a5d4638a8c9f9c2cd8497832b079dbec0e32532cc95c1d74e/khal-0.14.0.tar.gz -> khal-0.14.0.tar.gz"
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -30,7 +30,7 @@ IUSE="zsh-completion"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/khal-0.13.0"
+S="${WORKDIR}/khal-0.14.0"
 
 DOCS=( AUTHORS.txt CHANGELOG.rst CONTRIBUTING.rst README.rst khal.conf.sample )
 src_install() {

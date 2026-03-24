@@ -11,6 +11,7 @@ HOMEPAGE="None https://pypi.org/project/setuptools-scm/"
 SRC_URI="https://files.pythonhosted.org/packages/7b/e4/191018d2acb4c5610fc187ccdaf44de47bfbbd5365f5cbfc9236244da9dd/setuptools_scm-10.0.1.tar.gz -> setuptools_scm-10.0.1.tar.gz"
 
 DEPEND="
+	>=dev-python/vcs_versioning-1.0.1[${PYTHON_USEDEP}]
 	>dev-python/packaging-20[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '>=dev-python/tomli-1.0[${PYTHON_USEDEP}]' -3)"
 RDEPEND="$(python_gen_cond_dep '>=dev-python/tomli-1.0[${PYTHON_USEDEP}]' -3)"
