@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="the blessed package to manage your versions by scm tags"
 HOMEPAGE="None https://pypi.org/project/setuptools-scm/"
-SRC_URI="https://files.pythonhosted.org/packages/7b/e4/191018d2acb4c5610fc187ccdaf44de47bfbbd5365f5cbfc9236244da9dd/setuptools_scm-10.0.1.tar.gz -> setuptools_scm-10.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a5/b1/2a6a8ecd6f9e263754036a0b573360bdbd6873b595725e49e11139722041/setuptools_scm-10.0.5.tar.gz -> setuptools_scm-10.0.5.tar.gz"
 
 DEPEND="
 	>=dev-python/vcs_versioning-1.0.1[${PYTHON_USEDEP}]
@@ -17,6 +17,6 @@ DEPEND="
 RDEPEND="$(python_gen_cond_dep '>=dev-python/tomli-1.0[${PYTHON_USEDEP}]' -3)"
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/setuptools_scm-10.0.1"
+S="${WORKDIR}/setuptools_scm-10.0.5"

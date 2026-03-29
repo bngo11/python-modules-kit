@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="the blessed package to manage your versions by vcs metadata"
 HOMEPAGE="None https://pypi.org/project/vcs-versioning/"
-SRC_URI="https://files.pythonhosted.org/packages/72/4b/3a429205c14e8d342fef34fced00b53bdebcab01ced0db6f01c39d792a48/vcs_versioning-1.0.1.tar.gz -> vcs_versioning-1.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/42/d97a7795055677961c63a1eef8e7b19d5968ed992ed3a70ab8eb012efad8/vcs_versioning-1.1.1.tar.gz -> vcs_versioning-1.1.1.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/vcs_versioning-1.0.1"
+S="${WORKDIR}/vcs_versioning-1.1.1"
