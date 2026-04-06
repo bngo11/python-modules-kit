@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="!<dev-python/pygments-2.17.0-r1 "
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/pygments-2.5.2"
 
