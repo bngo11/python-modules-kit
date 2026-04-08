@@ -31,6 +31,7 @@ LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
 S="${WORKDIR}/cryptography-3.3.2"
 
+PATCHES
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
 }
