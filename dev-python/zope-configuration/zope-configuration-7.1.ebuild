@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 DESCRIPTION="Zope Configuration Architecture"
 HOMEPAGE="https://github.com/zopefoundation/zope.configuration
 	https://docs.zope.org/zope.configuration/"
-SRC_URI="https://files.pythonhosted.org/packages/63/59/2af2065555f8067840f00ec2e94c3a1745e3af9176d5b0f80769ea5c5069/zope_configuration-7.0.tar.gz -> zope_configuration-7.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/b1/7f7205c108f197a6f1fd4b9c0a02646722f7d2848a262362bfa55c3885bc/zope_configuration-7.1.tar.gz -> zope_configuration-7.1.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
