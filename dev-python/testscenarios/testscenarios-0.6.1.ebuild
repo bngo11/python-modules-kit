@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A pyunit extension for dependency injection"
 HOMEPAGE="https://launchpad.net/testscenarios"
-SRC_URI="https://files.pythonhosted.org/packages/f0/de/b0b5b98c0f38fd7086d082c47fcb455eedd39a044abe7c595f5f40cd6eed/testscenarios-0.5.0.tar.gz -> testscenarios-0.5.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/34/cc14fa333d9317799076eaff3da4fd0b1cc031835c58d9c7557381afdc87/testscenarios-0.6.1.tar.gz -> testscenarios-0.6.1.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

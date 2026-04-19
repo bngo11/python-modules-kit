@@ -7,12 +7,12 @@ DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="Editable installations"
-HOMEPAGE=" https://pypi.org/project/editables/"
-SRC_URI="https://files.pythonhosted.org/packages/37/4a/986d35164e2033ddfb44515168a281a7986e260d344cf369c3f52d4c3275/editables-0.5.tar.gz -> editables-0.5.tar.gz"
+HOMEPAGE="None https://pypi.org/project/editables/"
+SRC_URI="https://files.pythonhosted.org/packages/82/f8/02a4e9a0cb961b0feeb431ac96b231c157ecdcbbeacafe9e2fdb4b1dde39/editables-0.6.tar.gz -> editables-0.6.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/editables-0.5"
+S="${WORKDIR}/editables-0.6"

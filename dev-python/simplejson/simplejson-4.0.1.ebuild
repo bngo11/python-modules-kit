@@ -3,15 +3,16 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Simple, fast, extensible JSON encoder/decoder for Python"
 HOMEPAGE="https://github.com/simplejson/simplejson https://pypi.org/project/simplejson/"
-SRC_URI="https://files.pythonhosted.org/packages/41/f4/a1ac5ed32f7ed9a088d62a59d410d4c204b3b3815722e2ccfb491fa8251b/simplejson-3.20.2.tar.gz -> simplejson-3.20.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/14/91/b0e7a38d63706dde006d1213f9c394ad7702df841c019fb4cf0e3295c58c/simplejson-4.0.1.tar.gz -> simplejson-4.0.1.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/simplejson-3.20.2"
+S="${WORKDIR}/simplejson-4.0.1"
