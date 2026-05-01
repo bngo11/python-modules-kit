@@ -1,0 +1,24 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="hatchling"
+inherit distutils-r1
+
+DESCRIPTION="Extensions to the Python standard library unit testing framework"
+HOMEPAGE="None https://pypi.org/project/testtools/"
+SRC_URI="https://files.pythonhosted.org/packages/8b/80/af955640b4e8348aaa8026f9f48304811ec3342d9928ddb611d38a190ea0/testtools-2.9.1.tar.gz -> testtools-2.9.1.tar.gz"
+
+DEPEND="
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
+	dev-python/pbr[${PYTHON_USEDEP}]"
+RDEPEND="
+	python_targets_python2_7? ( dev-python/testtools-compat )
+	dev-python/pbr[${PYTHON_USEDEP}]"
+IUSE="python_targets_python2_7"
+SLOT="0"
+LICENSE="MIT"
+KEYWORDS="*"
+S="${WORKDIR}/testtools-2.9.1"
