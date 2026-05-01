@@ -100,12 +100,8 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-PATCHES=(
-	"$FILESDIR"/cryptography-46.0.5-stray-files.patch
-)
 S="${WORKDIR}/cryptography-47.0.0"
 
-PATCHES
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
 }
