@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/davidhalter/parso/
 	https://pypi.org/project/parso/
 "
-SRC_URI="https://files.pythonhosted.org/packages/81/76/a1e769043c0c0c9fe391b702539d594731a4362334cdf4dc25d0c09761e7/parso-0.8.6.tar.gz -> parso-0.8.6.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/30/4b/90c937815137d43ce71ba043cd3566221e9df6b9c805f24b5d138c9d40a7/parso-0.8.7.tar.gz -> parso-0.8.7.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
