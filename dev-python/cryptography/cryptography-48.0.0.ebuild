@@ -10,7 +10,7 @@ asn1-0.24.1
 asn1_derive-0.24.1
 base64-0.22.1
 bitflags-2.11.1
-cc-1.2.60
+cc-1.2.61
 cfg-if-1.0.4
 find-msvc-tools-0.1.9
 foreign-types-0.3.2
@@ -19,9 +19,9 @@ heck-0.5.0
 itoa-1.0.18
 libc-0.2.186
 once_cell-1.21.4
-openssl-0.10.78
+openssl-0.10.79
 openssl-macros-0.1.1
-openssl-sys-0.9.114
+openssl-sys-0.9.115
 pem-3.0.6
 pkg-config-0.3.33
 portable-atomic-1.13.1
@@ -48,7 +48,7 @@ SRC_URI="https://crates.io/api/v1/crates/asn1/0.24.1/download -> asn1-0.24.1.cra
 https://crates.io/api/v1/crates/asn1_derive/0.24.1/download -> asn1_derive-0.24.1.crate
 https://crates.io/api/v1/crates/base64/0.22.1/download -> base64-0.22.1.crate
 https://crates.io/api/v1/crates/bitflags/2.11.1/download -> bitflags-2.11.1.crate
-https://crates.io/api/v1/crates/cc/1.2.60/download -> cc-1.2.60.crate
+https://crates.io/api/v1/crates/cc/1.2.61/download -> cc-1.2.61.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
 https://crates.io/api/v1/crates/find-msvc-tools/0.1.9/download -> find-msvc-tools-0.1.9.crate
 https://crates.io/api/v1/crates/foreign-types/0.3.2/download -> foreign-types-0.3.2.crate
@@ -57,9 +57,9 @@ https://crates.io/api/v1/crates/heck/0.5.0/download -> heck-0.5.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.18/download -> itoa-1.0.18.crate
 https://crates.io/api/v1/crates/libc/0.2.186/download -> libc-0.2.186.crate
 https://crates.io/api/v1/crates/once_cell/1.21.4/download -> once_cell-1.21.4.crate
-https://crates.io/api/v1/crates/openssl/0.10.78/download -> openssl-0.10.78.crate
+https://crates.io/api/v1/crates/openssl/0.10.79/download -> openssl-0.10.79.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.114/download -> openssl-sys-0.9.114.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.115/download -> openssl-sys-0.9.115.crate
 https://crates.io/api/v1/crates/pem/3.0.6/download -> pem-3.0.6.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.33/download -> pkg-config-0.3.33.crate
 https://crates.io/api/v1/crates/portable-atomic/1.13.1/download -> portable-atomic-1.13.1.crate
@@ -76,7 +76,7 @@ https://crates.io/api/v1/crates/syn/2.0.117/download -> syn-2.0.117.crate
 https://crates.io/api/v1/crates/target-lexicon/0.13.5/download -> target-lexicon-0.13.5.crate
 https://crates.io/api/v1/crates/unicode-ident/1.0.24/download -> unicode-ident-1.0.24.crate
 https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
-https://files.pythonhosted.org/packages/ef/b2/7ffa7fe8207a8c42147ffe70c3e360b228160c1d85dc3faff16aaa3244c0/cryptography-47.0.0.tar.gz -> cryptography-47.0.0.tar.gz
+https://files.pythonhosted.org/packages/9f/a9/db8f313fdcd85d767d4973515e1db101f9c71f95fced83233de224673757/cryptography-48.0.0.tar.gz -> cryptography-48.0.0.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -100,7 +100,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-47.0.0"
+S="${WORKDIR}/cryptography-48.0.0"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1

@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="HTTP library with thread-safe connection pooling, file post, and more."
 HOMEPAGE="None https://pypi.org/project/urllib3/"
-SRC_URI="https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz -> urllib3-2.6.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e5ee11424ef85419ba0d8ba0b3138bf360be2ff56953/urllib3-2.7.0.tar.gz -> urllib3-2.7.0.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/urllib3-2.6.3"
+S="${WORKDIR}/urllib3-2.7.0"
