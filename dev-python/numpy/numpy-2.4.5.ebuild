@@ -16,7 +16,7 @@ HOMEPAGE="
 	https://github.com/numpy/numpy/
 	https://pypi.org/project/numpy/
 "
-SRC_URI="https://files.pythonhosted.org/packages/d7/9f/b8cef5bffa569759033adda9481211426f12f53299629b410340795c2514/numpy-2.4.4.tar.gz -> numpy-2.4.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/8e/b8041bc719f056afd864478029d52214789341ac6583437b0ee5031e9530/numpy-2.4.5.tar.gz -> numpy-2.4.5.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
