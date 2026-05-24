@@ -7,11 +7,11 @@ inherit distutils-r1
 
 DESCRIPTION="Module for decorators, wrappers and monkey patching."
 HOMEPAGE="None https://pypi.org/project/wrapt/"
-SRC_URI="https://files.pythonhosted.org/packages/2e/64/925f213fdcbb9baeb1530449ac71a4d57fc361c053d06bf78d0c5c7cd80c/wrapt-2.1.2.tar.gz -> wrapt-2.1.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/9f/06263fcd8ad6c405f05a3905fd7a84dd3176eb5ad46e44bccc0cd16348bb/wrapt-2.2.1.tar.gz -> wrapt-2.2.1.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/wrapt-2.1.2"
+S="${WORKDIR}/wrapt-2.2.1"

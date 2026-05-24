@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Simple DNS resolver for asyncio"
 HOMEPAGE="None https://pypi.org/project/aiodns/"
-SRC_URI="https://files.pythonhosted.org/packages/7f/70/2047b454e8210a19876c263b801a4a1b3649f48af044bd076be468a8bd65/aiodns-4.0.3.tar.gz -> aiodns-4.0.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/22/a2d928e0e42baad0471d12ec44c71152ac870486e8298dddb2893b888c29/aiodns-4.0.4.tar.gz -> aiodns-4.0.4.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND=">=dev-python/pycares-3[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/aiodns-4.0.3"
+S="${WORKDIR}/aiodns-4.0.4"
