@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Stemmer algorithms generated from Snowball algorithms"
 HOMEPAGE="https://github.com/shibukawa/snowball_py https://pypi.org/project/snowballstemmer/"
-SRC_URI="https://files.pythonhosted.org/packages/75/a7/9810d872919697c9d01295633f5d574fb416d47e535f258272ca1f01f447/snowballstemmer-3.0.1.tar.gz -> snowballstemmer-3.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/ee/67eef9600338e245ad7838230969a34c823ddbdbccc5e1fc43cd75b55bc9/snowballstemmer-3.1.0.tar.gz -> snowballstemmer-3.1.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
