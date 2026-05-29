@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="pure-Python library for analyzing ELF files and DWARF debugging information"
 HOMEPAGE="https://pypi.org/project/pyelftools/ https://github.com/eliben/pyelftools"
-SRC_URI="https://files.pythonhosted.org/packages/b9/ab/33968940b2deb3d92f5b146bc6d4009a5f95d1d06c148ea2f9ee965071af/pyelftools-0.32.tar.gz -> pyelftools-0.32.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a3/11/767522582afab1b884d277de0e6e011640cb9d7292a38694b4b1a1df1ae8/pyelftools-0.33.tar.gz -> pyelftools-0.33.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"

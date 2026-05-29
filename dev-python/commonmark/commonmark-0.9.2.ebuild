@@ -8,14 +8,14 @@ inherit distutils-r1
 
 DESCRIPTION="Python parser for the CommonMark Markdown spec"
 HOMEPAGE="https://github.com/rtfd/commonmark.py https://pypi.org/project/commonmark/"
-SRC_URI="https://files.pythonhosted.org/packages/60/48/a60f593447e8f0894ebb7f6e6c1f25dafc5e89c5879fdc9360ae93ff83f0/commonmark-0.9.1.tar.gz -> commonmark-0.9.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3e/e4/0800832e530c88a8f80cb9e486879ea74257062dfe03a38c1ad535c2860e/commonmark-0.9.2.tar.gz -> commonmark-0.9.2.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/commonmark-0.9.1"
+S="${WORKDIR}/commonmark-0.9.2"
 
 src_prepare() {
 	default
