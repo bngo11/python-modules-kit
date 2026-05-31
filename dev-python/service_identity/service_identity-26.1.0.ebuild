@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Service identity verification for pyOpenSSL & cryptography."
 HOMEPAGE="None https://pypi.org/project/service-identity/"
-SRC_URI="https://files.pythonhosted.org/packages/07/a5/dfc752b979067947261dbbf2543470c58efe735c3c1301dd870ef27830ee/service_identity-24.2.0.tar.gz -> service_identity-24.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/61/87/ad52e2c582c0f0e7f0a1b86950494c38d67422dc0f5ed9044a5fb9569a49/service_identity-26.1.0.tar.gz -> service_identity-26.1.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -23,4 +23,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/service_identity-24.2.0"
+S="${WORKDIR}/service_identity-26.1.0"
