@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/microsoft/debugpy/
 	https://pypi.org/project/debugpy/
 "
-SRC_URI="https://files.pythonhosted.org/packages/e0/b7/cd8080344452e4874aae67c40d8940e2b4d47b01601a8fd9f44786c757c7/debugpy-1.8.20.tar.gz -> debugpy-1.8.20.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/aa/12037145b7a56eaa5b29b41872f7a21b538e807e13f32c4d3c46e59be084/debugpy-1.8.21.tar.gz -> debugpy-1.8.21.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

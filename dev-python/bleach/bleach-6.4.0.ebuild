@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="An easy safelist-based HTML-sanitizing tool."
 HOMEPAGE="https://github.com/mozilla/bleach https://pypi.org/project/bleach/"
-SRC_URI="https://files.pythonhosted.org/packages/07/18/3c8523962314be6bf4c8989c79ad9531c825210dd13a8669f6b84336e8bd/bleach-6.3.0.tar.gz -> bleach-6.3.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/3c/e12ac860709702bd5ebeb9b56a4fe334f1001246ee1b8f2b7ee28912df7d/bleach-6.4.0.tar.gz -> bleach-6.4.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/bleach-6.3.0"
+S="${WORKDIR}/bleach-6.4.0"
