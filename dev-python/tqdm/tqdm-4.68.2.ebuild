@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Fast, Extensible Progress Meter"
 HOMEPAGE="None https://pypi.org/project/tqdm/"
-SRC_URI="https://files.pythonhosted.org/packages/06/b3/36c8ecf72e8925200671613332db156d84b99b3aee742a41c1938ebb0808/tqdm-4.68.1.tar.gz -> tqdm-4.68.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/85/05/0d5260f1f1ca784f4a4a0def9cbe6affe587f5b4025328d446c3d67765f4/tqdm-4.68.2.tar.gz -> tqdm-4.68.2.tar.gz"
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/tqdm-4.68.1"
+S="${WORKDIR}/tqdm-4.68.2"

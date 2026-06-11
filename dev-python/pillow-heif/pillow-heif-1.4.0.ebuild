@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Python interface for libheif library"
 HOMEPAGE="https://github.com/bigcat88/pillow_heif https://pypi.org/project/pillow-heif/"
-SRC_URI="https://files.pythonhosted.org/packages/cd/58/2df4fc42840633e01c97b75965cb1bc6e14425973b92382391650e97e4b7/pillow_heif-1.3.0.tar.gz -> pillow_heif-1.3.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/5f/4753689400e657ca5d984f5e897657dab12d91b62f1bb6a1e73487b59a97/pillow_heif-1.4.0.tar.gz -> pillow_heif-1.4.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pillow_heif-1.3.0"
+S="${WORKDIR}/pillow_heif-1.4.0"
