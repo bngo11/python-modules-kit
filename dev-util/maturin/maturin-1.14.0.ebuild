@@ -208,10 +208,10 @@ object-0.37.3
 object-0.38.1
 once_cell-1.21.4
 once_cell_polyfill-1.70.2
-openssl-0.10.79
+openssl-0.10.80
 openssl-macros-0.1.1
 openssl-probe-0.2.1
-openssl-sys-0.9.115
+openssl-sys-0.9.116
 option-ext-0.2.0
 ordered-float-5.3.0
 os_pipe-1.2.3
@@ -325,7 +325,7 @@ strum_macros-0.28.0
 subtle-2.6.1
 syn-2.0.117
 synstructure-0.13.2
-tar-0.4.45
+tar-0.4.46
 target-lexicon-0.13.5
 tempfile-3.27.0
 termcolor-1.4.1
@@ -687,10 +687,10 @@ https://crates.io/api/v1/crates/object/0.37.3/download -> object-0.37.3.crate
 https://crates.io/api/v1/crates/object/0.38.1/download -> object-0.38.1.crate
 https://crates.io/api/v1/crates/once_cell/1.21.4/download -> once_cell-1.21.4.crate
 https://crates.io/api/v1/crates/once_cell_polyfill/1.70.2/download -> once_cell_polyfill-1.70.2.crate
-https://crates.io/api/v1/crates/openssl/0.10.79/download -> openssl-0.10.79.crate
+https://crates.io/api/v1/crates/openssl/0.10.80/download -> openssl-0.10.80.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.2.1/download -> openssl-probe-0.2.1.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.115/download -> openssl-sys-0.9.115.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.116/download -> openssl-sys-0.9.116.crate
 https://crates.io/api/v1/crates/option-ext/0.2.0/download -> option-ext-0.2.0.crate
 https://crates.io/api/v1/crates/ordered-float/5.3.0/download -> ordered-float-5.3.0.crate
 https://crates.io/api/v1/crates/os_pipe/1.2.3/download -> os_pipe-1.2.3.crate
@@ -804,7 +804,7 @@ https://crates.io/api/v1/crates/strum_macros/0.28.0/download -> strum_macros-0.2
 https://crates.io/api/v1/crates/subtle/2.6.1/download -> subtle-2.6.1.crate
 https://crates.io/api/v1/crates/syn/2.0.117/download -> syn-2.0.117.crate
 https://crates.io/api/v1/crates/synstructure/0.13.2/download -> synstructure-0.13.2.crate
-https://crates.io/api/v1/crates/tar/0.4.45/download -> tar-0.4.45.crate
+https://crates.io/api/v1/crates/tar/0.4.46/download -> tar-0.4.46.crate
 https://crates.io/api/v1/crates/target-lexicon/0.13.5/download -> target-lexicon-0.13.5.crate
 https://crates.io/api/v1/crates/tempfile/3.27.0/download -> tempfile-3.27.0.crate
 https://crates.io/api/v1/crates/termcolor/1.4.1/download -> termcolor-1.4.1.crate
@@ -957,7 +957,7 @@ https://crates.io/api/v1/crates/zopfli/0.8.3/download -> zopfli-0.8.3.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.16+zstd.1.5.7/download -> zstd-sys-2.0.16+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/9c/1c/612d23d33ec21b9ae7ece7b3f0dd5f9dfd57b4009e9d2938165869ebd6ae/maturin-1.13.3.tar.gz -> maturin-1.13.3.tar.gz
+https://files.pythonhosted.org/packages/a7/d0/b7c8b7778cc44df3efbc96eb23acaa995e06ea1a60eb9b02f29858fcbd08/maturin-1.14.0.tar.gz -> maturin-1.14.0.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -968,4 +968,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.13.3"
+S="${WORKDIR}/maturin-1.14.0"
