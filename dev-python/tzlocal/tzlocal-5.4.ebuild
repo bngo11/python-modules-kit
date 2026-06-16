@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="tzinfo object for the local timezone"
 HOMEPAGE="https://github.com/regebro/tzlocal"
-SRC_URI="https://files.pythonhosted.org/packages/8b/2e/c14812d3d4d9cd1773c6be938f89e5735a1f11a9f184ac3639b93cef35d5/tzlocal-5.3.1.tar.gz -> tzlocal-5.3.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d8/52/ee2e6d7031687c5bad28363148cb72f2bbf38201d2e220671bd9fb830bc2/tzlocal-5.4.tar.gz -> tzlocal-5.4.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/tzlocal-5.3.1"
+S="${WORKDIR}/tzlocal-5.4"

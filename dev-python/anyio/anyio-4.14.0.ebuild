@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="High-level concurrency and networking framework on top of asyncio or Trio"
 HOMEPAGE="None https://pypi.org/project/anyio/"
-SRC_URI="https://files.pythonhosted.org/packages/19/14/2c5dd9f512b66549ae92767a9c7b330ae88e1932ca57876909410251fe13/anyio-4.13.0.tar.gz -> anyio-4.13.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/b5/001890774a9552aff22502b8da382593109ce0c95314abaebbb116567545/anyio-4.14.0.tar.gz -> anyio-4.14.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -21,4 +21,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/anyio-4.13.0"
+S="${WORKDIR}/anyio-4.14.0"

@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Ultra fast JSON encoder and decoder for Python"
-HOMEPAGE="https://github.com/ultrajson/ultrajson https://pypi.org/project/ujson/"
-SRC_URI="https://files.pythonhosted.org/packages/bc/78/937198ea8708182dd1edbf0237bf255a96feab3f511691ad08b84da98e5d/ujson-5.12.1.tar.gz -> ujson-5.12.1.tar.gz"
+HOMEPAGE="None https://pypi.org/project/ujson/"
+SRC_URI="https://files.pythonhosted.org/packages/89/7a/c8bb37c8f6f3623d60c33d15d18cd6d6655d0f9c3eb31a9969f76361b199/ujson-5.13.0.tar.gz -> ujson-5.13.0.tar.gz"
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/ujson-5.12.1"
+S="${WORKDIR}/ujson-5.13.0"
