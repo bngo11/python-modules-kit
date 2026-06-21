@@ -37,11 +37,11 @@ camino-1.2.2
 cargo-config2-0.1.44
 cargo-cyclonedx-0.5.9
 cargo-lock-10.1.0
-cargo-options-0.7.6
+cargo-options-0.8.1
 cargo-platform-0.1.9
 cargo-platform-0.3.2
-cargo-xwin-0.22.0
-cargo-zigbuild-0.22.2
+cargo-xwin-0.23.0
+cargo-zigbuild-0.23.0
 cargo_metadata-0.18.1
 cargo_metadata-0.23.1
 cbindgen-0.29.2
@@ -241,7 +241,7 @@ proc-macro-crate-3.5.0
 proc-macro2-1.0.106
 psm-0.1.30
 purl-0.1.6
-pyo3-introspection-0.28.3
+pyo3-introspection-0.29.0
 pyproject-toml-0.13.7
 python-pkginfo-0.6.8
 quote-1.0.45
@@ -516,11 +516,11 @@ https://crates.io/api/v1/crates/camino/1.2.2/download -> camino-1.2.2.crate
 https://crates.io/api/v1/crates/cargo-config2/0.1.44/download -> cargo-config2-0.1.44.crate
 https://crates.io/api/v1/crates/cargo-cyclonedx/0.5.9/download -> cargo-cyclonedx-0.5.9.crate
 https://crates.io/api/v1/crates/cargo-lock/10.1.0/download -> cargo-lock-10.1.0.crate
-https://crates.io/api/v1/crates/cargo-options/0.7.6/download -> cargo-options-0.7.6.crate
+https://crates.io/api/v1/crates/cargo-options/0.8.1/download -> cargo-options-0.8.1.crate
 https://crates.io/api/v1/crates/cargo-platform/0.1.9/download -> cargo-platform-0.1.9.crate
 https://crates.io/api/v1/crates/cargo-platform/0.3.2/download -> cargo-platform-0.3.2.crate
-https://crates.io/api/v1/crates/cargo-xwin/0.22.0/download -> cargo-xwin-0.22.0.crate
-https://crates.io/api/v1/crates/cargo-zigbuild/0.22.2/download -> cargo-zigbuild-0.22.2.crate
+https://crates.io/api/v1/crates/cargo-xwin/0.23.0/download -> cargo-xwin-0.23.0.crate
+https://crates.io/api/v1/crates/cargo-zigbuild/0.23.0/download -> cargo-zigbuild-0.23.0.crate
 https://crates.io/api/v1/crates/cargo_metadata/0.18.1/download -> cargo_metadata-0.18.1.crate
 https://crates.io/api/v1/crates/cargo_metadata/0.23.1/download -> cargo_metadata-0.23.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.2/download -> cbindgen-0.29.2.crate
@@ -720,7 +720,7 @@ https://crates.io/api/v1/crates/proc-macro-crate/3.5.0/download -> proc-macro-cr
 https://crates.io/api/v1/crates/proc-macro2/1.0.106/download -> proc-macro2-1.0.106.crate
 https://crates.io/api/v1/crates/psm/0.1.30/download -> psm-0.1.30.crate
 https://crates.io/api/v1/crates/purl/0.1.6/download -> purl-0.1.6.crate
-https://crates.io/api/v1/crates/pyo3-introspection/0.28.3/download -> pyo3-introspection-0.28.3.crate
+https://crates.io/api/v1/crates/pyo3-introspection/0.29.0/download -> pyo3-introspection-0.29.0.crate
 https://crates.io/api/v1/crates/pyproject-toml/0.13.7/download -> pyproject-toml-0.13.7.crate
 https://crates.io/api/v1/crates/python-pkginfo/0.6.8/download -> python-pkginfo-0.6.8.crate
 https://crates.io/api/v1/crates/quote/1.0.45/download -> quote-1.0.45.crate
@@ -957,7 +957,7 @@ https://crates.io/api/v1/crates/zopfli/0.8.3/download -> zopfli-0.8.3.crate
 https://crates.io/api/v1/crates/zstd/0.13.3/download -> zstd-0.13.3.crate
 https://crates.io/api/v1/crates/zstd-safe/7.2.4/download -> zstd-safe-7.2.4.crate
 https://crates.io/api/v1/crates/zstd-sys/2.0.16+zstd.1.5.7/download -> zstd-sys-2.0.16+zstd.1.5.7.crate
-https://files.pythonhosted.org/packages/a7/d0/b7c8b7778cc44df3efbc96eb23acaa995e06ea1a60eb9b02f29858fcbd08/maturin-1.14.0.tar.gz -> maturin-1.14.0.tar.gz
+https://files.pythonhosted.org/packages/e7/b3/addd877f871fb1860d46d3a4f206ecb10b946c85846805e6367631926fd3/maturin-1.14.1.tar.gz -> maturin-1.14.1.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -968,4 +968,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.14.0"
+S="${WORKDIR}/maturin-1.14.1"

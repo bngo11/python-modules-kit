@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="pytest: simple powerful testing with Python"
 HOMEPAGE="None https://pypi.org/project/pytest/"
-SRC_URI="https://files.pythonhosted.org/packages/84/0e/b5858858d74958632c49b72cb25a3976ff9f632397626715be71c89d3971/pytest-9.1.0.tar.gz -> pytest-9.1.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/47/b9efed96c114afcfa3c9d3fe98a76a1d14c74a9e266d397cf6eb64be5e01/pytest-9.1.1.tar.gz -> pytest-9.1.1.tar.gz"
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -25,7 +25,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pytest-9.1.0"
+S="${WORKDIR}/pytest-9.1.1"
 
 post_src_install() {
 	if [ "$PV" == "4.6.9" ]; then
