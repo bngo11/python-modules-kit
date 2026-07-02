@@ -14,7 +14,7 @@ HOMEPAGE="
 	https://github.com/pycurl/pycurl/
 	https://pypi.org/project/pycurl/
 "
-SRC_URI="https://files.pythonhosted.org/packages/95/23/cc07b16591af8ca373494d29aafc8df13e547077579e6779bb865a3f5a7f/pycurl-7.46.0.tar.gz -> pycurl-7.46.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/81/bc/705aa3bc36b99946a128d068e1afd4b6f3eebb36c6b97f551f3d2d740460/pycurl-7.47.0.tar.gz -> pycurl-7.47.0.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

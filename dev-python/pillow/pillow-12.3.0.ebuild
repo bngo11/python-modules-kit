@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python Imaging Library (fork)"
 HOMEPAGE="https://python-pillow.org/"
-SRC_URI="https://files.pythonhosted.org/packages/8c/21/c2bcdd5906101a30244eaffc1b6e6ce71a31bd0742a01eb89e660ebfac2d/pillow-12.2.0.tar.gz -> pillow-12.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/3d/bb7fca845737cf9d7dbde16ed1843984665ff2e0a518f5db43e77ec540b9/pillow-12.3.0.tar.gz -> pillow-12.3.0.tar.gz"
 
 DEPEND="
 	imagequant? ( media-gfx/libimagequant )
@@ -27,4 +27,4 @@ IUSE="+jpeg examples imagequant jpeg2k lcms test tiff tk truetype webp xcb zlib"
 SLOT="0"
 LICENSE="HPND"
 KEYWORDS="*"
-S="${WORKDIR}/pillow-12.2.0"
+S="${WORKDIR}/pillow-12.3.0"
