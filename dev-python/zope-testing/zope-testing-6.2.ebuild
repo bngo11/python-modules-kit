@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope testing helpers"
 HOMEPAGE="https://pypi.org/project/zope.testing/ https://github.com/zopefoundation/zope.testing"
-SRC_URI="https://files.pythonhosted.org/packages/31/7a/ef8ae89877d8f34266df1bf8edd51d477af14b509815c58de8c2ba777aee/zope_testing-6.1.tar.gz -> zope_testing-6.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/81/3a610e969c44b47851a69329e5780172a8c94a1105029a7ef17d9be0d358/zope_testing-6.2.tar.gz -> zope_testing-6.2.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
