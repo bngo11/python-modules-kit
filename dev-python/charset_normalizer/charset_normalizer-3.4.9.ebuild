@@ -8,14 +8,14 @@ inherit distutils-r1
 
 DESCRIPTION="The Real First Universal Charset Detector"
 HOMEPAGE="https://github.com/ousret/charset_normalizer"
-SRC_URI="https://files.pythonhosted.org/packages/e7/a1/67fe25fac3c7642725500a3f6cfe5821ad557c3abb11c9d20d12c7008d3e/charset_normalizer-3.4.7.tar.gz -> charset_normalizer-3.4.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/2a/23f34ec9d04624958e137efdc394888716353190e75f25dd22c7a2c7a8aa/charset_normalizer-3.4.9.tar.gz -> charset_normalizer-3.4.9.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/charset_normalizer-3.4.7"
+S="${WORKDIR}/charset_normalizer-3.4.9"
 
 src_prepare() {
 	sed -i -e '/addopts/d' setup.cfg || die
