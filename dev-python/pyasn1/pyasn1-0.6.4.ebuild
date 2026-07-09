@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="ASN.1 library for Python"
 HOMEPAGE="None https://pypi.org/project/pyasn1/"
-SRC_URI="https://files.pythonhosted.org/packages/5c/5f/6583902b6f79b399c9c40674ac384fd9cd77805f9e6205075f828ef11fb2/pyasn1-0.6.3.tar.gz -> pyasn1-0.6.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a4/9a/23310166d960def5897e91fe20e5b724601b02a22e84ba1f94232c0b7f67/pyasn1-0.6.4.tar.gz -> pyasn1-0.6.4.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,7 +18,7 @@ IUSE="doc"
 SLOT="0"
 LICENSE="BSD-2"
 KEYWORDS="*"
-S="${WORKDIR}/pyasn1-0.6.3"
+S="${WORKDIR}/pyasn1-0.6.4"
 
 python_test() {
 	esetup.py test

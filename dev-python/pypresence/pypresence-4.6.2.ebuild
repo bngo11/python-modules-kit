@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="A Discord RPC library in Python"
 HOMEPAGE="https://qwertyquerty.github.io/pypresence/html/index.html"
-SRC_URI="https://files.pythonhosted.org/packages/f6/6b/dedacb949ee73c3fd4a11992a4e9a70fc4cd1046ed6870f9138348293ded/pypresence-4.6.1.tar.gz -> pypresence-4.6.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/ce/4ce38b7f36f4eec77b3d21a5885228bbe8ea6d5ea35ff0876f7889c3bbbd/pypresence-4.6.2.tar.gz -> pypresence-4.6.2.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pypresence-4.6.1"
+S="${WORKDIR}/pypresence-4.6.2"
