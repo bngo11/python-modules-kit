@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python package builder and installer for non-pip-centric world"
 HOMEPAGE="None https://pypi.org/project/gpep517/"
-SRC_URI="https://files.pythonhosted.org/packages/61/6e/ff04f422467ec5438b6236a42671a655419bb135b383facb6c7c65060fe6/gpep517-19.tar.gz -> gpep517-19.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f9/28/a372daf898de1a1bf8e13d858e77da9f1afcedfdb22c987cdf87c4d9fa0d/gpep517-20.tar.gz -> gpep517-20.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,7 +18,7 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/gpep517-19"
+S="${WORKDIR}/gpep517-20"
 
 python_install() {
 	python_domodule gpep517

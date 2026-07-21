@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Package used for parsing and generating iCalendar files (RFC 2445)"
 HOMEPAGE="https://github.com/collective/icalendar"
-SRC_URI="https://files.pythonhosted.org/packages/2e/6c/3a20edd47656272f2d4016f6680f5bec6e2eb5ec7a23db97ebd1c15c384b/icalendar-7.2.0.tar.gz -> icalendar-7.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9e/37/4c43e9534a4d43f8cde8f0fd7f869628b45f63f27c5b040230c8f1d90b3d/icalendar-7.2.2.tar.gz -> icalendar-7.2.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,7 +17,7 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/icalendar-7.2.0"
+S="${WORKDIR}/icalendar-7.2.2"
 
 distutils_enable_sphinx docs
 python_prepare_all() {
