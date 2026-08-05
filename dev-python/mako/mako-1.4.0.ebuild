@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1 eutils
 
 DESCRIPTION="A super-fast templating language that borrows the best ideas from the existing templating languages."
-HOMEPAGE="https://www.makotemplates.org/ https://pypi.org/project/Mako/"
-SRC_URI="https://files.pythonhosted.org/packages/00/62/791b31e69ae182791ec67f04850f2f062716bbd205483d63a215f3e062d3/mako-1.3.12.tar.gz -> mako-1.3.12.tar.gz"
+HOMEPAGE="None https://pypi.org/project/Mako/"
+SRC_URI="https://files.pythonhosted.org/packages/73/b2/3c025fc185ce755ab39dd88b1971ba9f4bec0a897bda0acc29b6e7676153/mako-1.4.0.tar.gz -> mako-1.4.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,7 +17,7 @@ RDEPEND="
 	dev-python/markupsafe[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/mako-${PV}"
 

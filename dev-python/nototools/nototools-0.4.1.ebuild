@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Noto fonts support tools and scripts plus web site generation"
 HOMEPAGE="https://github.com/googlefonts/nototools"
-SRC_URI="https://files.pythonhosted.org/packages/97/19/4443c06c12efd2169bd896acb1764be72da162cd1532669d4dc68615d0f0/notofonttools-0.3.2.tar.gz -> notofonttools-0.3.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/53/fd7c2154d64cd834fd40290e756a0601a16a424a6b0718fd8827d2e98392/notofonttools-0.4.1.tar.gz -> notofonttools-0.4.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -21,4 +21,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 OFL-1.1"
 KEYWORDS="*"
-S="${WORKDIR}/notofonttools-0.3.2"
+S="${WORKDIR}/notofonttools-0.4.1"

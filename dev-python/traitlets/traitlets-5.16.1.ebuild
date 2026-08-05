@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/ipython/traitlets/
 	https://pypi.org/project/traitlets/
 "
-SRC_URI="https://files.pythonhosted.org/packages/61/a1/d7e7d9f461575d8bb77e3c3bd78a6cdfdd2bb4a06bfbbb8a0e1f51ab7bc2/traitlets-5.16.0.tar.gz -> traitlets-5.16.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2c/2e/a7fbfe268c8a3b32546930c0297c101d65a4a14c304ad5790a9f478f0e4e/traitlets-5.16.1.tar.gz -> traitlets-5.16.1.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

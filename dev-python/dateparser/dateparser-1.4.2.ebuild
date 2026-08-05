@@ -9,7 +9,7 @@ inherit distutils-r1 optfeature
 
 DESCRIPTION="Date parsing library designed to parse dates from HTML pages"
 HOMEPAGE="https://github.com/scrapinghub/dateparser"
-SRC_URI="https://files.pythonhosted.org/packages/d3/f4/561c49bca97af561d34eed27e3e831135eb5cb88e754c1150be41820f5c6/dateparser-1.4.1.tar.gz -> dateparser-1.4.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/59/6a/9f06999c4f27e9192c5eb38bfffadc2e6752df8178e97e88b10b9eb4c682/dateparser-1.4.2.tar.gz -> dateparser-1.4.2.tar.gz"
 
 LICENSE="BSD-4"
 SLOT="0"

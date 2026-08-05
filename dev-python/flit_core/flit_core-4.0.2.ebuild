@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Simplified packaging of Python modules (core module)"
 HOMEPAGE="None https://pypi.org/project/flit-core/"
-SRC_URI="https://files.pythonhosted.org/packages/69/59/b6fc2188dfc7ea4f936cd12b49d707f66a1cb7a1d2c16172963534db741b/flit_core-3.12.0.tar.gz -> flit_core-3.12.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/46/ef/34533186e76c526d9ec17a1ad9a10c7354cbfb20f51583cc36dfe4bdccd0/flit_core-4.0.2.tar.gz -> flit_core-4.0.2.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/flit_core-3.12.0"
+S="${WORKDIR}/flit_core-4.0.2"

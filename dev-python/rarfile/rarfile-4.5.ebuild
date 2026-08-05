@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/markokr/rarfile/
 	https://pypi.org/project/rarfile/
 "
-SRC_URI="https://files.pythonhosted.org/packages/09/84/a00a5be12adbe5abb0094513ad6d3aefc80fe5dfa4a5604e22561d4b7d3b/rarfile-4.4.tar.gz -> rarfile-4.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b2/eb/33ea5625de4e84144069ea021a282ea3c44ff7bd341b740bcadff028bea7/rarfile-4.5.tar.gz -> rarfile-4.5.tar.gz"
 
 LICENSE="ISC"
 SLOT="0"
