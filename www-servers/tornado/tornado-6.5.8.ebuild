@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
 HOMEPAGE="http://www.tornadoweb.org/ https://pypi.org/project/tornado/"
-SRC_URI="https://files.pythonhosted.org/packages/64/24/95ec527ad67b76d59299e5465b3935d05e4294b7e0290a3924b7487df30b/tornado-6.5.7.tar.gz -> tornado-6.5.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/d3/343e5bb989d6515b1646cf3d40135d73f3d5e45339bded401b56cdac24dd/tornado-6.5.8.tar.gz -> tornado-6.5.8.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/tornado-6.5.7"
+S="${WORKDIR}/tornado-6.5.8"

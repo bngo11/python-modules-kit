@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="efficient arrays of booleans -- C extension"
 HOMEPAGE="https://github.com/ilanschnell/bitarray https://pypi.org/project/bitarray/"
-SRC_URI="https://files.pythonhosted.org/packages/5f/c9/df9a5450b54e6dcbb6e8f3fd95631ab849ba1ed8e7899844c0d71bab576c/bitarray-3.10.0.tar.gz -> bitarray-3.10.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1f/c2/ac331091a307bf9f56b7a0f9a8fb4916158bf8dae3a97edebd91f43c985c/bitarray-3.10.1.tar.gz -> bitarray-3.10.1.tar.gz"
 
 SLOT="0"
 LICENSE="PSF-2"
