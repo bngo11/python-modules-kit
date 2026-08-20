@@ -3,16 +3,17 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Open vSwitch library"
 HOMEPAGE="http://www.openvswitch.org/ https://pypi.org/project/ovs/"
-SRC_URI="https://files.pythonhosted.org/packages/bc/4c/47f3d3dbfb0bc79324462df512fc2ce0ce3a2b7fa57656d7147f28ae6ab7/ovs-3.7.1.tar.gz -> ovs-3.7.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dd/45/145eefde089bb3e9e7211e4705053f2e572c73255e059a9c7180f1fd73ca/ovs-4.0.0.tar.gz -> ovs-4.0.0.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/sortedcontainers[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="Apache-2.0"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/ovs-3.7.1"
+S="${WORKDIR}/ovs-4.0.0"

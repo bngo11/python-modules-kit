@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ pypy3 pypy )
-DISTUTILS_USE_PEP517="setuptools"
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="Character encoding aliases for legacy web content"
