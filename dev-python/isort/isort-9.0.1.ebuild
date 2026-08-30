@@ -1,0 +1,22 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+PYTHON_COMPAT=( python3+ pypy3 )
+inherit distutils-r1
+
+DESCRIPTION="A python utility/library to sort imports"
+HOMEPAGE="https://pypi.org/project/isort/"
+SRC_URI="https://files.pythonhosted.org/packages/e6/43/067e17bfa10b6486b408d5294105ac894149a9abb94b338568b1f53a73c9/isort-9.0.1.tar.gz -> isort-9.0.1.tar.gz"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="*"
+
+BDEPEND="dev-python/setuptools"
+
+src_prepare() {
+	sed -E "/tests.*,$/d" -i setup.py
+	sed -E "N;s/,\n 'tests.*\]/\]/" -i setup.py
+	default
+}
