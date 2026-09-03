@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="PyMongo - the Official MongoDB Python driver"
 HOMEPAGE="None https://pypi.org/project/pymongo/"
-SRC_URI="https://files.pythonhosted.org/packages/ca/64/50be6fbac9c79fe2e4c17401a467da2d8764d82833d83cec325afe5cab32/pymongo-4.17.0.tar.gz -> pymongo-4.17.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a1/0a/d4daac76f66c466c20f00215064d43f4eb4b0aba8f2d8ecabdcc13102bc5/pymongo-4.18.0.tar.gz -> pymongo-4.18.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE="kerberos python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pymongo-4.17.0"
+S="${WORKDIR}/pymongo-4.18.0"
