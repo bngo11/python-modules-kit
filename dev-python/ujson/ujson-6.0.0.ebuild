@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Ultra fast JSON encoder and decoder for Python"
 HOMEPAGE="None https://pypi.org/project/ujson/"
-SRC_URI="https://files.pythonhosted.org/packages/89/7a/c8bb37c8f6f3623d60c33d15d18cd6d6655d0f9c3eb31a9969f76361b199/ujson-5.13.0.tar.gz -> ujson-5.13.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/7c/e1fa3fb70b53192436d751b5cb671f0ee960baa188b8351a7fec735223d3/ujson-6.0.0.tar.gz -> ujson-6.0.0.tar.gz"
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/ujson-5.13.0"
+S="${WORKDIR}/ujson-6.0.0"
