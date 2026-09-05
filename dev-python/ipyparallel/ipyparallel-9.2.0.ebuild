@@ -21,7 +21,6 @@ SLOT="0"
 KEYWORDS="*"
 
 RDEPEND="
-	dev-python/entrypoints[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
 	>=dev-python/pyzmq-18[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-4.3[${PYTHON_USEDEP}]
@@ -49,9 +48,6 @@ BDEPEND="
 distutils_enable_tests pytest
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-7.1.0-test-timeouts.patch
-	# https://github.com/ipython/ipyparallel/pull/846
-	"${FILESDIR}"/${P}-pypy310.patch
 )
 
 src_configure() {
