@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
 HOMEPAGE="None https://pypi.org/project/platformdirs/"
-SRC_URI="https://files.pythonhosted.org/packages/f8/13/f870dd0b42690138e4e37a76b5138e5690ed4365a77071bb092d59037da0/platformdirs-4.11.11.tar.gz -> platformdirs-4.11.11.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/dd/65804b0c2925a1c821a05502ea57517b69a073ff400d25ab9faa3a2cf012/platformdirs-4.11.12.tar.gz -> platformdirs-4.11.12.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/platformdirs-4.11.11"
+S="${WORKDIR}/platformdirs-4.11.12"
