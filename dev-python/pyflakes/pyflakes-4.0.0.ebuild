@@ -9,11 +9,11 @@ DESCRIPTION="Passive checker for Python programs"
 HOMEPAGE="https://github.com/PyCQA/pyflakes
 https://pypi.org/project/pyflakes/
 "
-SRC_URI="https://files.pythonhosted.org/packages/45/dc/fd034dc20b4b264b3d015808458391acbf9df40b1e54750ef175d39180b1/pyflakes-3.4.0.tar.gz -> pyflakes-3.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6e/07/587d938ce8ffea54aa23337c4a827a72c27a3a994b4346899682704af588/pyflakes-4.0.0.tar.gz -> pyflakes-4.0.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pyflakes-3.4.0"
+S="${WORKDIR}/pyflakes-4.0.0"
