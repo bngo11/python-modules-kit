@@ -15,4 +15,7 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
+PATCHES=(
+	"$FILESDIR"/ptyprocess-0.7.0-flit-core-4.patch
+)
 S="${WORKDIR}/ptyprocess-0.7.0"

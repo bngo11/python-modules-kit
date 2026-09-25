@@ -1,0 +1,7 @@
+ptyprocess:
+  generator: pypi-simple-1
+  packages:
+    - ptyprocess:
+        du_pep517: generator
+        patches:
+          - ptyprocess-0.7.0-flit-core-4.patch

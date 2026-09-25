@@ -9,9 +9,3 @@ pexpect:
         pydeps:
           py:all:
             - ptyprocess >= 0.5.0
-
-ptyprocess:
-  generator: pypi-simple-1
-  packages:
-    - ptyprocess:
-        du_pep517: generator
