@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://github.com/scikit-build/scikit-build-core/
 	https://pypi.org/project/scikit-build-core/
 "
-SRC_URI="https://files.pythonhosted.org/packages/8d/7c/0f69b0c7150ce4bcee78c199fe3b7e03a6e01578451bd5d5d1a58beb32f9/scikit_build_core-1.0.3.tar.gz -> scikit_build_core-1.0.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e8/d7/fdd4c33b3cc9ab91feda3b3c526a2df64e296b26e2edb1cdba24525a2697/scikit_build_core-1.1.0.tar.gz -> scikit_build_core-1.1.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

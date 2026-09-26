@@ -10,6 +10,6 @@ RDEPEND=dev-util/cmake >=dev-python/packaging-23.2[python_targets_python3_14(-)?
 REQUIRED_USE=|| ( python_targets_python3_14 python_targets_python3_12 python_targets_python3_10 python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/8d/7c/0f69b0c7150ce4bcee78c199fe3b7e03a6e01578451bd5d5d1a58beb32f9/scikit_build_core-1.0.3.tar.gz -> scikit_build_core-1.0.3.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/e8/d7/fdd4c33b3cc9ab91feda3b3c526a2df64e296b26e2edb1cdba24525a2697/scikit_build_core-1.1.0.tar.gz -> scikit_build_core-1.1.0.tar.gz
 _eclasses_=distutils-r1	0bb17ad57b19f436c3852b0897ad7a08	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	89d946015dea2829c7554116a61cae96	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=564870c802d16efd76d684ecf34a6800
+_md5_=7179158e5751dc05459c42f3bbad2e42
