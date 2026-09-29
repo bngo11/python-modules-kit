@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="MessagePack serializer"
 HOMEPAGE="None https://pypi.org/project/msgpack/"
-SRC_URI="https://files.pythonhosted.org/packages/6d/44/ea2100ec54d30c46ee9dba10a3bfb79b655e96c6df237238a3234c75869b/msgpack-1.2.2.tar.gz -> msgpack-1.2.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0a/e7/bb605a7bab2d8425a64b3fa762b39dc1bf1c7e3f11ba6fb5413d6db0ff8c/msgpack-1.2.3.tar.gz -> msgpack-1.2.3.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/msgpack-compat )"
@@ -16,7 +16,7 @@ IUSE="native-extensions python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/msgpack-1.2.2"
+S="${WORKDIR}/msgpack-1.2.3"
 
 python_prepare_all() {
 	# Remove pre-generated cython files
