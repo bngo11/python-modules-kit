@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="The python wrapper for the GitLab REST and GraphQL APIs."
 HOMEPAGE="None https://pypi.org/project/python-gitlab/"
-SRC_URI="https://files.pythonhosted.org/packages/26/55/8050293b360a29218a15892c2b936e286a69fd4f5d2cf54c7cbe19d34b47/python_gitlab-8.5.0.tar.gz -> python_gitlab-8.5.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5c/dc/292d32245ca35447b265c47a0ed9f35de1ab280a05da1da306b61a035833/python_gitlab-8.6.0.tar.gz -> python_gitlab-8.6.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/python_gitlab-8.5.0"
+S="${WORKDIR}/python_gitlab-8.6.0"
