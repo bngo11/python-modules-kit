@@ -13,7 +13,7 @@ DEPEND=""
 RDEPEND="!<dev-python/setproctitle-1.3.3 "
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
 S="${WORKDIR}/setproctitle-1.1.9"
 

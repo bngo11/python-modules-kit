@@ -8,12 +8,12 @@ inherit distutils-r1
 
 DESCRIPTION="A Python module to customize the process title"
 HOMEPAGE="https://github.com/dvarrazzo/py-setproctitle https://pypi.org/project/setproctitle/"
-SRC_URI="https://files.pythonhosted.org/packages/8d/48/49393a96a2eef1ab418b17475fb92b8fcfad83d099e678751b05472e69de/setproctitle-1.3.7.tar.gz -> setproctitle-1.3.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/b0/6b8a516c5a9e9630bd5293db78314ac012f690305fe93beadea388626efb/setproctitle-1.3.8.tar.gz -> setproctitle-1.3.8.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/setproctitle-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/setproctitle-1.3.7"
+S="${WORKDIR}/setproctitle-1.3.8"
