@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Virtual Python Environment builder"
 HOMEPAGE="None https://pypi.org/project/virtualenv/"
-SRC_URI="https://files.pythonhosted.org/packages/f5/3e/5a73d53ce67e43d3c1dabfbfcda956d2c840f21c2a65dc7256eaffe5ac38/virtualenv-21.14.4.tar.gz -> virtualenv-21.14.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/f9/f323b3b6058cff3853b31cf6a49c0425ed797bf9611572ec10d065e08bac/virtualenv-21.14.5.tar.gz -> virtualenv-21.14.5.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/virtualenv-21.14.4"
+S="${WORKDIR}/virtualenv-21.14.5"
