@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Discover and load entry points from installed packages."
 HOMEPAGE="None https://pypi.org/project/entrypoints/"
-SRC_URI="https://files.pythonhosted.org/packages/27/65/4c220dd7e414a1e50a6d686eb1d1afccd1aea841154c5c480922bfc83834/entrypoints-0.4.1.tar.gz -> entrypoints-0.4.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/6d/8f96c1eb3aa1b448a718866e88e0201145a35e80ffcee3b1b88543d3e740/entrypoints-0.4.2.tar.gz -> entrypoints-0.4.2.tar.gz"
 
 DEPEND=""
 IUSE=""
@@ -18,4 +18,4 @@ KEYWORDS="*"
 PATCHES=(
 	"$FILESDIR"/entrypoints-0.4.0-flit-core-4.patch
 )
-S="${WORKDIR}/entrypoints-0.4.1"
+S="${WORKDIR}/entrypoints-0.4.2"

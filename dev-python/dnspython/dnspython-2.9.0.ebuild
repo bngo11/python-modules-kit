@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy3 )
-DISTUTILS_USE_PEP517="hatchling"
+DISTUTILS_USE_PEP517="uv_build"
 inherit distutils-r1
 
 DESCRIPTION="DNS toolkit"
