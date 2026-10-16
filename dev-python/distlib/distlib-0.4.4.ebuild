@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Distribution utilities"
 HOMEPAGE="https://github.com/pypa/distlib https://pypi.org/project/distlib/"
-SRC_URI="https://files.pythonhosted.org/packages/c9/02/bd72be9134d25ed783ecbbc38a539ffaefbf90c78418c7fb7229600dbac7/distlib-0.4.3.tar.gz -> distlib-0.4.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/68/bc/d36966de7304047a1001a7559fbf266c464bb5d8cc85464536ef8c9bcc32/distlib-0.4.4.tar.gz -> distlib-0.4.4.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/distlib-0.4.3"
+S="${WORKDIR}/distlib-0.4.4"
