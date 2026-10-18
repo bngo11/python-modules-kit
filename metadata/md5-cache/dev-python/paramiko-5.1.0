@@ -10,6 +10,6 @@ RDEPEND=python_targets_python2_7? ( dev-python/paramiko-compat ) >=dev-python/bc
 REQUIRED_USE=|| ( python_targets_python3_14 python_targets_python3_12 python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/62/93/dcc25d52f49022ae6175d15e6bd751f1acc99b98bc61fc55e5155a7be2e7/paramiko-5.0.0.tar.gz -> paramiko-5.0.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/76/cb/b1fde76618d84b1acf54d3d03d2b833ba5878afd12b9899346cc080f209d/paramiko-5.1.0.tar.gz -> paramiko-5.1.0.tar.gz
 _eclasses_=distutils-r1	0bb17ad57b19f436c3852b0897ad7a08	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	89d946015dea2829c7554116a61cae96	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=8bc175326d76c1f980314bcfc115be98
+_md5_=cf7c1d084a41166a42dd32389fbfe001
