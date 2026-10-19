@@ -15,7 +15,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-PATCHES=(
-	"$FILESDIR"/entrypoints-0.4.0-flit-core-4.patch
-)
 S="${WORKDIR}/entrypoints-0.4.2"
