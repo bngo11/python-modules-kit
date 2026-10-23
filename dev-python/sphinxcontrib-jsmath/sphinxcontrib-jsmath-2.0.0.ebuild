@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy )
-DISTUTILS_USE_PEP517="setuptools"
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-jsmath is a sphinx extension which renders displayed maths in HTML via JavaScript"
