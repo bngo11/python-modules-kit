@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Measures number of Terminal column cells of wide-character codes"
 HOMEPAGE="https://pypi.org/project/wcwidth/ https://github.com/jquast/wcwidth"
-SRC_URI="https://files.pythonhosted.org/packages/69/4a/82d61476a1ccc20d43d0805724c5de4baa4971131a8db1816705ef53fe16/wcwidth-0.9.3.tar.gz -> wcwidth-0.9.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/01/e5ac23733628a6bbb91913a765fcf55ee8070d8d991bc88fdaaf805052c7/wcwidth-0.9.4.tar.gz -> wcwidth-0.9.4.tar.gz"
 
 SLOT="0"
 LICENSE="MIT"
