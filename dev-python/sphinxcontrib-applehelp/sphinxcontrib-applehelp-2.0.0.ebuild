@@ -11,7 +11,6 @@ HOMEPAGE="None https://pypi.org/project/sphinxcontrib-applehelp/"
 SRC_URI="https://files.pythonhosted.org/packages/ba/6e/b837e84a1a704953c62ef8776d45c3e8d759876b4a84fe14eba2859106fe/sphinxcontrib_applehelp-2.0.0.tar.gz -> sphinxcontrib_applehelp-2.0.0.tar.gz"
 
 DEPEND=""
-RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

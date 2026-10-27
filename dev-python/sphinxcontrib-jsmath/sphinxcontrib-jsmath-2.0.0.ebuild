@@ -11,7 +11,6 @@ HOMEPAGE="None https://pypi.org/project/sphinxcontrib-jsmath/"
 SRC_URI="https://files.pythonhosted.org/packages/59/02/4f334c7fc3e54c51d2364575a41cd2fae6847e7f53001949f0be5f32e18b/sphinxcontrib_jsmath-2.0.0.tar.gz -> sphinxcontrib_jsmath-2.0.0.tar.gz"
 
 DEPEND=""
-RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

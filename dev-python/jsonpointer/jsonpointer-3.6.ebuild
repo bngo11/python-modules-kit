@@ -7,11 +7,11 @@ inherit distutils-r1
 
 DESCRIPTION="Identify specific nodes in a JSON document (RFC 6901) "
 HOMEPAGE="https://github.com/stefankoegl/python-json-pointer https://pypi.org/project/jsonpointer/"
-SRC_URI="https://files.pythonhosted.org/packages/21/b8/fe0d28b5a2f14e501a9fd300c49273a05c78920a1925c36c487d539035bc/jsonpointer-3.5.tar.gz -> jsonpointer-3.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/54/04/e35b34f4e441473e62d82d6ed9a8f748d93d895f4c05d4e645aa0fde51d7/jsonpointer-3.6.tar.gz -> jsonpointer-3.6.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/jsonpointer-3.5"
+S="${WORKDIR}/jsonpointer-3.6"
