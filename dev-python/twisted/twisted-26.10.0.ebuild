@@ -14,7 +14,7 @@ HOMEPAGE="
 	https://github.com/twisted/twisted/
 	https://pypi.org/project/Twisted/
 "
-SRC_URI="https://files.pythonhosted.org/packages/db/97/6e9beb1e78247ae6dc34114f27d538cf2cb183c4afcd3609dfdf2b0439c8/twisted-26.4.0.tar.gz -> twisted-26.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fe/31/a5f99ae7f1550914b0702b8f78118d95a79da20525d26fbc1b2ab42bc8ae/twisted-26.10.0.tar.gz -> twisted-26.10.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

@@ -10,6 +10,6 @@ RDEPEND=>=dev-python/attrs-19.2.0[python_targets_python3_14(-)?,python_targets_p
 REQUIRED_USE=|| ( python_targets_python3_14 python_targets_python3_12 python_targets_python3_10 python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/db/97/6e9beb1e78247ae6dc34114f27d538cf2cb183c4afcd3609dfdf2b0439c8/twisted-26.4.0.tar.gz -> twisted-26.4.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/fe/31/a5f99ae7f1550914b0702b8f78118d95a79da20525d26fbc1b2ab42bc8ae/twisted-26.10.0.tar.gz -> twisted-26.10.0.tar.gz
 _eclasses_=distutils-r1	0bb17ad57b19f436c3852b0897ad7a08	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	89d946015dea2829c7554116a61cae96	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	virtualx	401b718cc14d43a5a7fbe062c4851ba5
-_md5_=d2db20ed265ab21cd76c0d96fe4040e1
+_md5_=61cd9d95962a12801a8f92b245f6942c

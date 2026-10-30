@@ -4,7 +4,7 @@ EAPI=7
 
 CRATES="
 "
-RUST_MIN_VER="1.89.0"
+RUST_MIN_VER="1.97.0"
 
 inherit cargo check-reqs
 
@@ -15,16 +15,10 @@ HOMEPAGE="
 	https://pypi.org/project/uv/
 "
 # pypi sdist misses scripts/, needed for tests
-SRC_URI="
-	https://github.com/astral-sh/uv/archive/${PV}.tar.gz
-		-> ${P}.gh.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/08/d5/88d43310d425f6e3a43997ad771658ded3237d0ed78c16a89b2353eddf56/uv-0.13.6.tar.gz -> uv-0.13.6.tar.gz
+https://github.com/gentoo-crate-dist/uv/releases/download/0.13.6/uv-0.13.6-crates.tar.xz -> uv-0.13.6-crates.tar.xz
 	${CARGO_CRATE_URIS}
 "
-if [[ ${PKGBUMPING} != ${PVR} ]]; then
-	SRC_URI+="
-		https://github.com/gentoo-crate-dist/uv/releases/download/${CRATE_PV}/uv-${CRATE_PV}-crates.tar.xz
-	"
-fi
 
 # most of the code
 LICENSE="|| ( Apache-2.0 MIT )"
@@ -53,11 +47,8 @@ RDEPEND="
 "
 BDEPEND="
 	test? (
-		dev-lang/python:3.9
-		dev-lang/python:3.10
-		dev-lang/python:3.11
 		dev-lang/python:3.12
-		dev-lang/python:3.13
+		dev-lang/python:3.14
 		!!~dev-python/uv-0.5.0
 	)
 "
@@ -87,28 +78,17 @@ src_prepare() {
 
 	# enable system libraries where supported
 	export ZSTD_SYS_USE_PKG_CONFIG=1
-	# TODO: unbundle libz-ng-sys, tikv-jemalloc-sys?
+	# TODO: unbundle tikv-jemalloc-sys?
 
 	# remove unbundled sources, just in case
-	find "${ECARGO_VENDOR}"/{bzip2,lzma,zstd}-sys-*/ -name '*.c' -delete || die
-
-	# bzip2-sys requires a pkg-config file
-	# https://github.com/alexcrichton/bzip2-rs/issues/104
-	mkdir "${T}/pkg-config" || die
-	export PKG_CONFIG_PATH=${T}/pkg-config${PKG_CONFIG_PATH+:${PKG_CONFIG_PATH}}
-	cat >> "${T}/pkg-config/bzip2.pc" <<-EOF || die
-		Name: bzip2
-		Version: 9999
-		Description:
-		Libs: -lbz2
-	EOF
+	find "${ECARGO_VENDOR}"/zstd-sys-*/ -name '*.c' -delete || die
 }
 
 src_configure() {
 	local myfeatures=(
-		git
-		pypi
-		python
+		test-git
+		test-pypi
+		test-python
 	)
 
 	cargo_src_configure --no-default-features
@@ -120,13 +100,6 @@ src_compile() {
 }
 
 src_test() {
-	# work around https://github.com/astral-sh/uv/issues/4376
-	local -x PATH=${BROOT}/usr/lib/python-exec/python3.12:${PATH}
-	local -x COLUMNS=100
-	local -x PYTHONDONTWRITEBYTECODE=
-	# fix tests failing because of our config
-	local -x XDG_CONFIG_DIRS=${T}
-
 	cd crates/uv || die
 	cargo_src_test --no-fail-fast
 }
@@ -161,5 +134,10 @@ src_install() {
 		#
 		# https://docs.astral.sh/uv/reference/settings/#python-preference
 		python-preference = "system"
+
+		# Always use system certificates.
+		#
+		# https://docs.astral.sh/uv/reference/settings/#system-certs
+		system-certs = true
 	EOF
 }
