@@ -23,6 +23,5 @@ KEYWORDS="*"
 S="${WORKDIR}/dnspython-2.9.1"
 
 src_prepare() {
-	sed -i -e 's|^license =.*|license = {text = "ISC"}|g' pyproject.toml
 	distutils-r1_src_prepare
 }

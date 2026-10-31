@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A generic, spec-compliant, thorough implementation of the OAuth request-signing logic"
 HOMEPAGE="https://github.com/oauthlib/oauthlib https://pypi.org/project/oauthlib/"
-SRC_URI="https://files.pythonhosted.org/packages/7a/d8/a1bcc8ba112a627f8ffbdc212a78ce18d3ac07e91a5ca65d27918eee25a1/oauthlib-4.0.0.tar.gz -> oauthlib-4.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/33/17/2bb072de0b990303c985f26869fd47bb179024a051f47e7f9d208eb92f8e/oauthlib-4.0.1.tar.gz -> oauthlib-4.0.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/oauthlib-4.0.0"
+S="${WORKDIR}/oauthlib-4.0.1"

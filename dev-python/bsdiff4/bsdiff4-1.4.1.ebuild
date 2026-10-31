@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="binary diff and patch using the BSDIFF4-format"
 HOMEPAGE="https://github.com/ilanschnell/bsdiff4"
-SRC_URI="https://files.pythonhosted.org/packages/27/16/cf8b01ef02613cf579f043314d35b2b3b7080ccbdc5f1ce8f4ad65a94107/bsdiff4-1.4.0.tar.gz -> bsdiff4-1.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/56/f7e929c66b74e0efb7239ab02254cbc693f079b7836f3cbc2760fbbb2781/bsdiff4-1.4.1.tar.gz -> bsdiff4-1.4.1.tar.gz"
 IUSE=""
 
 LICENSE="BSD"
