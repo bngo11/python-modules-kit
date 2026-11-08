@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Dynamic version generation"
 HOMEPAGE="https://github.com/mtkennerly/dunamai https://pypi.org/project/dunamai/"
-SRC_URI="https://files.pythonhosted.org/packages/c5/62/edf5352d8ce1371129ccfe971e6de3a1ce4dc7f9bdc80390fb79856b78d4/dunamai-1.26.3.tar.gz -> dunamai-1.26.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9a/f7/11694756c174d9552a97a9ebb191bda5f46a4176700d9d2d698182d9f75e/dunamai-1.26.4.tar.gz -> dunamai-1.26.4.tar.gz"
 
 DEPEND="
 	>=dev-python/packaging-20.9[${PYTHON_USEDEP}]
@@ -18,6 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/dunamai-1.26.3"
+S="${WORKDIR}/dunamai-1.26.4"
 
 distutils_enable_tests pytest

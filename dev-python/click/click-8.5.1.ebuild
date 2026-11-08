@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Composable command line interface toolkit"
 HOMEPAGE="None https://pypi.org/project/click/"
-SRC_URI="https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz -> click-8.5.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/45/37/edbf1b0707709013c0cf2e8317e03d97ed29bf4cac709fe328904ae92a38/click-8.5.1.tar.gz -> click-8.5.1.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/click-8.5.0"
+S="${WORKDIR}/click-8.5.1"
