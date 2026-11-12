@@ -10,6 +10,6 @@ RDEPEND=>=dev-python/docutils-0.18[python_targets_python3_14(-)?,python_targets_
 REQUIRED_USE=|| ( python_targets_python3_14 python_targets_python3_12 python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/21/dc/603751677fff302f34396e206b610f556a59d7fe58b9a2145f54e96b48e8/myst_parser-5.1.0.tar.gz -> myst_parser-5.1.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/11/51/82c2dff56e171db778dc68bf8d7902fcc8ea1687b67f716baf1abb94cd6a/myst_parser-5.2.0.tar.gz -> myst_parser-5.2.0.tar.gz
 _eclasses_=distutils-r1	0bb17ad57b19f436c3852b0897ad7a08	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	89d946015dea2829c7554116a61cae96	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=a74cf6cf32202c6605289f8539afa60d
+_md5_=1d00bf2e058eb1fce942c667fa7f857f

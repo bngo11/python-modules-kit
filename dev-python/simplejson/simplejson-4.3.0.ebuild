@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Simple, fast, extensible JSON encoder/decoder for Python"
 HOMEPAGE="https://github.com/simplejson/simplejson https://pypi.org/project/simplejson/"
-SRC_URI="https://files.pythonhosted.org/packages/2f/f0/ea064bba6c9afda0168ddb834f1c75a93351031e25aee35c046108e7f292/simplejson-4.2.0.tar.gz -> simplejson-4.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/c1/33e537d655a55e983c247cd794378d8206228621f1420f889f4643315adc/simplejson-4.3.0.tar.gz -> simplejson-4.3.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/simplejson-4.2.0"
+S="${WORKDIR}/simplejson-4.3.0"
