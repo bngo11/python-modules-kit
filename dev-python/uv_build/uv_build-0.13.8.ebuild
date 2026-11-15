@@ -15,7 +15,7 @@ HOMEPAGE="
 	https://github.com/astral-sh/uv/
 	https://pypi.org/project/uv-build/
 "
-SRC_URI="https://files.pythonhosted.org/packages/73/a5/916905235227c4f074ec0b125a3f2a5ba1839892e64c9be20200c48bdb5c/uv_build-0.13.7.tar.gz -> uv_build-0.13.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/49/6565260b6a14ee119bae2e17cedbee4cc6ae2810c580885a71fd23f0ed29/uv_build-0.13.8.tar.gz -> uv_build-0.13.8.tar.gz"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

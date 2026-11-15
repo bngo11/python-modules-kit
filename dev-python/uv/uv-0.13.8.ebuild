@@ -15,8 +15,8 @@ HOMEPAGE="
 	https://pypi.org/project/uv/
 "
 # pypi sdist misses scripts/, needed for tests
-SRC_URI="https://files.pythonhosted.org/packages/71/73/0021f6679b1b686f2fdb7cb9914a9d953428644e3057b173edc181d1590c/uv-0.13.7.tar.gz -> uv-0.13.7.tar.gz
-https://github.com/gentoo-crate-dist/uv/releases/download/0.13.7/uv-0.13.7-crates.tar.xz -> uv-0.13.7-crates.tar.xz
+SRC_URI="https://files.pythonhosted.org/packages/96/82/54c00536a763dfb8a6d8d6cf7841cf234a290f4f79ee37189d933f656cb0/uv-0.13.8.tar.gz -> uv-0.13.8.tar.gz
+https://github.com/gentoo-crate-dist/uv/releases/download/0.13.8/uv-0.13.8-crates.tar.xz -> uv-0.13.8-crates.tar.xz
 	${CARGO_CRATE_URIS}
 "
 
